@@ -1,0 +1,170 @@
+(footprint "UX5 (Surface mount UX5 socket)"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Surface mount socket for UX5 base vacuum tubes")
+	(tags "UX5, tube, valve")
+	(property "Reference" "V**"
+		(at 0.0508 -30.9372 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "38a860c6-a9b9-4f93-b283-81b55d524f4a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 40.795 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0437613-357e-4336-9755-f30fa83322b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab8b523b-e036-4eac-85d3-e63e66bf4072")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d70e6de7-b2f4-49c7-9c7d-905c9a978b09")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "921c1c54-28b7-49cb-bf40-5a1ac6aab192")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 27.94 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "35701acf-1a5f-4f99-81b9-7e642e66a20c")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 29.21 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "f520e0ff-41d2-4bf6-9f13-8292e55e9141")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 27.94 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "70251c89-b264-4f3f-b6ef-6c66b42b5033")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.1524 0.1524 0)
+		(layer "F.Fab")
+		(uuid "b24ac073-7234-4414-a6b3-9e37afd99bc5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 22.1488)
+		(size 7.62 5.08)
+		(drill 0.000001)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "f5235f8a-6860-470d-8216-43a238f3a341")
+	)
+	(pad "2" thru_hole rect
+		(at 19.177 11.0744 50)
+		(size 7.62 5.08)
+		(drill 0.000001)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "3f02460f-721b-4773-a9b3-99e1a4b8434d")
+	)
+	(pad "3" thru_hole rect
+		(at 11.0744 -19.177 150)
+		(size 7.62 5.08)
+		(drill 0.000001)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "2e4cabeb-4f59-47ff-8a57-3666978f5f4c")
+	)
+	(pad "4" thru_hole rect
+		(at -19.177 -11.0744 60)
+		(size 7.62 5.08)
+		(drill 0.000001)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "41f5f309-cfe8-4592-be35-a15b2ae5c91f")
+	)
+	(pad "5" thru_hole rect
+		(at -19.177 11.0744 130)
+		(size 7.62 5.08)
+		(drill 0.000001)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "739d3fc9-1bb7-486a-a525-764db22ae12f")
+	)
+	(model "${NEW_3D_MODELS}/Sockets/UX5.wrl"
+		(offset
+			(xyz 0 0 -11.43)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

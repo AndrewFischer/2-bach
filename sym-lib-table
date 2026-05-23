@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "RCA_Tubes") (type "KiCad") (uri "${KIPRJMOD}/CatalinaWow-tubes") (options "") (descr ""))
+	(lib (name "Transformer_Audio") (type "KiCad") (uri "${KIPRJMOD}/Transformer_Audio.kicad_sym") (options "") (descr ""))
+)

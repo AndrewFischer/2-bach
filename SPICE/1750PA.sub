@@ -1,0 +1,57 @@
+* Hammond 1750PA approximate model
+* Brown = plate A
+* Red   = B+ CT
+* Blue  = plate B
+*
+* Black  = COM
+* Yellow = 4R
+* Green  = 8R
+* Orange = 16R
+
+.subckt HAMMOND_1750PA BROWN RED BLUE BLACK YELLOW GREEN ORANGE
+
+* Primary DCR
+Rp1 BROWN P1 298.94
+Rp2 BLUE  P2 335.45
+
+* Secondary DCR (distributed approximation)
+Rs1 BLACK S4 0.70
+Rs2 S4    S8 0.29
+Rs3 S8    S16 0.41
+
+* Primary inductance
+* Full primary = 70.3H
+Lp1 P1 RED 17.575
+Lp2 RED P2 17.575
+
+* Secondary inductance sections
+*
+* 4R tap:
+* L = 70.3 / (8400/4) = 0.03348H
+*
+* 8R tap:
+* L = 0.06695H total
+*
+* 16R tap:
+* L = 0.1339H total
+
+Ls4  S4  BLACK 0.03348
+Ls8  S8  S4    0.03347
+Ls16 S16 S8    0.06695
+
+* Coupling
+K1 Lp1 Lp2 0.99953
+K2 Lp1 Ls4 0.99953
+K3 Lp1 Ls8 0.99953
+K4 Lp1 Ls16 0.99953
+
+K5 Lp2 Ls4 0.99953
+K6 Lp2 Ls8 0.99953
+K7 Lp2 Ls16 0.99953
+
+* External tap mapping
+Rtap4  S4  YELLOW 1u
+Rtap8  S8  GREEN  1u
+Rtap16 S16 ORANGE 1u
+
+.ends

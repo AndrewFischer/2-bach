@@ -1,0 +1,187 @@
+(footprint "B7G  (7 Pin Miniature)"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Seven Pin Miniature Vacuum Tube Socket")
+	(tags "THT, Tube, Valve, 7 Pin, Miniature")
+	(property "Reference" "+"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "aebb9b76-d497-4aac-8cda-84170d5601e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 13.795 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b61842ea-c1f2-4e0b-8705-9ecabe0b268f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d52c4501-400a-48cf-9b5f-8f281f69de00")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92f3fbd1-7438-4921-946a-b58294b4a26b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0efeff4f-b646-4222-b48b-85c38418e196")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 0 11.12)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "2eabcc6b-4555-4c29-b79a-012fab209452")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 13.12)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "8d493da9-126f-443f-9b1a-be68ed5fef0a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 11)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "a31c1cc8-ac04-495a-8afb-358ef0824409")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "19189389-80b3-497b-877b-3e191890875c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 6.024549 -6.024549)
+		(size 3 3)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "42226ffc-5e56-4a8c-82ce-e0f694d00300")
+	)
+	(pad "2" thru_hole oval
+		(at 0 -8.52)
+		(size 3 3)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "5443e432-231d-45c2-95a1-c662be8dcfaa")
+	)
+	(pad "3" thru_hole oval
+		(at -6.024549 -6.024549)
+		(size 3 3)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "dd95a4c1-6b6a-4ade-87e2-d5be5512be9e")
+	)
+	(pad "4" thru_hole oval
+		(at -8.52 0)
+		(size 3 3)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "5b529321-2f00-4709-ba77-a12084b12d7e")
+	)
+	(pad "5" thru_hole oval
+		(at -6.024549 6.024549)
+		(size 3 3)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "5c992ac9-c413-4e75-a143-876e47ed1b64")
+	)
+	(pad "6" thru_hole oval
+		(at 0 8.52)
+		(size 3 3)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "e833c7ce-6206-4633-98e1-6e5b26063a3b")
+	)
+	(pad "7" thru_hole oval
+		(at 6.024549 6.024549)
+		(size 3 3)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "e106d498-2b06-4748-8dca-ec9d85ef9429")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Valve.3dshapes/B7G.step"
+		(offset
+			(xyz 0 0 2.286)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 100)
+		)
+	)
+)
