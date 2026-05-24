@@ -1,0 +1,32 @@
+* Hammond 1750PA approximate output transformer model
+* Pins: BROWN RED BLUE BLACK YELLOW GREEN ORANGE
+* Primary: 8k4 CT, Brown-Red-Blue
+* Secondary: Black common, Yellow=4R, Green=8R, Orange=16R
+
+.subckt HAMMOND_1750PA BRN RED BLU BLK YEL GRN ORN
+
+* Primary DCR
+Rpri1 BRN p1 298.94
+Rpri2 BLU p2 335.45
+
+* Primary inductance: 70.3H full primary => 17.575H per half
+Lp1 p1 RED 17.575H
+Lp2 RED p2 17.575H
+
+* Secondary DCR apportioned by turns length, total Black-Orange = 1.40R
+Rsec1 BLK s4 0.700
+Rsec2 YEL s8 0.290
+Rsec3 GRN s16 0.410
+
+* Secondary inductance based on 16R tap:
+* Full secondary L = 70.3H / (sqrt(8400/16)^2) = 0.1339H
+* Tap turn fractions: 4R=0.5, 8R=0.7071, 16R=1.0
+Ls1 s4  YEL 33.48mH
+Ls2 s8  GRN 5.74mH
+Ls3 s16 ORN 11.50mH
+
+* Coupling from measured leakage:
+* k = sqrt(1 - 66.18mH/70.3H) = approx 0.999529
+Kall Lp1 Lp2 Ls1 Ls2 Ls3 0.999529
+
+.ends HAMMOND_1750PA

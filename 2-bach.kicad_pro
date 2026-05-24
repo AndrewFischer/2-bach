@@ -404,6 +404,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": "2-bach.wbk"
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -416,7 +424,7 @@
         "uuid": "3db49100-90e5-41c8-b73a-56a81b787550"
       }
     ],
-    "used_designators": "C4-5",
+    "used_designators": "#PWR6,R17",
     "variants": []
   },
   "sheets": [
@@ -427,6 +435,10 @@
     [
       "2cd0a8df-e07c-4c1c-a73b-3b1bad1e7185",
       "PowerStage"
+    ],
+    [
+      "689f4c4f-4329-4314-b4ef-aa958b32a204",
+      "PowerSupply"
     ]
   ],
   "text_variables": {},
