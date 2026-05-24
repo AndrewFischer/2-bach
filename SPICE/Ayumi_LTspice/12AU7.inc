@@ -20,3 +20,14 @@ CGA   G    A 1.5p
 CGK   G    K 1.6p
 CAK   A    K 0.4p
 .ENDS
+
+* =========================================================
+* Dual-triode wrapper for KiCad
+* =========================================================
+
+.subckt 12AU7_DUAL P1 G1 K1 P2 G2 K2
+
+XTRI1 P1 G1 K1 12AU7
+XTRI2 P2 G2 K2 12AU7
+
+.ends 12AU7_DUAL

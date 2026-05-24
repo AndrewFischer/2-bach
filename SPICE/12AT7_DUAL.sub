@@ -1,0 +1,10 @@
+* =========================================================
+* Dual-triode wrapper for KiCad
+* =========================================================
+.include "/Users/Andrew/Documents/ghprojects/2-bach/SPICE/12AT7EH.i5.sub.txt"
+.subckt 12AT7_DUAL P1 G1 K1 P2 G2 K2
+
+XTRI1 P1 G1 K1 12AT7EH_i5
+XTRI2 P2 G2 K2 12AT7EH_i5
+
+.ends 12AT7_DUAL

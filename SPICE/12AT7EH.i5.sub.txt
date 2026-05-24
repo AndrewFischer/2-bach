@@ -84,7 +84,7 @@ Rgk G K 10G ;avoids "floating net" errors
 Bvdg G Gi I=1/kvdg*pow(v(G,Gi),1.5) ;Reduces the internal effective grid voltage when Ig rises
 Bcoh G Gi I=pow(uramp(v(G,Gi)-Vdrmax),2) ;A convergence help which softly limits the internal Vg voltage drop.
 Rgip G Gi 1G ;avoids some warnings
-.func fVT() {VT*exp(-kVT*sqrt(v(A,Ki)))}
+.func fVT() {VT*exp(-kVT*sqrt(max(v(A,Ki),1e-20)))}
 .func Ivd(Vvd, kvd, xvd, VTvd) {ternary_fcn(Vvd < 3, 1/kvd*pow(VTvd*xvd*ln(1+exp(Vvd/(VTvd*xvd))),xvd), 1/kvd*pow(Vvd,xvd))}
 
 Bstn Stn 0 V=v(GGi)+min(0,v(A,Ki))/mu
@@ -107,3 +107,4 @@ C3 G K {cgk}
 *i4: Rgi replaced by a virtual vacuum diode (better convergence). ft1 deleted (no longer needed)
 ;2 new params for Ig finetuning @ Va and Vg near zero. New overall scaling factor os for aging etc.
 *i5: improved convergence performance. PosVg/NegVa area now correct. Also accurate now for remote cutoff triodes!
+
