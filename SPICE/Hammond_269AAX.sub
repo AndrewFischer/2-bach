@@ -1,0 +1,63 @@
+* Hammond 269AAX power transformer
+* Regulation-aware first-order linear model
+*
+* Pinout:
+* 1 = WHT      primary common / 0V
+* 2 = GRY      115V primary tap
+* 3 = BLK      125V primary tap
+* 4 = RED      HT secondary end
+* 5 = RED/YEL  HT secondary centre tap
+* 6 = RED      HT secondary end
+* 7 = GRN      heater secondary end
+* 8 = GRN/YEL  heater secondary centre tap
+* 9 = GRN      heater secondary end
+
+.subckt HAMMOND_269AAX 1 2 3 4 5 6 7 8 9
+
+* Primary is modelled as two coupled series sections:
+* 1-2 = 115V winding
+* 2-3 = additional 10V winding section
+*
+* DCR:
+* 1-2 = 5.557R
+* 1-3 = 6.134R
+* therefore 2-3 ≈ 0.577R
+
+Rp115 1 p115 5.557
+Lp115 p115 2 10H
+
+Rp10  2 p10 0.577
+Lp10  p10 3 75.6mH
+
+* HT secondary, regulation-aware
+RHT1 4 ht1 26.6
+LHT1 ht1 5 8.60H
+
+RHT2 6 ht2 26.6
+LHT2 ht2 5 8.60H
+
+* Heater secondary, regulation-aware
+RH1 7 h1 0.0915
+LH1 h1 8 8.63mH
+
+RH2 9 h2 0.0915
+LH2 h2 8 8.63mH
+
+* Complete coupling matrix
+K01 Lp115 Lp10  0.995
+K02 Lp115 LHT1  0.995
+K03 Lp115 LHT2  0.995
+K04 Lp115 LH1   0.995
+K05 Lp115 LH2   0.995
+K06 Lp10  LHT1  0.995
+K07 Lp10  LHT2  0.995
+K08 Lp10  LH1   0.995
+K09 Lp10  LH2   0.995
+K10 LHT1  LHT2  0.995
+K11 LHT1  LH1   0.995
+K12 LHT1  LH2   0.995
+K13 LHT2  LH1   0.995
+K14 LHT2  LH2   0.995
+K15 LH1   LH2   0.995
+
+.ends HAMMOND_269AAX

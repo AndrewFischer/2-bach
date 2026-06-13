@@ -670,229 +670,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:VDC"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.0254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "V"
-				(at 2.54 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "1"
-				(at 2.54 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Voltage source, DC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=+ 2=-"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Type" "DC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "ki_keywords" "simulation"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VDC_0_0"
-				(polyline
-					(pts
-						(xy -1.27 0.254) (xy 1.27 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 -0.254) (xy -1.27 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 -0.254) (xy -0.254 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -0.254) (xy 0.762 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "+"
-					(at 0 1.905 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(symbol "VDC_0_1"
-				(circle
-					(center 0 0)
-					(radius 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "VDC_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Simulation_SPICE:VSIN"
 			(pin_numbers
 				(hide yes)
@@ -3775,16 +3552,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 114.3) (xy 253.746 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89a7712a-0ea1-49fe-a445-b48dde872b05")
-	)
-	(wire
-		(pts
 			(xy 36.83 185.42) (xy 36.83 193.04)
 		)
 		(stroke
@@ -3812,16 +3579,6 @@
 			(type default)
 		)
 		(uuid "a2095515-2db2-49a5-a6b2-1bf54a2a668f")
-	)
-	(wire
-		(pts
-			(xy 253.746 127) (xy 253.746 130.302)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a296cb88-562a-40a2-a4a9-eb3aabb3c3a0")
 	)
 	(wire
 		(pts
@@ -3982,16 +3739,6 @@
 			(type default)
 		)
 		(uuid "bb65a0c6-1ff8-4a76-af13-fb260c0341be")
-	)
-	(wire
-		(pts
-			(xy 253.746 114.3) (xy 253.746 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbdb9acb-eba8-4834-957e-f731adde09e9")
 	)
 	(wire
 		(pts
@@ -4497,30 +4244,6 @@
 			)
 		)
 	)
-	(global_label "B+OPT"
-		(shape output)
-		(at 248.92 114.3 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "32a79f6b-e36b-476b-890a-a2a312addde7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.5243 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "B+PI"
 		(shape input)
 		(at 72.39 22.86 180)
@@ -4776,7 +4499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02d35d78-da92-4dbc-82fe-2cc93398aad1")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 78.74 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4860,7 +4583,7 @@
 		(instances
 			(project "2-bach"
 				(path "/3db49100-90e5-41c8-b73a-56a81b787550/2cd0a8df-e07c-4c1c-a73b-3b1bad1e7185"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5014,238 +4737,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:VDC")
-		(at 253.746 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "09bb5d5a-c5c0-4b7a-88b8-059d8883b7aa")
-		(property "Reference" "V1"
-			(at 257.81 120.5201 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "260"
-			(at 257.81 123.0601 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 253.746 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-			(at 253.746 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Voltage source, DC"
-			(at 253.746 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 253.746 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "DC"
-			(at 253.746 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "V"
-			(at 253.746 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "719899bd-eb54-4023-b57e-ffa8527ea1b2")
-		)
-		(pin "1"
-			(uuid "32de0c5f-f1c7-44cb-9493-33ea64dbce6a")
-		)
-		(instances
-			(project "2-bach"
-				(path "/3db49100-90e5-41c8-b73a-56a81b787550/2cd0a8df-e07c-4c1c-a73b-3b1bad1e7185"
-					(reference "V1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:VDC")
-		(at 101.6 30.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e6cecf2-3167-43ac-b288-d66765a823fb")
-		(property "Reference" "V2"
-			(at 105.41 29.0801 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "250"
-			(at 105.41 31.6201 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-			(at 101.6 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Voltage source, DC"
-			(at 101.6 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 101.6 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "DC"
-			(at 101.6 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "V"
-			(at 101.6 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "bbec2ff4-34d2-444f-9e5a-6f73d37dd82f")
-		)
-		(pin "1"
-			(uuid "bed9bb29-a885-4c37-b863-24c5c828614e")
-		)
-		(instances
-			(project "2-bach"
-				(path "/3db49100-90e5-41c8-b73a-56a81b787550/2cd0a8df-e07c-4c1c-a73b-3b1bad1e7185"
-					(reference "V2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 165.1 72.39 0)
 		(unit 1)
@@ -5257,7 +4748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f27f9bf-5581-41a7-9bfd-121f5baf91df")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 167.64 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5341,7 +4832,7 @@
 		(instances
 			(project "2-bach"
 				(path "/3db49100-90e5-41c8-b73a-56a81b787550/2cd0a8df-e07c-4c1c-a73b-3b1bad1e7185"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -5506,7 +4997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18372488-fc37-483b-a2d0-525404d2db6f")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 66.04 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5591,7 +5082,7 @@
 		(instances
 			(project "2-bach"
 				(path "/3db49100-90e5-41c8-b73a-56a81b787550/2cd0a8df-e07c-4c1c-a73b-3b1bad1e7185"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -5756,7 +5247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2012e1a9-9b92-4bd6-9e32-2d18878b838d")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 92.71 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5842,7 +5333,7 @@
 		(instances
 			(project "2-bach"
 				(path "/3db49100-90e5-41c8-b73a-56a81b787550/2cd0a8df-e07c-4c1c-a73b-3b1bad1e7185"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5860,7 +5351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23915894-53b1-4cfd-a278-75d967862394")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 78.74 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5946,7 +5437,7 @@
 		(instances
 			(project "2-bach"
 				(path "/3db49100-90e5-41c8-b73a-56a81b787550/2cd0a8df-e07c-4c1c-a73b-3b1bad1e7185"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -5964,7 +5455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26eb5817-48ad-4894-8ea2-f2740b7bb3f1")
-		(property "Reference" "R16"
+		(property "Reference" "R17"
 			(at 260.35 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6046,7 +5537,7 @@
 		(instances
 			(project "2-bach"
 				(path "/3db49100-90e5-41c8-b73a-56a81b787550/2cd0a8df-e07c-4c1c-a73b-3b1bad1e7185"
-					(reference "R16")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -6064,7 +5555,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cc07679-09e9-40e8-bec5-b139acc01466")
-		(property "Reference" "R15"
+		(property "Reference" "R16"
 			(at 190.5 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6148,7 +5639,7 @@
 		(instances
 			(project "2-bach"
 				(path "/3db49100-90e5-41c8-b73a-56a81b787550/2cd0a8df-e07c-4c1c-a73b-3b1bad1e7185"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -6166,7 +5657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f3473b3-11f2-4598-b758-5bd207add5a6")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 180.34 78.1049 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6250,7 +5741,7 @@
 		(instances
 			(project "2-bach"
 				(path "/3db49100-90e5-41c8-b73a-56a81b787550/2cd0a8df-e07c-4c1c-a73b-3b1bad1e7185"
-					(reference "C5")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -6268,7 +5759,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37ad9b2e-b7a0-42dc-8974-e36a0f8e7568")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 153.67 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6354,7 +5845,7 @@
 		(instances
 			(project "2-bach"
 				(path "/3db49100-90e5-41c8-b73a-56a81b787550/2cd0a8df-e07c-4c1c-a73b-3b1bad1e7185"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -6519,7 +6010,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "424a8be9-2282-4328-ae81-60b65f4f32b4")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR01"
 			(at 29.972 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -6579,7 +6070,7 @@
 		(instances
 			(project "2-bach"
 				(path "/3db49100-90e5-41c8-b73a-56a81b787550/2cd0a8df-e07c-4c1c-a73b-3b1bad1e7185"
-					(reference "#PWR06")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -6597,7 +6088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "498c3de6-fd01-49cb-91df-9275a1a51e31")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 44.45 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6679,7 +6170,7 @@
 		(instances
 			(project "2-bach"
 				(path "/3db49100-90e5-41c8-b73a-56a81b787550/2cd0a8df-e07c-4c1c-a73b-3b1bad1e7185"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -6844,7 +6335,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b9e550b-d328-4f39-aba2-99003a7e79cb")
-		(property "Reference" "R12"
+		(property "Reference" "R13"
 			(at 176.53 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6927,85 +6418,7 @@
 		(instances
 			(project "2-bach"
 				(path "/3db49100-90e5-41c8-b73a-56a81b787550/2cd0a8df-e07c-4c1c-a73b-3b1bad1e7185"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 101.6 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73915395-b99e-47f9-b091-9d6a3abd9ad2")
-		(property "Reference" "#PWR08"
-			(at 101.6 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 101.6 40.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b09dd5f0-8b4f-4be9-82a2-f3c9d0eda12c")
-		)
-		(instances
-			(project "2-bach"
-				(path "/3db49100-90e5-41c8-b73a-56a81b787550/2cd0a8df-e07c-4c1c-a73b-3b1bad1e7185"
-					(reference "#PWR08")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -7023,7 +6436,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e256685-ee78-4a41-a208-ea0cf2205efd")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 175.26 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7106,7 +6519,7 @@
 		(instances
 			(project "2-bach"
 				(path "/3db49100-90e5-41c8-b73a-56a81b787550/2cd0a8df-e07c-4c1c-a73b-3b1bad1e7185"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -7124,7 +6537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8eb04d6e-50a7-42f9-a29e-6141789f813c")
-		(property "Reference" "C4"
+		(property "Reference" "C5"
 			(at 177.8 145.4149 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7210,7 +6623,7 @@
 		(instances
 			(project "2-bach"
 				(path "/3db49100-90e5-41c8-b73a-56a81b787550/2cd0a8df-e07c-4c1c-a73b-3b1bad1e7185"
-					(reference "C4")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -7228,7 +6641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91bf11d1-ba2a-4f2c-8968-2e72437572b5")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR04"
 			(at 115.062 105.664 0)
 			(hide yes)
 			(show_name no)
@@ -7288,7 +6701,7 @@
 		(instances
 			(project "2-bach"
 				(path "/3db49100-90e5-41c8-b73a-56a81b787550/2cd0a8df-e07c-4c1c-a73b-3b1bad1e7185"
-					(reference "#PWR013")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -7306,7 +6719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "989de110-3c4e-4c62-a76a-4625717d8b1d")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 53.34 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7392,7 +6805,7 @@
 		(instances
 			(project "2-bach"
 				(path "/3db49100-90e5-41c8-b73a-56a81b787550/2cd0a8df-e07c-4c1c-a73b-3b1bad1e7185"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -7557,7 +6970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a20b8184-0435-4129-8f2a-fb05b88fd6d5")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR05"
 			(at 151.13 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -7617,7 +7030,7 @@
 		(instances
 			(project "2-bach"
 				(path "/3db49100-90e5-41c8-b73a-56a81b787550/2cd0a8df-e07c-4c1c-a73b-3b1bad1e7185"
-					(reference "#PWR02")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -7635,7 +7048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8e74fd3-9892-42c2-8a64-4809fbad313d")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 106.68 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7721,7 +7134,7 @@
 		(instances
 			(project "2-bach"
 				(path "/3db49100-90e5-41c8-b73a-56a81b787550/2cd0a8df-e07c-4c1c-a73b-3b1bad1e7185"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -7739,7 +7152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9b5b57a-9254-44f3-abdc-1f9b7906144d")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR08"
 			(at 176.53 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -7799,7 +7212,7 @@
 		(instances
 			(project "2-bach"
 				(path "/3db49100-90e5-41c8-b73a-56a81b787550/2cd0a8df-e07c-4c1c-a73b-3b1bad1e7185"
-					(reference "#PWR05")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -7817,7 +7230,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af9db2db-35d5-4622-a598-5729e8baac0e")
-		(property "Reference" "R17"
+		(property "Reference" "R1"
 			(at 31.75 87.3759 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7901,7 +7314,7 @@
 		(instances
 			(project "2-bach"
 				(path "/3db49100-90e5-41c8-b73a-56a81b787550/2cd0a8df-e07c-4c1c-a73b-3b1bad1e7185"
-					(reference "R17")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -7919,7 +7332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b168a905-8bcc-4807-8fd9-91b9c1acb1a2")
-		(property "Reference" "C6"
+		(property "Reference" "C4"
 			(at 118.11 89.1539 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8005,7 +7418,7 @@
 		(instances
 			(project "2-bach"
 				(path "/3db49100-90e5-41c8-b73a-56a81b787550/2cd0a8df-e07c-4c1c-a73b-3b1bad1e7185"
-					(reference "C6")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -8023,7 +7436,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b27ca6f9-d642-42f4-90cb-959e21097202")
-		(property "Reference" "V3"
+		(property "Reference" "V1"
 			(at 20.32 86.2301 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8089,7 +7502,7 @@
 				)
 			)
 		)
-		(property "Sim.Params" "dc=0 ampl=.5 f=1k td=0 theta=0 phase=0 ac=1"
+		(property "Sim.Params" "dc=0 ampl=1 f=1k ac=1"
 			(at 20.32 91.3101 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8132,7 +7545,7 @@
 		(instances
 			(project "2-bach"
 				(path "/3db49100-90e5-41c8-b73a-56a81b787550/2cd0a8df-e07c-4c1c-a73b-3b1bad1e7185"
-					(reference "V3")
+					(reference "V1")
 					(unit 1)
 				)
 			)
@@ -8150,7 +7563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5014c19-65cc-42a7-a399-36530d73cd45")
-		(property "Reference" "R13"
+		(property "Reference" "R14"
 			(at 176.53 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8233,7 +7646,7 @@
 		(instances
 			(project "2-bach"
 				(path "/3db49100-90e5-41c8-b73a-56a81b787550/2cd0a8df-e07c-4c1c-a73b-3b1bad1e7185"
-					(reference "R13")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -8251,7 +7664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be0ab8bc-2643-46c9-a3f6-f13b7d3572ab")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR07"
 			(at 173.99 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -8311,7 +7724,7 @@
 		(instances
 			(project "2-bach"
 				(path "/3db49100-90e5-41c8-b73a-56a81b787550/2cd0a8df-e07c-4c1c-a73b-3b1bad1e7185"
-					(reference "#PWR04")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -8415,7 +7828,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=BROWN 2=RED 3=BLUE 4=BLACK 5=YELLOW 6=GREEN 7=ORANGE"
+		(property "Sim.Pins" "1=BROWN 2=RED 3=BLUE 4=BLACK 5=YELLOW 7=GREEN 7=ORANGE"
 			(at 241.3 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -8604,84 +8017,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 253.746 130.302 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d35e8157-1f55-41a5-8159-2b625a131781")
-		(property "Reference" "#PWR07"
-			(at 253.746 136.652 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 253.746 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 253.746 130.302 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 253.746 130.302 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 253.746 130.302 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "848f4658-3024-466d-a78c-e770fd07c150")
-		)
-		(instances
-			(project "2-bach"
-				(path "/3db49100-90e5-41c8-b73a-56a81b787550/2cd0a8df-e07c-4c1c-a73b-3b1bad1e7185"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_US")
 		(at 99.06 59.69 90)
 		(unit 1)
@@ -8794,7 +8129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de94c94a-acae-4e01-b463-8f834bef414a")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR06"
 			(at 165.1 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -8854,7 +8189,7 @@
 		(instances
 			(project "2-bach"
 				(path "/3db49100-90e5-41c8-b73a-56a81b787550/2cd0a8df-e07c-4c1c-a73b-3b1bad1e7185"
-					(reference "#PWR03")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -8872,7 +8207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e365c8dd-a72f-4f51-89c8-837ab8db1391")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 175.26 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8955,7 +8290,7 @@
 		(instances
 			(project "2-bach"
 				(path "/3db49100-90e5-41c8-b73a-56a81b787550/2cd0a8df-e07c-4c1c-a73b-3b1bad1e7185"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -8973,7 +8308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec4af393-e144-4625-80a6-9b275a7c81d8")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 76.2 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -9033,7 +8368,7 @@
 		(instances
 			(project "2-bach"
 				(path "/3db49100-90e5-41c8-b73a-56a81b787550/2cd0a8df-e07c-4c1c-a73b-3b1bad1e7185"
-					(reference "#PWR01")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -9051,7 +8386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecc8eee8-8b4d-463e-850b-4b4c8111fcd4")
-		(property "Reference" "R14"
+		(property "Reference" "R15"
 			(at 190.5 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9135,7 +8470,7 @@
 		(instances
 			(project "2-bach"
 				(path "/3db49100-90e5-41c8-b73a-56a81b787550/2cd0a8df-e07c-4c1c-a73b-3b1bad1e7185"
-					(reference "R14")
+					(reference "R15")
 					(unit 1)
 				)
 			)
