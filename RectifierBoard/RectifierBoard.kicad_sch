@@ -1696,16 +1696,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 63.5) (xy 154.94 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67b75aba-416e-459c-8806-7b9818c67b98")
-	)
-	(wire
-		(pts
 			(xy 135.89 84.328) (xy 135.89 85.09)
 		)
 		(stroke
@@ -1776,16 +1766,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 63.5) (xy 152.4 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95e09e62-1a0f-4eb2-a636-14e732029a3b")
-	)
-	(wire
-		(pts
 			(xy 199.39 63.5) (xy 201.295 63.5)
 		)
 		(stroke
@@ -1803,6 +1783,16 @@
 			(type default)
 		)
 		(uuid "a3228c85-bac2-40f5-99e4-2501b6386f14")
+	)
+	(wire
+		(pts
+			(xy 154.94 63.5) (xy 154.94 66.294)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a646871e-cd18-4ed5-a671-1e6845b9f8b3")
 	)
 	(wire
 		(pts
@@ -1956,6 +1946,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 66.294) (xy 152.4 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb88c91d-6b4d-49b7-894e-4d8fcdbb3af0")
+	)
+	(wire
+		(pts
 			(xy 127 85.09) (xy 135.89 85.09)
 		)
 		(stroke
@@ -1973,6 +1973,76 @@
 			(type default)
 		)
 		(uuid "feaef7b4-c483-4086-9fe1-8066dd261e14")
+	)
+	(label "B+_PI"
+		(at 199.39 69.088 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3618fc05-d1d1-4284-a211-413451f5407b")
+	)
+	(label "B+_STBY_OUT"
+		(at 154.94 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7df4ef8d-2ed6-4ec6-9770-8dd8423475e1")
+	)
+	(label "B+_PRE_STBY"
+		(at 117.348 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "830f3f75-123a-46e9-bc39-cc090969ba3d")
+	)
+	(label "HT_AC_A"
+		(at 113.03 74.422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "83fae1b1-f1c5-4772-b438-e23afbd7ed94")
+	)
+	(label "B+_PREAMP"
+		(at 226.06 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9bb0fbc9-163d-4d02-9110-917793e69509")
+	)
+	(label "HT_AC_B"
+		(at 87.122 73.152 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1b6c06b-1505-4719-b9fa-f15a4184b357")
+	)
+	(label "B+_L1_OUT"
+		(at 170.18 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f04717de-46da-4db4-8d4a-f9fbab6e2f55")
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_US")
@@ -2365,7 +2435,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 152.4 55.88 90)
+		(at 154.94 71.374 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2375,7 +2445,7 @@
 		(dnp no)
 		(uuid "35c942c7-6766-4f94-bde0-b3d308ce55eb")
 		(property "Reference" "J2"
-			(at 152.4 49.53 90)
+			(at 155.194 75.184 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2386,7 +2456,7 @@
 			)
 		)
 		(property "Value" "Standby"
-			(at 152.4 52.07 90)
+			(at 157.988 77.216 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2397,7 +2467,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_508:MKDS 5_2-7,62"
-			(at 152.4 55.88 0)
+			(at 154.94 71.374 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2408,7 +2478,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 55.88 0)
+			(at 154.94 71.374 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2419,7 +2489,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 152.4 55.88 0)
+			(at 154.94 71.374 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2582,7 +2652,7 @@
 		(dnp no)
 		(uuid "53de93c4-0f96-44ab-882f-dfb238ff54ff")
 		(property "Reference" "R1"
-			(at 147.32 72.3899 0)
+			(at 140.208 71.374 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2593,7 +2663,7 @@
 			)
 		)
 		(property "Value" "470k 3W"
-			(at 147.32 74.9299 0)
+			(at 147.066 77.724 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2626,7 +2696,7 @@
 			)
 		)
 		(property "Description" "Bleeder"
-			(at 151.13 76.708 0)
+			(at 148.844 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
