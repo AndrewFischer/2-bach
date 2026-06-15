@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "/Users/Andrew/Documents/ghprojects/2-bach/RectifierBoard/RectifierBoard.kicad_sch")
-		(date "2026-06-14T18:10:49")
+		(date "2026-06-15T11:22:10")
 		(tool "Eeschema 10.0.3")
 		(sheet
 			(number "1")
@@ -909,7 +909,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "d2014c33-6d09-482a-9bdc-ddf950346db2")
+			(tstamps "1d9bb668-b5e6-453b-b7b5-9745a95d0b15")
 			(units
 				(unit
 					(name "A")
@@ -926,7 +926,7 @@
 		)
 		(comp
 			(ref "J5")
-			(value "B+ Preamp")
+			(value "GND")
 			(footprint "TerminalBlock_508:MKDS 5_2-7,62")
 			(description "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
 			(fields
@@ -1405,8 +1405,35 @@
 	(nets
 		(net
 			(code "1")
+			(name "/B+_L1_OUT")
+			(class "HV_CHOKE,Default")
+			(node
+				(ref "C2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "2")
 			(name "/B+_PI")
-			(class "Default")
+			(class "HV_DROPPED,Default")
 			(node
 				(ref "C3")
 				(pin "1")
@@ -1414,8 +1441,8 @@
 			)
 			(node
 				(ref "J4")
-				(pin "1")
-				(pinfunction "Pin_1_1")
+				(pin "2")
+				(pinfunction "Pin_2_2")
 				(pintype "passive")
 			)
 			(node
@@ -1430,16 +1457,16 @@
 			)
 		)
 		(net
-			(code "2")
+			(code "3")
 			(name "/B+_PREAMP")
-			(class "Default")
+			(class "HV_DROPPED,Default")
 			(node
 				(ref "C4")
 				(pin "1")
 				(pintype "passive")
 			)
 			(node
-				(ref "J5")
+				(ref "J4")
 				(pin "1")
 				(pinfunction "Pin_1_1")
 				(pintype "passive")
@@ -1451,9 +1478,9 @@
 			)
 		)
 		(net
-			(code "3")
+			(code "4")
 			(name "/B+_PRE_STBY")
-			(class "Default")
+			(class "HV_RAW,Default")
 			(node
 				(ref "C1")
 				(pin "1")
@@ -1473,8 +1500,8 @@
 			)
 			(node
 				(ref "J2")
-				(pin "1")
-				(pinfunction "Pin_1_1")
+				(pin "2")
+				(pinfunction "Pin_2_2")
 				(pintype "passive")
 			)
 			(node
@@ -1484,13 +1511,13 @@
 			)
 		)
 		(net
-			(code "4")
+			(code "5")
 			(name "/B+_STBY_OUT")
-			(class "Default")
+			(class "HV_CHOKE,Default")
 			(node
 				(ref "J2")
-				(pin "2")
-				(pinfunction "Pin_2_2")
+				(pin "1")
+				(pinfunction "Pin_1_1")
 				(pintype "passive")
 			)
 			(node
@@ -1507,9 +1534,9 @@
 			)
 		)
 		(net
-			(code "5")
+			(code "6")
 			(name "/HT_AC_A")
-			(class "Default")
+			(class "HV_AC ,Default")
 			(node
 				(ref "D3")
 				(pin "2")
@@ -1530,9 +1557,9 @@
 			)
 		)
 		(net
-			(code "6")
+			(code "7")
 			(name "/HT_AC_B")
-			(class "Default")
+			(class "HV_AC ,Default")
 			(node
 				(ref "D1")
 				(pin "2")
@@ -1553,9 +1580,9 @@
 			)
 		)
 		(net
-			(code "7")
+			(code "8")
 			(name "GND")
-			(class "Default")
+			(class "GND_POWER,Default")
 			(node
 				(ref "C1")
 				(pin "2")
@@ -1589,9 +1616,9 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "J4")
-				(pin "2")
-				(pinfunction "Pin_2_2")
+				(ref "J5")
+				(pin "1")
+				(pinfunction "Pin_1_1")
 				(pintype "passive")
 			)
 			(node
@@ -1603,33 +1630,6 @@
 			(node
 				(ref "R1")
 				(pin "2")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "8")
-			(name "Net-(J3-Pin_1)")
-			(class "Default")
-			(node
-				(ref "C2")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "J3")
-				(pin "1")
-				(pinfunction "Pin_1_1")
-				(pintype "passive")
-			)
-			(node
-				(ref "J3")
-				(pin "2")
-				(pinfunction "Pin_2_2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R2")
-				(pin "1")
 				(pintype "passive")
 			)
 		)
