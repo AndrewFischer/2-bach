@@ -1739,6 +1739,492 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_BJT:BD139"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BD139"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "NPN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=E 2=C 3=B"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Low Voltage Transistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO?126*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BD139_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BD139_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_BJT:BD140"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BD140"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "PNP"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=E 2=C 3=B"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Low Voltage Transistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO?126*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BD140_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "BD140_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+15V"
 			(power global)
 			(pin_numbers
@@ -2349,11 +2835,43 @@
 		)
 		(uuid "25a6d1ec-44fb-41d0-a202-d2c5ff46a674")
 	)
+	(text "pre-order part"
+		(exclude_from_sim no)
+		(at 209.296 59.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "337f4404-894e-407c-b1b2-51d43a365f60")
+	)
+	(text "Tank Input must be floating"
+		(exclude_from_sim no)
+		(at 244.348 57.912 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fe91fec7-1f12-49cc-9e6b-76fb7ca9b880")
+	)
 	(junction
 		(at 48.26 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ebec487-2256-4402-9235-52878688b507")
+	)
+	(junction
+		(at 220.98 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14884c6a-e6ed-4853-80db-24ff0766435d")
+	)
+	(junction
+		(at 160.02 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16748089-130b-4fa9-a385-bfec8a7b8f34")
 	)
 	(junction
 		(at 71.12 124.46)
@@ -2366,6 +2884,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25248c50-b28a-4907-b3ee-95cb03e6ca16")
+	)
+	(junction
+		(at 200.66 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e1c081d-95a9-4f60-9f37-f831871cd12a")
+	)
+	(junction
+		(at 185.42 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33b0a02c-f2cc-4503-92e7-f5611b1dd46a")
+	)
+	(junction
+		(at 144.78 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "467d25e0-4d47-4070-bffe-938f35763e63")
 	)
 	(junction
 		(at 81.28 69.85)
@@ -2392,6 +2928,18 @@
 		(uuid "69e8d7c3-a938-4c97-82af-fe4802051023")
 	)
 	(junction
+		(at 200.66 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e3bde7f-edd1-426e-8f7e-6df7489d2924")
+	)
+	(junction
+		(at 203.2 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "749196a7-6f2a-459a-a6e1-6f68fa92c1d1")
+	)
+	(junction
 		(at 38.1 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2408,6 +2956,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9036ed05-2d40-42d7-b7df-c98ce16963bb")
+	)
+	(junction
+		(at 200.66 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abb394a2-2b4b-428b-81e5-4897e32bf688")
+	)
+	(junction
+		(at 231.14 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad830e2f-b6f5-4da7-8987-33aefa629183")
+	)
+	(junction
+		(at 203.2 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc265267-51bc-4cfa-866f-8aee2b65e285")
 	)
 	(junction
 		(at 48.26 127)
@@ -2432,6 +2998,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e861e663-ddfc-4ecd-99db-6d87a0eea82a")
+	)
+	(junction
+		(at 185.42 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eed7f661-9f7d-4de4-a415-9dbc0920bfe2")
 	)
 	(junction
 		(at 38.1 139.7)
@@ -2491,6 +3063,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 79.756) (xy 231.14 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e1c8347-00a0-422e-b965-7c5e8cbe4936")
+	)
+	(wire
+		(pts
 			(xy 144.78 66.04) (xy 144.78 68.58)
 		)
 		(stroke
@@ -2511,7 +3093,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 73.66) (xy 185.42 78.74)
+			(xy 185.42 73.66) (xy 185.42 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2558,6 +3140,16 @@
 			(type default)
 		)
 		(uuid "1aba45a8-1e58-4c8c-91c5-cbc7fa8e2886")
+	)
+	(wire
+		(pts
+			(xy 185.42 86.36) (xy 185.42 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "218400d4-d94a-4f7d-ae28-71ac2ad78e4f")
 	)
 	(wire
 		(pts
@@ -2611,6 +3203,36 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 53.34) (xy 200.66 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b11674e-d432-475e-ac4f-5803bbe52551")
+	)
+	(wire
+		(pts
+			(xy 200.66 63.5) (xy 200.66 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bcc548a-7908-48b2-8622-a955c0722f77")
+	)
+	(wire
+		(pts
+			(xy 203.2 35.56) (xy 203.2 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d23a07f-9fc7-4c44-b296-28c3f260af31")
+	)
+	(wire
+		(pts
 			(xy 93.98 81.28) (xy 96.52 81.28)
 		)
 		(stroke
@@ -2631,6 +3253,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 68.58) (xy 238.76 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36e74bef-1bb3-41d0-be06-560a8fb44c20")
+	)
+	(wire
+		(pts
 			(xy 85.09 87.63) (xy 91.44 87.63)
 		)
 		(stroke
@@ -2638,6 +3270,26 @@
 			(type default)
 		)
 		(uuid "3724a27f-62dd-4354-bd99-e27f72b81a99")
+	)
+	(wire
+		(pts
+			(xy 152.4 77.47) (xy 144.78 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38ff50c8-eaf5-4d3d-a7d8-61ebe5641551")
+	)
+	(wire
+		(pts
+			(xy 185.42 88.9) (xy 203.2 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a39bddc-08b5-4f98-87a1-e1351fbf6d15")
 	)
 	(wire
 		(pts
@@ -2658,6 +3310,16 @@
 			(type default)
 		)
 		(uuid "3d934ba8-c323-4feb-bb2e-5d8d762120cf")
+	)
+	(wire
+		(pts
+			(xy 185.42 38.1) (xy 203.2 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41a3100e-d436-4bf7-9b7d-996b4389938c")
 	)
 	(wire
 		(pts
@@ -2721,6 +3383,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 104.14) (xy 152.4 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b429ac8-75a9-4eec-aaec-d8c9596f9958")
+	)
+	(wire
+		(pts
 			(xy 38.1 139.7) (xy 38.1 142.24)
 		)
 		(stroke
@@ -2741,6 +3413,106 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 50.8) (xy 185.42 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51ba13e5-f111-4e7c-8d3e-f2a15651ec2e")
+	)
+	(wire
+		(pts
+			(xy 200.66 73.66) (xy 200.66 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5287d94f-729a-4b4e-8a9e-48dbb2745fa3")
+	)
+	(wire
+		(pts
+			(xy 160.02 66.04) (xy 160.02 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f70daf0-22d9-4a93-a59a-9c2431555b5b")
+	)
+	(wire
+		(pts
+			(xy 200.66 76.2) (xy 213.36 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6009f8b3-f892-4d1d-8715-48badb252e30")
+	)
+	(wire
+		(pts
+			(xy 185.42 63.5) (xy 200.66 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62ae7911-e6ab-45ba-a9aa-83aa57b04259")
+	)
+	(wire
+		(pts
+			(xy 144.78 77.47) (xy 144.78 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "690721cd-f674-45f3-8381-43f1d62174e0")
+	)
+	(wire
+		(pts
+			(xy 231.14 99.06) (xy 160.02 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6952ae9a-7e17-436a-b15c-caf2e00753b5")
+	)
+	(wire
+		(pts
+			(xy 160.02 66.04) (xy 144.78 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f41c6da-a1f9-4d54-ac13-ba4699e14f5f")
+	)
+	(wire
+		(pts
+			(xy 203.2 88.9) (xy 203.2 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f976c13-5aeb-4859-adb6-d47622f4b6f1")
+	)
+	(wire
+		(pts
+			(xy 185.42 76.2) (xy 185.42 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7703f4f2-3f97-4ad5-a308-47f750d59253")
+	)
+	(wire
+		(pts
 			(xy 60.96 137.16) (xy 60.96 142.24)
 		)
 		(stroke
@@ -2751,13 +3523,23 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 66.04) (xy 144.78 66.04)
+			(xy 162.56 66.04) (xy 160.02 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "784b3f9a-81ce-4f0d-bd8a-9533e210d07d")
+	)
+	(wire
+		(pts
+			(xy 220.98 38.1) (xy 220.98 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a8e7d8b-b288-48e9-bac3-8dd7c20aa632")
 	)
 	(wire
 		(pts
@@ -2771,7 +3553,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 76.2) (xy 144.78 78.74)
+			(xy 231.14 63.5) (xy 231.14 72.136)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "810d06eb-cbc1-4e33-91a9-af90af839574")
+	)
+	(wire
+		(pts
+			(xy 144.78 76.2) (xy 144.78 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2801,6 +3593,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 88.9) (xy 220.98 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87166f82-834b-42df-afdd-50ebb1e98f4f")
+	)
+	(wire
+		(pts
 			(xy 59.69 69.85) (xy 63.5 69.85)
 		)
 		(stroke
@@ -2821,6 +3623,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 63.5) (xy 231.14 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e4a86da-7b7d-48dd-9ef3-42bce8702a8c")
+	)
+	(wire
+		(pts
 			(xy 185.42 63.5) (xy 185.42 66.04)
 		)
 		(stroke
@@ -2828,6 +3640,16 @@
 			(type default)
 		)
 		(uuid "96cc4ada-bbb5-42c4-a75f-d33848d89849")
+	)
+	(wire
+		(pts
+			(xy 200.66 60.96) (xy 200.66 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98d51be8-e6bf-4c15-baab-66af7608ec7e")
 	)
 	(wire
 		(pts
@@ -2848,6 +3670,16 @@
 			(type default)
 		)
 		(uuid "9f5bdd04-037a-496f-b3a5-9b7931491cc8")
+	)
+	(wire
+		(pts
+			(xy 200.66 63.5) (xy 220.98 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f98751e-66d4-4bdf-8ba3-df54f04b2d08")
 	)
 	(wire
 		(pts
@@ -2921,6 +3753,26 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 38.1) (xy 220.98 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b35864e5-6922-4900-a85a-0b700de3bfbb")
+	)
+	(wire
+		(pts
+			(xy 203.2 88.9) (xy 220.98 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4333872-ddf6-4202-8292-00c84ab850bd")
+	)
+	(wire
+		(pts
 			(xy 57.15 69.85) (xy 59.69 69.85)
 		)
 		(stroke
@@ -2951,6 +3803,26 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 104.14) (xy 152.4 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb490c1c-5baf-4704-80c9-fbee27ade895")
+	)
+	(wire
+		(pts
+			(xy 200.66 50.8) (xy 213.36 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc843d9b-0d07-4a57-8dbd-641b472e6008")
+	)
+	(wire
+		(pts
 			(xy 38.1 111.76) (xy 38.1 114.3)
 		)
 		(stroke
@@ -2971,7 +3843,17 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 48.26) (xy 185.42 53.34)
+			(xy 231.14 63.5) (xy 233.68 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc2bea03-ddc9-4821-abcf-3d803688cbd0")
+	)
+	(wire
+		(pts
+			(xy 185.42 48.26) (xy 185.42 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2991,6 +3873,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 40.64) (xy 185.42 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d793e69f-2a0a-4951-8134-f54870129910")
+	)
+	(wire
+		(pts
 			(xy 134.62 60.96) (xy 134.62 76.2)
 		)
 		(stroke
@@ -2998,6 +3890,16 @@
 			(type default)
 		)
 		(uuid "d9672d0e-6ae9-485f-acd2-2f3b411a2796")
+	)
+	(wire
+		(pts
+			(xy 200.66 76.2) (xy 185.42 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1cda920-a779-4cee-8fd1-25bff63ae970")
 	)
 	(wire
 		(pts
@@ -3038,6 +3940,16 @@
 			(type default)
 		)
 		(uuid "ee3d4a33-52f9-4157-925e-178501fbcb30")
+	)
+	(wire
+		(pts
+			(xy 200.66 50.8) (xy 185.42 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4fca1ef-a845-4f82-b3b4-f168fd295ffd")
 	)
 	(wire
 		(pts
@@ -3194,6 +4106,188 @@
 			(project "ReverbModule"
 				(path "/e19e1d15-f0b3-4286-a818-bc907405212b/c6d45d4c-e85e-4a36-afcc-7c11e84777bd"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 200.66 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "038ab2db-4200-4156-8026-e92283611067")
+		(property "Reference" "C10"
+			(at 204.47 67.9449 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10µF"
+			(at 204.47 70.4849 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.3"
+			(at 200.66 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.nichicon.com/getmedia/c01f8b9b-f388-4d24-9821-2b048f6b9558/e-ucq.pdf"
+			(at 200.66 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+105℃ 1000hrs@105℃ 10uF 30mA@120Hz 35V 4.6mm 5mm ±20% SMD"
+			(at 200.66 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "UCQ1V100MCL1GB"
+			(at 200.66 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3829987"
+			(at 200.66 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dcb1ad7f-a337-4c94-af24-32ecdac8b294")
+		)
+		(pin "2"
+			(uuid "2c0c422e-aeeb-4f51-951a-8c43ba39a9e6")
+		)
+		(instances
+			(project "ReverbModule"
+				(path "/e19e1d15-f0b3-4286-a818-bc907405212b/c6d45d4c-e85e-4a36-afcc-7c11e84777bd"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-15V")
+		(at 203.2 91.44 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f203436-1de8-4c4e-9c4a-0a31868d90f7")
+		(property "Reference" "#PWR011"
+			(at 203.2 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-15V"
+			(at 203.2 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-15V\""
+			(at 203.2 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "59e95e8c-0b21-42c8-81ea-69840bdbd017")
+		)
+		(instances
+			(project "ReverbModule"
+				(path "/e19e1d15-f0b3-4286-a818-bc907405212b/c6d45d4c-e85e-4a36-afcc-7c11e84777bd"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -3652,7 +4746,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "33"
 			(at 147.32 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3685,7 +4779,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "1W preferred .5W minimum"
 			(at 144.78 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3983,108 +5077,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 40.64 69.85 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c904d47-f830-4174-a530-c65ab00257be")
-		(property "Reference" "C1"
-			(at 40.64 62.484 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.2µF"
-			(at 40.64 65.024 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 36.83 70.8152 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "2.2uF 50V X7R ±10% 1206 MLCC"
-			(at 40.64 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CL31B225KBHNNNE"
-			(at 40.64 69.85 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C50254"
-			(at 40.64 69.85 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b603851e-7f60-4266-ad10-291d62997d6a")
-		)
-		(pin "1"
-			(uuid "647697ff-0da1-4787-8b33-6a80d5ff7830")
-		)
-		(instances
-			(project "ReverbModule"
-				(path "/e19e1d15-f0b3-4286-a818-bc907405212b/c6d45d4c-e85e-4a36-afcc-7c11e84777bd"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 81.28 93.98 0)
 		(unit 1)
@@ -4261,6 +5253,110 @@
 			(project "ReverbModule"
 				(path "/e19e1d15-f0b3-4286-a818-bc907405212b/c6d45d4c-e85e-4a36-afcc-7c11e84777bd"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 220.98 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d32aa0c-24f5-4a80-b70d-46999a0d10d9")
+		(property "Reference" "R7"
+			(at 223.52 58.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10"
+			(at 223.52 60.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 221.996 59.944 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10Ω 200V 250mW Thick Film Resistor ±1% ±400ppm/℃ 1206"
+			(at 220.98 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "1206W4F100JT5E"
+			(at 220.98 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17903"
+			(at 220.98 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ce14b4c-7f38-46ce-83bb-eecf4e404276")
+		)
+		(pin "2"
+			(uuid "70e73c7b-8ae8-4aac-a668-5e11830cbd3e")
+		)
+		(instances
+			(project "ReverbModule"
+				(path "/e19e1d15-f0b3-4286-a818-bc907405212b/c6d45d4c-e85e-4a36-afcc-7c11e84777bd"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -4526,9 +5622,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:NE5532")
-		(at 109.728 114.3 0)
-		(unit 2)
+		(lib_id "Device:C_Polarized_US")
+		(at 200.66 57.15 0)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4536,29 +5632,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4e1f0729-1d21-44ef-a2b6-6998fbff8ec1")
-		(property "Reference" "U2"
-			(at 109.728 104.14 0)
+		(uuid "4dbe8f49-f749-40ad-93c6-27a1d9feb07c")
+		(property "Reference" "C9"
+			(at 204.47 55.2449 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "NE5532"
-			(at 109.728 106.68 0)
+		(property "Value" "10µF"
+			(at 204.47 57.7849 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 109.728 114.3 0)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.3"
+			(at 200.66 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4568,8 +5666,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 109.728 114.3 0)
+		(property "Datasheet" "https://www.nichicon.com/getmedia/c01f8b9b-f388-4d24-9821-2b048f6b9558/e-ucq.pdf"
+			(at 200.66 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4579,8 +5677,8 @@
 				)
 			)
 		)
-		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-			(at 109.728 114.3 0)
+		(property "Description" "-55℃~+105℃ 1000hrs@105℃ 10uF 30mA@120Hz 35V 4.6mm 5mm ±20% SMD"
+			(at 200.66 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4590,35 +5688,39 @@
 				)
 			)
 		)
-		(pin "5"
-			(uuid "c3a1eed2-fde5-4e16-a385-af14cf347106")
+		(property "MPN" "UCQ1V100MCL1GB"
+			(at 200.66 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "3"
-			(uuid "daaded98-e91c-4309-8258-ca0980f97801")
-		)
-		(pin "2"
-			(uuid "8188e10e-342e-4780-a447-0cfd307ca5c9")
+		(property "LCSC" "C3829987"
+			(at 200.66 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "34f85768-9de0-4030-9c5c-a57769bc2534")
+			(uuid "b46d03c8-fc09-45d4-bb52-ecfa3c2f5962")
 		)
-		(pin "6"
-			(uuid "93f34b1c-8ee5-4718-84b1-a56cae80ebe7")
-		)
-		(pin "7"
-			(uuid "1b13f6e2-85ff-48b6-930b-881c9c10e72c")
-		)
-		(pin "4"
-			(uuid "64de0560-ec46-4436-a65e-e3c0597a5fe2")
-		)
-		(pin "8"
-			(uuid "9cd76832-0da3-4a11-90e0-8e2ad957b3ce")
+		(pin "2"
+			(uuid "67500caa-788a-414e-8eff-ebbf1e5913bd")
 		)
 		(instances
 			(project "ReverbModule"
 				(path "/e19e1d15-f0b3-4286-a818-bc907405212b/c6d45d4c-e85e-4a36-afcc-7c11e84777bd"
-					(reference "U2")
-					(unit 2)
+					(reference "C9")
+					(unit 1)
 				)
 			)
 		)
@@ -4807,6 +5909,322 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 40.64 69.85 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59847d1f-0b9b-4a5e-b47e-8db2625d2670")
+		(property "Reference" "C1"
+			(at 40.005 62.738 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10µF"
+			(at 40.005 65.278 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.3"
+			(at 40.64 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.nichicon.com/getmedia/c01f8b9b-f388-4d24-9821-2b048f6b9558/e-ucq.pdf"
+			(at 40.64 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+105℃ 1000hrs@105℃ 10uF 30mA@120Hz 35V 4.6mm 5mm ±20% SMD"
+			(at 40.64 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "UCQ1V100MCL1GB"
+			(at 40.64 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3829987"
+			(at 40.64 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "22905fa3-b4f4-4198-a00b-afaf0fc30880")
+		)
+		(pin "2"
+			(uuid "84af9e1c-8651-4107-a14a-41dd7f17f865")
+		)
+		(instances
+			(project "ReverbModule"
+				(path "/e19e1d15-f0b3-4286-a818-bc907405212b/c6d45d4c-e85e-4a36-afcc-7c11e84777bd"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BD140")
+		(at 218.44 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65d5a986-ad90-454b-aee4-9b14f4eeef96")
+		(property "Reference" "Q2"
+			(at 223.52 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BD140"
+			(at 223.52 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
+			(at 223.52 78.105 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf"
+			(at 218.44 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126"
+			(at 218.44 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 218.44 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=C 3=B"
+			(at 218.44 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "938ffbef-6954-416c-8c0d-614a54d89811")
+		)
+		(pin "2"
+			(uuid "222bd3a3-8a03-460a-97d3-7d40bd713b7e")
+		)
+		(pin "1"
+			(uuid "faef47bf-e2c0-4491-b3a3-97934f556587")
+		)
+		(instances
+			(project "ReverbModule"
+				(path "/e19e1d15-f0b3-4286-a818-bc907405212b/c6d45d4c-e85e-4a36-afcc-7c11e84777bd"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 220.98 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "675f7f5c-5cc6-4c62-b3d9-ddb37b7a66ef")
+		(property "Reference" "R8"
+			(at 223.52 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10"
+			(at 223.52 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 221.996 67.564 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10Ω 200V 250mW Thick Film Resistor ±1% ±400ppm/℃ 1206"
+			(at 220.98 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "1206W4F100JT5E"
+			(at 220.98 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17903"
+			(at 220.98 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e81cbcf4-0bd1-4ebb-9928-7a1661107da2")
+		)
+		(pin "2"
+			(uuid "8b04cf1b-d335-4cb4-84a7-722e841bc3b7")
+		)
+		(instances
+			(project "ReverbModule"
+				(path "/e19e1d15-f0b3-4286-a818-bc907405212b/c6d45d4c-e85e-4a36-afcc-7c11e84777bd"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 185.42 82.55 0)
 		(unit 1)
@@ -4989,6 +6407,116 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:BD139")
+		(at 218.44 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d3eaf4c-fe40-417f-8d6e-4fd2ea978424")
+		(property "Reference" "Q1"
+			(at 223.52 49.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BD139"
+			(at 223.52 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
+			(at 223.52 52.705 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf"
+			(at 218.44 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126"
+			(at 218.44 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 218.44 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=C 3=B"
+			(at 218.44 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "732e7aef-acec-48f4-aa0c-7a7ea9900fb4")
+		)
+		(pin "1"
+			(uuid "54af3d0a-4d61-41d3-a333-abc96a37cdfc")
+		)
+		(pin "3"
+			(uuid "cc2f3cac-c3f9-4484-8e26-b5e7b2a94b88")
+		)
+		(instances
+			(project "ReverbModule"
+				(path "/e19e1d15-f0b3-4286-a818-bc907405212b/c6d45d4c-e85e-4a36-afcc-7c11e84777bd"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 25.4 177.8 0)
 		(unit 1)
@@ -5139,6 +6667,84 @@
 			(project "ReverbModule"
 				(path "/e19e1d15-f0b3-4286-a818-bc907405212b/c6d45d4c-e85e-4a36-afcc-7c11e84777bd"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 203.2 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94d9576d-23de-4fa5-bf2c-a7b554aed883")
+		(property "Reference" "#PWR012"
+			(at 203.2 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+15V"
+			(at 203.2 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 203.2 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3868a2ae-7e7c-46d7-9bc1-3ab5313be676")
+		)
+		(instances
+			(project "ReverbModule"
+				(path "/e19e1d15-f0b3-4286-a818-bc907405212b/c6d45d4c-e85e-4a36-afcc-7c11e84777bd"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6190,94 +7796,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial_x2_Isolated")
-		(at 129.794 116.332 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd7dab27-9aba-4005-a5dc-f60a918ca070")
-		(property "Reference" "J1"
-			(at 133.35 115.3551 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_Coaxial_x2_Isolated"
-			(at 133.35 117.8951 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.794 116.332 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.794 116.332 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 129.794 116.332 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "0e06c77b-b078-4d4b-9e69-89eb8c79cc90")
-		)
-		(pin "2"
-			(uuid "6740cfcf-16a4-47ae-9c51-a397d30dec9a")
-		)
-		(pin "4"
-			(uuid "d28d1a8e-5d65-49d1-b100-bae6d413c45c")
-		)
-		(pin "1"
-			(uuid "981cebb5-16ed-410a-a296-b996b9418227")
-		)
-		(instances
-			(project "ReverbModule"
-				(path "/e19e1d15-f0b3-4286-a818-bc907405212b/c6d45d4c-e85e-4a36-afcc-7c11e84777bd"
-					(reference "J1")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 185.42 57.15 90)
 		(unit 1)
@@ -6471,104 +7989,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:NE5532")
-		(at 206.756 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cbf0e63d-19fd-496c-8db2-b40ee9fc095d")
-		(property "Reference" "U2"
-			(at 206.756 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NE5532"
-			(at 206.756 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 206.756 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 206.756 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-			(at 206.756 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "c3a1eed2-fde5-4e16-a385-af14cf347107")
-		)
-		(pin "3"
-			(uuid "daaded98-e91c-4309-8258-ca0980f97802")
-		)
-		(pin "2"
-			(uuid "8188e10e-342e-4780-a447-0cfd307ca5ca")
-		)
-		(pin "1"
-			(uuid "34f85768-9de0-4030-9c5c-a57769bc2535")
-		)
-		(pin "6"
-			(uuid "93f34b1c-8ee5-4718-84b1-a56cae80ebe8")
-		)
-		(pin "7"
-			(uuid "1b13f6e2-85ff-48b6-930b-881c9c10e72d")
-		)
-		(pin "4"
-			(uuid "64de0560-ec46-4436-a65e-e3c0597a5fe3")
-		)
-		(pin "8"
-			(uuid "9cd76832-0da3-4a11-90e0-8e2ad957b3cf")
-		)
-		(instances
-			(project "ReverbModule"
-				(path "/e19e1d15-f0b3-4286-a818-bc907405212b/c6d45d4c-e85e-4a36-afcc-7c11e84777bd"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 71.12 135.89 0)
 		(unit 1)
@@ -6753,7 +8173,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial_x2_Isolated")
-		(at 175.26 116.84 0)
+		(at 238.76 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6764,7 +8184,7 @@
 		(fields_autoplaced yes)
 		(uuid "f039f6e8-b151-44a3-b28b-f1f69cbe5c88")
 		(property "Reference" "J1"
-			(at 179.07 115.8631 0)
+			(at 242.57 62.5231 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6774,8 +8194,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_Coaxial_x2_Isolated"
-			(at 179.07 118.4031 0)
+		(property "Value" "Tank"
+			(at 242.57 65.0631 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6786,7 +8206,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 116.84 0)
+			(at 238.76 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6797,7 +8217,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 116.84 0)
+			(at 238.76 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6808,7 +8228,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 175.26 116.84 0)
+			(at 238.76 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6834,6 +8254,88 @@
 			(project "ReverbModule"
 				(path "/e19e1d15-f0b3-4286-a818-bc907405212b/c6d45d4c-e85e-4a36-afcc-7c11e84777bd"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 231.14 75.946 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0e9201d-1c8f-48af-b747-62dcafce008d")
+		(property "Reference" "R9"
+			(at 233.68 74.6759 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_US"
+			(at 233.68 77.2159 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.156 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 75.946 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 231.14 75.946 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8bb8022d-42a2-4744-bc13-df207f9dc21a")
+		)
+		(pin "1"
+			(uuid "6f972395-2ac2-4d9e-bb7c-fa13bc3271ee")
+		)
+		(instances
+			(project "ReverbModule"
+				(path "/e19e1d15-f0b3-4286-a818-bc907405212b/c6d45d4c-e85e-4a36-afcc-7c11e84777bd"
+					(reference "R9")
 					(unit 1)
 				)
 			)
