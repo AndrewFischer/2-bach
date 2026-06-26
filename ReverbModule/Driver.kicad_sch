@@ -2800,121 +2800,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GNDS"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GNDS"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GNDS_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDS_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:PWR_FLAG"
 			(power global)
 			(pin_numbers
@@ -3900,16 +3785,6 @@
 			(type default)
 		)
 		(uuid "b1088a58-a03b-4f4b-9f98-b293d8183f92")
-	)
-	(wire
-		(pts
-			(xy 25.4 177.8) (xy 25.4 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b176a066-93e7-4956-b6c2-9f90036313cf")
 	)
 	(wire
 		(pts
@@ -4975,84 +4850,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 25.4 184.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01da3fe4-f8e6-49d0-8236-d5477daa4d12")
-		(property "Reference" "#PWR04"
-			(at 25.4 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 25.4 189.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7d556970-9606-48f1-9ac4-2bdb83382099")
-		)
-		(instances
-			(project "ReverbModule"
-				(path "/e19e1d15-f0b3-4286-a818-bc907405212b/c6d45d4c-e85e-4a36-afcc-7c11e84777bd"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized_US")
 		(at 200.66 69.85 0)
 		(unit 1)
@@ -5745,6 +5542,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 144.78 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "233023d0-078b-4196-9d28-a10033675601")
+		(property "Reference" "#PWR05"
+			(at 144.78 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "278f3eaa-39c2-4686-ae46-53620bcb4795")
+		)
+		(instances
+			(project "ReverbModule"
+				(path "/e19e1d15-f0b3-4286-a818-bc907405212b/c6d45d4c-e85e-4a36-afcc-7c11e84777bd"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 144.78 82.55 0)
 		(unit 1)
@@ -6198,84 +6073,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDS")
-		(at 73.66 129.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31c6a3c0-f681-4a82-b8ad-8ad869d4c716")
-		(property "Reference" "#PWR05"
-			(at 73.66 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDS"
-			(at 73.66 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 73.66 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "56f8e603-2855-4ff2-9e2a-c7b1143c4473")
-		)
-		(instances
-			(project "ReverbModule"
-				(path "/e19e1d15-f0b3-4286-a818-bc907405212b/c6d45d4c-e85e-4a36-afcc-7c11e84777bd"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 220.98 59.69 0)
 		(unit 1)
@@ -6413,7 +6210,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 144.78 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -6435,7 +6232,18 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
+		(property "Description" "Nichicon UPW"
+			(at 144.78 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "UPW1H101MPD"
 			(at 144.78 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -6566,8 +6374,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDS")
-		(at 144.78 88.9 0)
+		(lib_id "power:GND")
+		(at 73.66 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6576,9 +6384,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4bca7bb2-719d-43c2-b94c-a8f9b7e9a066")
+		(uuid "4a2b5e4c-a35f-41f2-a0ad-110edbe03013")
 		(property "Reference" "#PWR010"
-			(at 144.78 95.25 0)
+			(at 73.66 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6588,8 +6396,8 @@
 				)
 			)
 		)
-		(property "Value" "GNDS"
-			(at 144.78 93.98 0)
+		(property "Value" "GND"
+			(at 73.66 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6599,7 +6407,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 88.9 0)
+			(at 73.66 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6610,7 +6418,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 88.9 0)
+			(at 73.66 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6620,8 +6428,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 144.78 88.9 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6632,7 +6440,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "38128023-a654-4133-8dff-29bd3543db3b")
+			(uuid "06ea2d85-56cb-44ad-bf36-42164599333a")
 		)
 		(instances
 			(project "ReverbModule"
@@ -6882,7 +6690,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 90.424 80.264 90)
 			(hide yes)
 			(show_name no)
@@ -6906,6 +6714,28 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 90.17 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0805W8F2002T5E"
+			(at 90.17 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C4328"
+			(at 90.17 81.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7461,84 +7291,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 25.4 177.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9047d0b9-2e80-429a-8ffb-d15fa95a7a51")
-		(property "Reference" "#FLG01"
-			(at 25.4 175.895 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 25.4 172.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 25.4 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f4f4c382-3d3c-4d7f-9e03-fae1e05eab0a")
-		)
-		(instances
-			(project "ReverbModule"
-				(path "/e19e1d15-f0b3-4286-a818-bc907405212b/c6d45d4c-e85e-4a36-afcc-7c11e84777bd"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+15V")
 		(at 203.2 35.56 0)
 		(unit 1)
@@ -7728,7 +7480,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
 			(at 81.28 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -7846,7 +7598,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
 			(at 127 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -9228,7 +8980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 238.76 63.5 0)
 			(hide yes)
 			(show_name no)
