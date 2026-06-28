@@ -2181,7 +2181,7 @@
 		(at 80.518 84.582 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
 		(in_pos_files yes)
@@ -2233,17 +2233,6 @@
 			)
 		)
 		(property "Description" "Flash symbol, large"
-			(at 80.518 84.582 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 80.518 84.582 0)
 			(hide yes)
 			(show_name no)

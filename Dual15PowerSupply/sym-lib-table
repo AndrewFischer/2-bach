@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Transformer_Hammond") (type "KiCad") (uri "${KIPRJMOD}/Transformer_Hammond.kicad_sym") (options "") (descr ""))
+)
