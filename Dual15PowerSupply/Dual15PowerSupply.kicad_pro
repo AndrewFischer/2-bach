@@ -376,7 +376,7 @@
       "sort_field": "Reference"
     },
     "bus_aliases": {},
-    "connection_grid_size": 100.0,
+    "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
@@ -416,7 +416,7 @@
         "uuid": "1db951e7-0e9f-473e-a215-630d2f8a0859"
       }
     ],
-    "used_designators": "D9-10,C6-8,R6-8",
+    "used_designators": "#FLG2,J1,TP1,D9-10,C6-8,R6-9",
     "variants": []
   },
   "sheets": [
