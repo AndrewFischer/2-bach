@@ -5383,7 +5383,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/696105003002.pdf"
 			(at 39.37 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5394,8 +5394,30 @@
 				)
 			)
 		)
-		(property "Description" "Fuse"
+		(property "Description" "Fuseholder, Würth WR-FSH, 5 mm x 20 mm"
 			(at 39.37 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "696105003002"
+			(at 39.37 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "710-696105003002 "
+			(at 39.37 50.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
