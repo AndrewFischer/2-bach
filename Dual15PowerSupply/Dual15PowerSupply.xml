@@ -1,0 +1,1563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/Andrew/Documents/ghprojects/2-bach/Dual15PowerSupply/Dual15PowerSupply.kicad_sch</source>
+    <date>2026-07-04T11:08:57</date>
+    <tool>Eeschema 10.0.3</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Dual15PowerSupply.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>2200µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
+      <description>Polarized capacitor, US symbol</description>
+      <fields>
+        <field name="MPN">UPW1V222MHD</field>
+        <field name="Mouser">647-UPW1V222MHD</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D16.0mm_P7.50mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Polarized capacitor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="MPN" value="UPW1V222MHD"/>
+      <property name="Mouser" value="647-UPW1V222MHD"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Dual15PowerSupply.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91d3c939-16e1-4572-9787-2d7df374956f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>2200µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
+      <description>Polarized capacitor, US symbol</description>
+      <fields>
+        <field name="MPN">UPW1V222MHD</field>
+        <field name="Mouser">647-UPW1V222MHD</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D16.0mm_P7.50mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Polarized capacitor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="MPN" value="UPW1V222MHD"/>
+      <property name="Mouser" value="647-UPW1V222MHD"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Dual15PowerSupply.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45316bd9-8146-4e2f-a155-341fbe8fa230</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>2200µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
+      <description>Polarized capacitor, US symbol</description>
+      <fields>
+        <field name="MPN">UPW1V222MHD</field>
+        <field name="Mouser">647-UPW1V222MHD</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D16.0mm_P7.50mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Polarized capacitor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="MPN" value="UPW1V222MHD"/>
+      <property name="Mouser" value="647-UPW1V222MHD"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Dual15PowerSupply.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8407fe84-d370-4a1d-b542-a7dc2c2a60e5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>2200µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D16.0mm_P7.50mm</footprint>
+      <description>Polarized capacitor, US symbol</description>
+      <fields>
+        <field name="MPN">UPW1V222MHD</field>
+        <field name="Mouser">647-UPW1V222MHD</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D16.0mm_P7.50mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Polarized capacitor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="MPN" value="UPW1V222MHD"/>
+      <property name="Mouser" value="647-UPW1V222MHD"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Dual15PowerSupply.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3fbc1da1-57d8-45a7-b2a4-bc942f44beb3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_F3101_R82.pdf</datasheet>
+      <description>Film Capacitor</description>
+      <fields>
+        <field name="MPN">R82DC3100SH50J</field>
+        <field name="Mouser">80-R82DC3100SH50J</field>
+        <field name="Footprint">Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet">https://content.kemet.com/datasheets/KEM_F3101_R82.pdf</field>
+        <field name="Description">Film Capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C_US" description="capacitor, US symbol"/>
+      <property name="MPN" value="R82DC3100SH50J"/>
+      <property name="Mouser" value="80-R82DC3100SH50J"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Dual15PowerSupply.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5be87a5c-91c8-4a4e-a8fd-2b02cf468ac3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_F3101_R82.pdf</datasheet>
+      <description>Film Capacitor</description>
+      <fields>
+        <field name="MPN">R82DC3100SH50J</field>
+        <field name="Mouser">80-R82DC3100SH50J</field>
+        <field name="Footprint">Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet">https://content.kemet.com/datasheets/KEM_F3101_R82.pdf</field>
+        <field name="Description">Film Capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C_US" description="capacitor, US symbol"/>
+      <property name="MPN" value="R82DC3100SH50J"/>
+      <property name="Mouser" value="80-R82DC3100SH50J"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Dual15PowerSupply.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4c041ef-bc3b-4ac8-9490-6ba89486dea4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>100µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <description>Polarized capacitor, US symbol</description>
+      <fields>
+        <field name="MPN">UPW1V101MPD</field>
+        <field name="Mouser">647-UPW1V101MPD </field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Polarized capacitor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="MPN" value="UPW1V101MPD"/>
+      <property name="Mouser" value="647-UPW1V101MPD "/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Dual15PowerSupply.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc201e8a-03f7-4827-96d8-36d7f4a5212b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>100µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <description>Polarized capacitor, US symbol</description>
+      <fields>
+        <field name="MPN">UPW1V101MPD</field>
+        <field name="Mouser">647-UPW1V101MPD </field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Polarized capacitor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="MPN" value="UPW1V101MPD"/>
+      <property name="Mouser" value="647-UPW1V101MPD "/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Dual15PowerSupply.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91fbe2c1-0ade-435a-93ee-a1c42ebfc709</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="CX1">
+      <value>10nF</value>
+      <footprint>Capacitor_THT:C_Rect_L13.0mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4</footprint>
+      <datasheet>https://www.tdk-electronics.tdk.com/inf/20/20/db/fc_2009/X2_B32921_928.pdf</datasheet>
+      <description>Safety Capacitor, X2</description>
+      <fields>
+        <field name="MPN">B32921C3103M</field>
+        <field name="Mouser">871-B32921C3103M </field>
+        <field name="Footprint">Capacitor_THT:C_Rect_L13.0mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4</field>
+        <field name="Datasheet">https://www.tdk-electronics.tdk.com/inf/20/20/db/fc_2009/X2_B32921_928.pdf</field>
+        <field name="Description">Safety Capacitor, X2</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="B32921C3103M"/>
+      <property name="Mouser" value="871-B32921C3103M "/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Dual15PowerSupply.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e82ee4a5-9842-49ae-acb9-3e7585262117</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>UF4007</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>https://diotec.com/request/datasheet/uf4001.pdf</datasheet>
+      <description>Diode</description>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="MPN">UF4007</field>
+        <field name="Mouser">637-UF4007</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">https://diotec.com/request/datasheet/uf4001.pdf</field>
+        <field name="Description">Diode</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="MPN" value="UF4007"/>
+      <property name="Mouser" value="637-UF4007"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Dual15PowerSupply.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>269996ed-e9c9-498b-8ead-558489a75288</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D2">
+      <value>UF4007</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>https://diotec.com/request/datasheet/uf4001.pdf</datasheet>
+      <description>Diode</description>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="MPN">UF4007</field>
+        <field name="Mouser">637-UF4007</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">https://diotec.com/request/datasheet/uf4001.pdf</field>
+        <field name="Description">Diode</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="MPN" value="UF4007"/>
+      <property name="Mouser" value="637-UF4007"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Dual15PowerSupply.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42aa0f52-e78e-452f-93b9-aad75dd0f4d0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D3">
+      <value>UF4007</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>https://diotec.com/request/datasheet/uf4001.pdf</datasheet>
+      <description>Diode</description>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="MPN">UF4007</field>
+        <field name="Mouser">637-UF4007</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">https://diotec.com/request/datasheet/uf4001.pdf</field>
+        <field name="Description">Diode</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="MPN" value="UF4007"/>
+      <property name="Mouser" value="637-UF4007"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Dual15PowerSupply.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d34275b2-b9c2-4335-af54-26dda89df666</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D4">
+      <value>UF4007</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>https://diotec.com/request/datasheet/uf4001.pdf</datasheet>
+      <description>Diode</description>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="MPN">UF4007</field>
+        <field name="Mouser">637-UF4007</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">https://diotec.com/request/datasheet/uf4001.pdf</field>
+        <field name="Description">Diode</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="MPN" value="UF4007"/>
+      <property name="Mouser" value="637-UF4007"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Dual15PowerSupply.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9642c9d4-29c1-4a98-89a9-dc45331e0910</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D5">
+      <value>UF4007</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>https://diotec.com/request/datasheet/uf4001.pdf</datasheet>
+      <description>Diode</description>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="MPN">UF4007</field>
+        <field name="Mouser">637-UF4007</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">https://diotec.com/request/datasheet/uf4001.pdf</field>
+        <field name="Description">Diode</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="MPN" value="UF4007"/>
+      <property name="Mouser" value="637-UF4007"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Dual15PowerSupply.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1afaa876-9e6e-4a74-a966-52b31fa0a127</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D6">
+      <value>UF4007</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>https://diotec.com/request/datasheet/uf4001.pdf</datasheet>
+      <description>Diode</description>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="MPN">UF4007</field>
+        <field name="Mouser">637-UF4007</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">https://diotec.com/request/datasheet/uf4001.pdf</field>
+        <field name="Description">Diode</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="MPN" value="UF4007"/>
+      <property name="Mouser" value="637-UF4007"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Dual15PowerSupply.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8fde8431-a78c-4f4e-9f53-36fab6a448ee</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D7">
+      <value>UF4007</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>https://diotec.com/request/datasheet/uf4001.pdf</datasheet>
+      <description>Diode</description>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="MPN">UF4007</field>
+        <field name="Mouser">637-UF4007</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">https://diotec.com/request/datasheet/uf4001.pdf</field>
+        <field name="Description">Diode</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="MPN" value="UF4007"/>
+      <property name="Mouser" value="637-UF4007"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Dual15PowerSupply.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8c64420-003b-4191-a1b8-9f061335b665</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D8">
+      <value>UF4007</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>https://diotec.com/request/datasheet/uf4001.pdf</datasheet>
+      <description>Diode</description>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="MPN">UF4007</field>
+        <field name="Mouser">637-UF4007</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">https://diotec.com/request/datasheet/uf4001.pdf</field>
+        <field name="Description">Diode</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="MPN" value="UF4007"/>
+      <property name="Mouser" value="637-UF4007"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Dual15PowerSupply.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>419d8366-c3cb-4d58-9c58-128b36d1aa22</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D9">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>https://www.mouser.com/catalog/specsheets/lite-on_lites12747-1.pdf</datasheet>
+      <description>Light emitting diode</description>
+      <fields>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="MPN">LTL-4221N </field>
+        <field name="Mouser">859-LTL-4221N </field>
+        <field name="Footprint">LED_THT:LED_D3.0mm</field>
+        <field name="Datasheet">https://www.mouser.com/catalog/specsheets/lite-on_lites12747-1.pdf</field>
+        <field name="Description">Light emitting diode</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="MPN" value="LTL-4221N "/>
+      <property name="Mouser" value="859-LTL-4221N "/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Dual15PowerSupply.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb5c5ca7-6447-4892-9680-189726078627</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D10">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>https://www.mouser.com/catalog/specsheets/lite-on_lites12747-1.pdf</datasheet>
+      <description>Light emitting diode</description>
+      <fields>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="MPN">LTL-4221N </field>
+        <field name="Mouser">859-LTL-4221N </field>
+        <field name="Footprint">LED_THT:LED_D3.0mm</field>
+        <field name="Datasheet">https://www.mouser.com/catalog/specsheets/lite-on_lites12747-1.pdf</field>
+        <field name="Description">Light emitting diode</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="MPN" value="LTL-4221N "/>
+      <property name="Mouser" value="859-LTL-4221N "/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Dual15PowerSupply.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>234a1b3e-96a8-4d1c-90ff-398f80fabb1f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F1">
+      <value>Fuse</value>
+      <footprint>Fuseholder_Wurth:Wurth_WR-FSH_696105003002</footprint>
+      <datasheet>https://www.we-online.com/components/products/datasheet/696105003002.pdf</datasheet>
+      <description>Fuseholder, Würth WR-FSH, 5 mm x 20 mm</description>
+      <fields>
+        <field name="MPN">696105003002</field>
+        <field name="Mouser">710-696105003002 </field>
+        <field name="Footprint">Fuseholder_Wurth:Wurth_WR-FSH_696105003002</field>
+        <field name="Datasheet">https://www.we-online.com/components/products/datasheet/696105003002.pdf</field>
+        <field name="Description">Fuseholder, Würth WR-FSH, 5 mm x 20 mm</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="MPN" value="696105003002"/>
+      <property name="Mouser" value="710-696105003002 "/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Dual15PowerSupply.kicad_sch"/>
+      <property name="ki_keywords" value="fuse"/>
+      <property name="ki_fp_filters" value="*Fuse*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40a68e90-875e-42d3-8e2f-42ae11bbd37f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>MKDS 1,5/2-7,62</value>
+      <footprint>TerminalBlock_762:MKDS 5_2-7,62</footprint>
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <fields>
+        <field name="MPN">1717729</field>
+        <field name="Mouser">651-1717729 </field>
+        <field name="Footprint">TerminalBlock_762:MKDS 5_2-7,62</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="1717729"/>
+      <property name="Mouser" value="651-1717729 "/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Dual15PowerSupply.kicad_sch"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <property name="ki_fp_filters" value="TerminalBlock*:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5252f44-592e-40d6-ba37-1a7467d113a8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>10</value>
+      <footprint>Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal</footprint>
+      <datasheet>https://www.koaspeer.com/pdfs/MOS.pdf</datasheet>
+      <description>Resistor, metal oxide 2W 1%</description>
+      <fields>
+        <field name="MPN">MOS2CT52R10R0F</field>
+        <field name="Mouser">660-MOS2CT52R10R0F </field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal</field>
+        <field name="Datasheet">https://www.koaspeer.com/pdfs/MOS.pdf</field>
+        <field name="Description">Resistor, metal oxide 2W 1%</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MPN" value="MOS2CT52R10R0F"/>
+      <property name="Mouser" value="660-MOS2CT52R10R0F "/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Dual15PowerSupply.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>705e300c-6d49-4298-ac98-6f9334409ac3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>10</value>
+      <footprint>Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal</footprint>
+      <datasheet>https://www.koaspeer.com/pdfs/MOS.pdf</datasheet>
+      <description>Resistor, US symbol</description>
+      <fields>
+        <field name="MPN">MOS2CT52R10R0F</field>
+        <field name="Mouser">660-MOS2CT52R10R0F </field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal</field>
+        <field name="Datasheet">https://www.koaspeer.com/pdfs/MOS.pdf</field>
+        <field name="Description">Resistor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MPN" value="MOS2CT52R10R0F"/>
+      <property name="Mouser" value="660-MOS2CT52R10R0F "/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Dual15PowerSupply.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>87d4544d-bbeb-42de-998b-cdcbd22de523</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>75k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/3/508/1/pyu-re_105_rohs_l.pdf</datasheet>
+      <description>Resistor,75k 1% 100ppm, 0805 or 1206. Selected part is 50ppm 1206 - revisit if layout needs smaller part.</description>
+      <fields>
+        <field name="MPN">RE1206FRE0775KL</field>
+        <field name="Mouser">603-RE1206FRE0775KL </field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/3/508/1/pyu-re_105_rohs_l.pdf</field>
+        <field name="Description">Resistor,75k 1% 100ppm, 0805 or 1206. Selected part is 50ppm 1206 - revisit if layout needs smaller part.</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MPN" value="RE1206FRE0775KL"/>
+      <property name="Mouser" value="603-RE1206FRE0775KL "/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Dual15PowerSupply.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>615787c1-dec4-476c-9968-a8ee5db96ee8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <description>Resistor 1% 100ppm</description>
+      <fields>
+        <field name="MPN">RC1206FR-101KL </field>
+        <field name="Mouser">603-RC1206FR-101KL </field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor 1% 100ppm</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MPN" value="RC1206FR-101KL "/>
+      <property name="Mouser" value="603-RC1206FR-101KL "/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Dual15PowerSupply.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a96d1eff-a51c-42e3-ae51-51a57e855fb6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>4.99K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <description>Resistor, US symbol</description>
+      <fields>
+        <field name="MPN">RC1206FR-074K99L </field>
+        <field name="Mouser">603-RC1206FR-074K99L </field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MPN" value="RC1206FR-074K99L "/>
+      <property name="Mouser" value="603-RC1206FR-074K99L "/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Dual15PowerSupply.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d91cc720-5714-41e7-8487-658128c2e953</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>300k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/3/72/1/PYU_RT_1_TO_0_01_ROHS_L.pdf</datasheet>
+      <description>Thin Film Resistors - SMD 1/4W 300K ohm .1% 25ppm</description>
+      <fields>
+        <field name="MPN">RT1206BRD07300KL</field>
+        <field name="Mouser">603-RT1206BRD07300KL </field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/3/72/1/PYU_RT_1_TO_0_01_ROHS_L.pdf</field>
+        <field name="Description">Thin Film Resistors - SMD 1/4W 300K ohm .1% 25ppm</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MPN" value="RT1206BRD07300KL"/>
+      <property name="Mouser" value="603-RT1206BRD07300KL "/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Dual15PowerSupply.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>55b7c779-6e7d-48df-9270-6e4ecc45532f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>2k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <description>Resistor 1% 100ppm.  Selected part is 50ppm</description>
+      <fields>
+        <field name="MPN">RT1206FRE072KL</field>
+        <field name="Mouser">603-RT1206FRE072KL </field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor 1% 100ppm.  Selected part is 50ppm</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MPN" value="RT1206FRE072KL"/>
+      <property name="Mouser" value="603-RT1206FRE072KL "/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Dual15PowerSupply.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58807dec-6a1a-44e6-9191-28c44c094761</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>1.2k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <description>Thin Film Resistor - 1206 1/4W 1.2K ohm 1% 50p pm</description>
+      <fields>
+        <field name="MPN">RT1206FRE071K2L</field>
+        <field name="Mouser">603-RT1206FRE071K2L </field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description">Thin Film Resistor - 1206 1/4W 1.2K ohm 1% 50p pm</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MPN" value="RT1206FRE071K2L"/>
+      <property name="Mouser" value="603-RT1206FRE071K2L "/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Dual15PowerSupply.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57b17385-7789-4288-99b7-042b5fc7fb43</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>300k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.com/datasheet/3/72/1/PYU_RT_1_TO_0_01_ROHS_L.pdf</datasheet>
+      <description>Thin Film Resistors - SMD 1/4W 300K ohm .1% 25ppm</description>
+      <fields>
+        <field name="MPN">RT1206BRD07300KL</field>
+        <field name="Mouser">603-RT1206BRD07300KL </field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/3/72/1/PYU_RT_1_TO_0_01_ROHS_L.pdf</field>
+        <field name="Description">Thin Film Resistors - SMD 1/4W 300K ohm .1% 25ppm</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MPN" value="RT1206BRD07300KL"/>
+      <property name="Mouser" value="603-RT1206BRD07300KL "/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Dual15PowerSupply.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>983d808a-f009-4e8a-88bf-9e05781781b8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>1.8k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal</footprint>
+      <datasheet>https://www.koaspeer.com/pdfs/MF-MFS-RK.pdf</datasheet>
+      <description>Resistor, US symbol</description>
+      <fields>
+        <field name="MPN">MF1/4LCT52R182J </field>
+        <field name="Mouser">660-MF1/4LCT52R182J </field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal</field>
+        <field name="Datasheet">https://www.koaspeer.com/pdfs/MF-MFS-RK.pdf</field>
+        <field name="Description">Resistor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MPN" value="MF1/4LCT52R182J "/>
+      <property name="Mouser" value="660-MF1/4LCT52R182J "/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Dual15PowerSupply.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>765480d4-8cde-4b89-96dd-78dc1a7d3ca7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>1.8k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal</footprint>
+      <datasheet>https://www.koaspeer.com/pdfs/MF-MFS-RK.pdf</datasheet>
+      <description>Resistor, US symbol</description>
+      <fields>
+        <field name="MPN">MF1/4LCT52R182J </field>
+        <field name="Mouser">660-MF1/4LCT52R182J </field>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal</field>
+        <field name="Datasheet">https://www.koaspeer.com/pdfs/MF-MFS-RK.pdf</field>
+        <field name="Description">Resistor, US symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="MPN" value="MF1/4LCT52R182J "/>
+      <property name="Mouser" value="660-MF1/4LCT52R182J "/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Dual15PowerSupply.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47cea7ea-a656-41ab-9adb-9f4887877f20</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP1">
+      <value>1mV/C</value>
+      <footprint>TestPoint:TestPoint_Keystone_5005-5009_Compact</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Keystone_5005-5009_Compact</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Dual15PowerSupply.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a08d0e31-5736-4cc4-b2d6-c73de01b14a4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP2">
+      <value>1mV/mA</value>
+      <footprint>TestPoint:TestPoint_Keystone_5005-5009_Compact</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Keystone_5005-5009_Compact</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Dual15PowerSupply.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4960bdd-ce38-4e95-bca0-26e7ed613da7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP3">
+      <value>1mV/mA</value>
+      <footprint>TestPoint:TestPoint_Keystone_5005-5009_Compact</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Keystone_5005-5009_Compact</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Dual15PowerSupply.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4225636-6763-4b13-b7ec-573d43334377</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TR1">
+      <value>Hammond_229B30</value>
+      <footprint>Transformer_Hammond_229:Hammond_229B30_RoundDrill</footprint>
+      <description>12VA, 30V C.T.</description>
+      <fields>
+        <field name="MPN">229B30</field>
+        <field name="Mouser">546-229B30-BULK </field>
+        <field name="Footprint">Transformer_Hammond_229:Hammond_229B30_RoundDrill</field>
+        <field name="Datasheet"/>
+        <field name="Description">12VA, 30V C.T.</field>
+      </fields>
+      <libsource lib="Transformer_Hammond" part="Hammond_229B30" description=""/>
+      <property name="MPN" value="229B30"/>
+      <property name="Mouser" value="546-229B30-BULK "/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Dual15PowerSupply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f4a7fa7-7e15-410d-8152-4784b1c6a68b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="6"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>LT3091xT7</value>
+      <footprint>Package_TO_SOT_THT:TO-220-7_P2.54x3.7mm_StaggerOdd_Lead3.8mm_Vertical</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/3091fa.pdf</datasheet>
+      <description>–36V, 1.5A Negative Linear Adjustable Regulator with Programmable Current Limit, TO-220-7</description>
+      <fields>
+        <field name="MPN">LT3091ET7</field>
+        <field name="Mouser">584-LT3091ET7#PBF </field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-7_P2.54x3.7mm_StaggerOdd_Lead3.8mm_Vertical</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/3091fa.pdf</field>
+        <field name="Description">–36V, 1.5A Negative Linear Adjustable Regulator with Programmable Current Limit, TO-220-7</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="LT3091xT7" description="–36V, 1.5A Negative Linear Adjustable Regulator with Programmable Current Limit, TO-220-7"/>
+      <property name="MPN" value="LT3091ET7"/>
+      <property name="Mouser" value="584-LT3091ET7#PBF "/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Dual15PowerSupply.kicad_sch"/>
+      <property name="ki_keywords" value="LDO low noise"/>
+      <property name="ki_fp_filters" value="TO*220*P2.54x3.7mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3cad10b5-b5e5-4e48-b717-b1ba3a66b196</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="6"/>
+            <pin num="2"/>
+            <pin num="5"/>
+            <pin num="7"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>LT3081</value>
+      <footprint>Package_TO_SOT_THT:TO-220-7_P2.54x5.08mm_StaggerOdd_Lead3.08mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">LT3081ET7</field>
+        <field name="Mouser">584-LT3081ET7#PBF </field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-7_P2.54x5.08mm_StaggerOdd_Lead3.08mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Regulator_Linear_LT" part="LT3081" description=""/>
+      <property name="MPN" value="LT3081ET7"/>
+      <property name="Mouser" value="584-LT3081ET7#PBF "/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Dual15PowerSupply.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e52a3bf-15fa-4be3-a850-b8298552ef92</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="7"/>
+            <pin num="6"/>
+            <pin num="5"/>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_US">
+      <description>Polarized capacitor, US symbol</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_US</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Polarized capacitor, US symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_US">
+      <description>capacitor, US symbol</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_US</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">capacitor, US symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Diode</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Light emitting diode</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, US symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LT3091xT7">
+      <description>–36V, 1.5A Negative Linear Adjustable Regulator with Programmable Current Limit, TO-220-7</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/3091fa.pdf</docs>
+      <footprints>
+        <fp>TO*220*P2.54x3.7mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LT3091xT7</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-7_P2.54x3.7mm_StaggerOdd_Lead3.8mm_Vertical</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/3091fa.pdf</field>
+        <field name="Description">–36V, 1.5A Negative Linear Adjustable Regulator with Programmable Current Limit, TO-220-7</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ILIM" type="input"/>
+        <pin num="2" name="IMONN" type="input"/>
+        <pin num="3" name="~{SHDN}" type="input"/>
+        <pin num="4" name="IN" type="power_in"/>
+        <pin num="5" name="SET" type="input"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear_LT" part="LT3081">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LT3081</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="Ilim" type="input"/>
+        <pin num="2" name="SET" type="input"/>
+        <pin num="3" name="Imon" type="output"/>
+        <pin num="4" name="OUT" type="output"/>
+        <pin num="5" name="TEMP" type="output"/>
+        <pin num="6" name="IN" type="input"/>
+        <pin num="7" name="" type="no_connect"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transformer_Hammond" part="Hammond_229B30">
+      <fields>
+        <field name="Reference">TR</field>
+        <field name="Value">Hammond_229B30</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>${KICAD10_SYMBOL_DIR}/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>${KICAD10_SYMBOL_DIR}/Device.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>${KICAD10_SYMBOL_DIR}/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear_LT">
+      <uri>${KIPRJMOD}/Regulator_Linear_LT.kicad_sym</uri>
+    </library>
+    <library logical="Transformer_Hammond">
+      <uri>${KIPRJMOD}/Transformer_Hammond.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/AC_L" class="Default">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+    </net>
+    <net code="2" name="/AC_L_Fused" class="Default">
+      <node ref="CX1" pin="1" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="TR1" pin="1" pintype="passive"/>
+      <node ref="TR1" pin="3" pintype="passive"/>
+    </net>
+    <net code="3" name="/AC_N" class="Default">
+      <node ref="CX1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="TR1" pin="2" pintype="passive"/>
+      <node ref="TR1" pin="4" pintype="passive"/>
+    </net>
+    <net code="4" name="GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D6" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="GND_6" pintype="power_in"/>
+    </net>
+    <net code="5" name="Net-(D1-A)" class="Default">
+      <node ref="D1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="TR1" pin="7" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(D1-K)" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(D3-A)" class="Default">
+      <node ref="D3" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="TR1" pin="5" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(D4-A)" class="Default">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(D5-A)" class="Default">
+      <node ref="D5" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="TR1" pin="8" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(D7-A)" class="Default">
+      <node ref="D7" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="TR1" pin="6" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(D9-A)" class="Default">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="D9" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="OUT_4" pintype="output"/>
+    </net>
+    <net code="12" name="Net-(D9-K)" class="Default">
+      <node ref="D9" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(D10-A)" class="Default">
+      <node ref="D10" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(D10-K)" class="Default">
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="D10" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="OUT_7" pintype="power_out"/>
+    </net>
+    <net code="15" name="Net-(U1-ILIM)" class="Default">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="ILIM_1" pintype="input"/>
+    </net>
+    <net code="16" name="Net-(U1-IMONN)" class="Default">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="IMONN_2" pintype="input"/>
+    </net>
+    <net code="17" name="Net-(U1-IN)" class="Default">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="~{SHDN}_3" pintype="input"/>
+      <node ref="U1" pin="4" pinfunction="IN_4" pintype="power_in"/>
+    </net>
+    <net code="18" name="Net-(U1-SET)" class="Default">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="SET_5" pintype="input"/>
+    </net>
+    <net code="19" name="Net-(U2-IN)" class="Default">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="IN_6" pintype="input"/>
+    </net>
+    <net code="20" name="Net-(U2-Ilim)" class="Default">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="Ilim_1" pintype="input"/>
+    </net>
+    <net code="21" name="Net-(U2-Imon)" class="Default">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="Imon_3" pintype="output"/>
+    </net>
+    <net code="22" name="Net-(U2-SET)" class="Default">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="SET_2" pintype="input"/>
+    </net>
+    <net code="23" name="Net-(U2-TEMP)" class="Default">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="TEMP_5" pintype="output"/>
+    </net>
+    <net code="24" name="unconnected-(U2-Pad7)" class="Default">
+      <node ref="U2" pin="7" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

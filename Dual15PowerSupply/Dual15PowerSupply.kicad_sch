@@ -211,6 +211,265 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Screw_Terminal_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x03"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Screw_Terminal_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 2.8702) (xy 0.3302 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 3.048) (xy 0.508 2.2098)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -1555,6 +1814,118 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Graphic:SYM_Flash_Large"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#SYM"
+				(at -3.81 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SYM_Flash_Large"
+				(at 3.302 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -0.254 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 10.16 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Flash symbol, large"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Enable" "0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "graphic symbol flash VAC 220VAC 110VAC power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SYM_Flash_Large_0_1"
+				(polyline
+					(pts
+						(xy -0.508 4.445) (xy 1.397 4.445) (xy 0 1.016) (xy 2.286 1.905) (xy -0.508 -3.937) (xy -1.397 -3.556)
+						(xy 0.254 -0.254) (xy -2.159 -1.143) (xy -0.508 4.445)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.127 -3.556) (xy -1.524 -2.921) (xy -1.778 -5.588) (xy 0.127 -3.556)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:LT3091xT7"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2776,15 +3147,35 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "1.8kΩ ~ 7mA"
+	(text "~ 7mA"
 		(exclude_from_sim no)
-		(at 246.38 50.8 0)
+		(at 233.934 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "225e8524-dcfc-404b-83f4-089964156259")
+	)
+	(text "Current limit: ~270 mA per rail, fault protection"
+		(exclude_from_sim no)
+		(at 226.314 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "67e984d0-476c-48b4-bb66-a6cdb34453d8")
+	)
+	(text "Continuous rated output: ±15 V at 150 mA"
+		(exclude_from_sim no)
+		(at 224.028 99.822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "69c4a07a-f021-413f-9254-9873809570b3")
 	)
 	(text "N"
 		(exclude_from_sim no)
@@ -2931,6 +3322,12 @@
 		(uuid "7b108493-84a2-4989-b890-d1268d5a8d77")
 	)
 	(junction
+		(at 229.87 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e355ca9-d6f0-4ded-8027-95927ca8bd19")
+	)
+	(junction
 		(at 217.17 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3055,6 +3452,20 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eaa12ba1-47d4-4789-870c-97584516309d")
+	)
+	(junction
+		(at 229.87 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1911a3a-61a0-44b7-bbd7-f13f1379aa6d")
+	)
+	(no_connect
+		(at 43.434 41.91)
+		(uuid "1345a479-b4f0-4423-8c50-853bba5d047e")
+	)
+	(no_connect
+		(at 35.814 41.91)
+		(uuid "c12001ff-4698-496b-a723-bf046a9bf9a3")
 	)
 	(wire
 		(pts
@@ -3368,6 +3779,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 33.02) (xy 241.3 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32e8edcd-35ec-4dc8-8f88-d7a8be1a9fd0")
+	)
+	(wire
+		(pts
 			(xy 30.48 63.5) (xy 46.99 63.5)
 		)
 		(stroke
@@ -3458,7 +3879,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 58.42) (xy 229.87 58.42)
+			(xy 217.17 58.42) (xy 247.65 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3718,6 +4139,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 60.96) (xy 241.046 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a3349f5-4804-4a85-bb1d-54d602d492ae")
+	)
+	(wire
+		(pts
 			(xy 58.42 50.8) (xy 64.77 50.8)
 		)
 		(stroke
@@ -3815,6 +4246,16 @@
 			(type default)
 		)
 		(uuid "7f6f22dc-9ffa-4ff9-af50-11ab2844c88b")
+	)
+	(wire
+		(pts
+			(xy 241.3 33.02) (xy 229.87 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fdc842c-8999-494c-ad9b-be060a484fba")
 	)
 	(wire
 		(pts
@@ -3945,6 +4386,16 @@
 			(type default)
 		)
 		(uuid "94b8f287-5568-4e7b-b6c8-a4a4b92d70e4")
+	)
+	(wire
+		(pts
+			(xy 247.65 55.88) (xy 241.3 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95007606-009f-456f-8a40-a0e6ef34ec48")
 	)
 	(wire
 		(pts
@@ -4158,6 +4609,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.046 60.96) (xy 241.046 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfb71c54-c0f4-41a9-8925-a54369ed18f8")
+	)
+	(wire
+		(pts
 			(xy 78.74 45.72) (xy 85.09 45.72)
 		)
 		(stroke
@@ -4235,6 +4696,16 @@
 			(type default)
 		)
 		(uuid "d071a0f6-2c81-45d4-8818-e9d0c180a4ee")
+	)
+	(wire
+		(pts
+			(xy 241.046 86.36) (xy 229.87 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0783ccb-cc7c-4d02-a6a9-7a696795fafb")
 	)
 	(wire
 		(pts
@@ -4486,6 +4957,16 @@
 		)
 		(uuid "ae026e0c-1470-42af-a148-64d3f51e7110")
 	)
+	(label "-15VDC"
+		(at 241.046 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae5e4366-0a34-4e26-bf79-394134bb8610")
+	)
 	(label "AC_L"
 		(at 30.48 50.8 0)
 		(effects
@@ -4495,6 +4976,123 @@
 			(justify left bottom)
 		)
 		(uuid "afdcd683-1faf-4b43-a546-8b6d2772e954")
+	)
+	(label "+15VDC"
+		(at 241.3 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d59e26c5-9c66-4a97-ab49-0e727dc9de4c")
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 252.73 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06dd8c51-0d84-4d51-9e50-40ebeb4a682a")
+		(property "Reference" "J2"
+			(at 255.27 57.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+/-15VDC"
+			(at 255.27 59.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-3-5.08_1x03_P5.08mm_Horizontal"
+			(at 252.73 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/507/5/phoenix_contact_1711738_en.pdf"
+			(at 252.73 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "MKDS_3/_3-5,08 MKDS33508"
+			(at 252.73 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "1711738"
+			(at 252.73 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "651-1711738 "
+			(at 252.73 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc0e02de-c336-4bc1-925c-46a6d915154e")
+		)
+		(pin "3"
+			(uuid "6ad56bb0-e32e-4c33-a3cf-adf52711247d")
+		)
+		(pin "2"
+			(uuid "f5084a92-7c16-47ca-ab3d-0887359a3c69")
+		)
+		(instances
+			(project "Dual15PowerSupply"
+				(path "/1db951e7-0e9f-473e-a215-630d2f8a0859"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:D")
@@ -5295,7 +5893,7 @@
 		(fields_autoplaced yes)
 		(uuid "40a68e90-875e-42d3-8e2f-42ae11bbd37f")
 		(property "Reference" "F1"
-			(at 39.37 45.212 90)
+			(at 39.37 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5304,8 +5902,8 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
-			(at 39.37 47.752 90)
+		(property "Value" "FuseHolder"
+			(at 39.37 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6157,6 +6755,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Graphic:SYM_Flash_Large")
+		(at 25.654 70.612 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59a0b431-6743-4c70-b977-5dff45f3a700")
+		(property "Reference" "#SYM1"
+			(at 21.844 70.612 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SYM_Flash_Large"
+			(at 28.956 70.612 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Symbol:Symbol_HighVoltage_Triangle_17x15mm_Copper"
+			(at 25.4 72.898 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.814 73.152 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Flash symbol, large"
+			(at 25.654 70.612 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Dual15PowerSupply"
+				(path "/1db951e7-0e9f-473e-a215-630d2f8a0859"
+					(reference "#SYM1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_US")
 		(at 189.23 52.07 0)
 		(unit 1)
@@ -6357,6 +7031,108 @@
 			(project "Dual15PowerSupply"
 				(path "/1db951e7-0e9f-473e-a215-630d2f8a0859"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 39.624 41.91 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64d6c793-dbf0-4716-9bd2-e917511845f6")
+		(property "Reference" "F1A1"
+			(at 39.624 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "T250mA 250VAC"
+			(at 39.624 38.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.624 43.688 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.624 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse cartridge, 5x20mm, time-lag T, glass"
+			(at 39.624 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" " 0034.3111"
+			(at 39.624 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "693-0034.3111 "
+			(at 39.624 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a7dd9a47-4e56-4e95-bcfa-79f154b0307d")
+		)
+		(pin "1"
+			(uuid "44cb0ba1-f355-499a-975b-aec5e47eb868")
+		)
+		(instances
+			(project "Dual15PowerSupply"
+				(path "/1db951e7-0e9f-473e-a215-630d2f8a0859"
+					(reference "F1A1")
 					(unit 1)
 				)
 			)
@@ -7552,7 +8328,7 @@
 				)
 			)
 		)
-		(property "Value" "1mV/mA"
+		(property "Value" "-1mV/mA"
 			(at 182.118 71.882 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8375,7 +9151,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5252f44-592e-40d6-ba37-1a7467d113a8")
 		(property "Reference" "J1"
-			(at 24.13 50.038 0)
+			(at 24.13 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8384,8 +9160,8 @@
 				)
 			)
 		)
-		(property "Value" "MKDS 1,5/2-7,62"
-			(at 24.13 52.578 0)
+		(property "Value" "120VAC"
+			(at 24.13 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
