@@ -4937,6 +4937,16 @@
 		)
 		(uuid "fedb488a-59d3-4b5a-8e2a-8dd7004d8ed7")
 	)
+	(label "Vin+"
+		(at 140.97 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a0ae554-76a0-472b-b29e-34d7f95ab40e")
+	)
 	(label "AC_L_Fused"
 		(at 46.99 50.8 0)
 		(effects
@@ -4946,6 +4956,16 @@
 			(justify left bottom)
 		)
 		(uuid "45c84fae-ae9e-473d-a596-d6df09c54d22")
+	)
+	(label "Vin-"
+		(at 140.97 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75330caa-dcff-48a8-ab88-6ae758123fcb")
 	)
 	(label "AC_N"
 		(at 34.29 63.5 0)

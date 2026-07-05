@@ -1,0 +1,7 @@
+(version 1)
+
+
+(rule "Primary to non-primary isolation"
+  (condition "(A.hasNetclass('PRIMARY') && !B.hasNetclass('PRIMARY')) || (!A.hasNetclass('PRIMARY') && B.hasNetclass('PRIMARY'))")
+  (constraint clearance (min 6.4mm))
+  (constraint creepage (min 6.4mm)))
