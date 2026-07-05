@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "/Users/Andrew/Documents/ghprojects/2-bach/Dual15PowerSupply/Dual15PowerSupply.kicad_sch")
-		(date "2026-07-04T17:35:44")
+		(date "2026-07-05T12:58:02")
 		(tool "Eeschema 10.0.3")
 		(sheet
 			(number "1")
@@ -2214,20 +2214,20 @@
 		(comp
 			(ref "R10")
 			(value "1.8k")
-			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal")
-			(datasheet "https://www.koaspeer.com/pdfs/MF-MFS-RK.pdf")
-			(description "Resistor, US symbol")
+			(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+			(datasheet "https://www.mouser.com/datasheet/3/72/1/PYU_RT_1_TO_0_01_ROHS_L.pdf")
+			(description "Resistor, 1/4W 1.8K ohm 1% 50ppm")
 			(fields
 				(field
-					(name "MPN") "MF1/4LCT52R182J ")
+					(name "MPN") "RT1206FRE071K8L")
 				(field
-					(name "Mouser") "660-MF1/4LCT52R182J ")
+					(name "Mouser") "603-RT1206FRE071K8L ")
 				(field
-					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal")
+					(name "Footprint") "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
 				(field
-					(name "Datasheet") "https://www.koaspeer.com/pdfs/MF-MFS-RK.pdf")
+					(name "Datasheet") "https://www.mouser.com/datasheet/3/72/1/PYU_RT_1_TO_0_01_ROHS_L.pdf")
 				(field
-					(name "Description") "Resistor, US symbol")
+					(name "Description") "Resistor, 1/4W 1.8K ohm 1% 50ppm")
 			)
 			(libsource
 				(lib "Device")
@@ -2236,11 +2236,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "MF1/4LCT52R182J ")
+				(value "RT1206FRE071K8L")
 			)
 			(property
 				(name "Mouser")
-				(value "660-MF1/4LCT52R182J ")
+				(value "603-RT1206FRE071K8L ")
 			)
 			(property
 				(name "Sheetname")
@@ -2262,7 +2262,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "765480d4-8cde-4b89-96dd-78dc1a7d3ca7")
+			(tstamps "6deb27ec-6e1d-4504-b750-4c3ee3a1bcfa")
 			(units
 				(unit
 					(name "A")
@@ -2280,20 +2280,20 @@
 		(comp
 			(ref "R11")
 			(value "1.8k")
-			(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal")
-			(datasheet "https://www.koaspeer.com/pdfs/MF-MFS-RK.pdf")
-			(description "Resistor, US symbol")
+			(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+			(datasheet "https://www.mouser.com/datasheet/3/72/1/PYU_RT_1_TO_0_01_ROHS_L.pdf")
+			(description "Resistor, 1/4W 1.8K ohm 1% 50ppm")
 			(fields
 				(field
-					(name "MPN") "MF1/4LCT52R182J ")
+					(name "MPN") "RT1206FRE071K8L")
 				(field
-					(name "Mouser") "660-MF1/4LCT52R182J ")
+					(name "Mouser") "603-RT1206FRE071K8L ")
 				(field
-					(name "Footprint") "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal")
+					(name "Footprint") "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
 				(field
-					(name "Datasheet") "https://www.koaspeer.com/pdfs/MF-MFS-RK.pdf")
+					(name "Datasheet") "https://www.mouser.com/datasheet/3/72/1/PYU_RT_1_TO_0_01_ROHS_L.pdf")
 				(field
-					(name "Description") "Resistor, US symbol")
+					(name "Description") "Resistor, 1/4W 1.8K ohm 1% 50ppm")
 			)
 			(libsource
 				(lib "Device")
@@ -2302,11 +2302,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "MF1/4LCT52R182J ")
+				(value "RT1206FRE071K8L")
 			)
 			(property
 				(name "Mouser")
-				(value "660-MF1/4LCT52R182J ")
+				(value "603-RT1206FRE071K8L ")
 			)
 			(property
 				(name "Sheetname")
@@ -2347,13 +2347,17 @@
 			(ref "TP1")
 			(value "1mV/C")
 			(footprint "TestPoint:TestPoint_Keystone_5005-5009_Compact")
+			(datasheet "https://www.mouser.com/datasheet/3/201/1/5005_5009.pdf")
 			(description "test point")
 			(fields
 				(field
+					(name "MPN") "5005")
+				(field
+					(name "Mouser") "534-5005 ")
+				(field
 					(name "Footprint") "TestPoint:TestPoint_Keystone_5005-5009_Compact")
 				(field
-					(name "Datasheet")
-				)
+					(name "Datasheet") "https://www.mouser.com/datasheet/3/201/1/5005_5009.pdf")
 				(field
 					(name "Description") "test point")
 			)
@@ -2361,6 +2365,14 @@
 				(lib "Connector")
 				(part "TestPoint")
 				(description "test point")
+			)
+			(property
+				(name "MPN")
+				(value "5005")
+			)
+			(property
+				(name "Mouser")
+				(value "534-5005 ")
 			)
 			(property
 				(name "Sheetname")
@@ -2398,13 +2410,17 @@
 			(ref "TP2")
 			(value "1mV/mA")
 			(footprint "TestPoint:TestPoint_Keystone_5005-5009_Compact")
+			(datasheet "https://www.mouser.com/datasheet/3/201/1/5005_5009.pdf")
 			(description "test point")
 			(fields
 				(field
+					(name "MPN") "5005")
+				(field
+					(name "Mouser") "534-5005 ")
+				(field
 					(name "Footprint") "TestPoint:TestPoint_Keystone_5005-5009_Compact")
 				(field
-					(name "Datasheet")
-				)
+					(name "Datasheet") "https://www.mouser.com/datasheet/3/201/1/5005_5009.pdf")
 				(field
 					(name "Description") "test point")
 			)
@@ -2412,6 +2428,14 @@
 				(lib "Connector")
 				(part "TestPoint")
 				(description "test point")
+			)
+			(property
+				(name "MPN")
+				(value "5005")
+			)
+			(property
+				(name "Mouser")
+				(value "534-5005 ")
 			)
 			(property
 				(name "Sheetname")
@@ -2447,15 +2471,19 @@
 		)
 		(comp
 			(ref "TP3")
-			(value "1mV/mA")
+			(value "-1mV/mA")
 			(footprint "TestPoint:TestPoint_Keystone_5005-5009_Compact")
+			(datasheet "https://www.mouser.com/datasheet/3/201/1/5005_5009.pdf")
 			(description "test point")
 			(fields
 				(field
+					(name "MPN") "5005")
+				(field
+					(name "Mouser") "534-5005 ")
+				(field
 					(name "Footprint") "TestPoint:TestPoint_Keystone_5005-5009_Compact")
 				(field
-					(name "Datasheet")
-				)
+					(name "Datasheet") "https://www.mouser.com/datasheet/3/201/1/5005_5009.pdf")
 				(field
 					(name "Description") "test point")
 			)
@@ -2463,6 +2491,14 @@
 				(lib "Connector")
 				(part "TestPoint")
 				(description "test point")
+			)
+			(property
+				(name "MPN")
+				(value "5005")
+			)
+			(property
+				(name "Mouser")
+				(value "534-5005 ")
 			)
 			(property
 				(name "Sheetname")
@@ -2574,7 +2610,7 @@
 		)
 		(comp
 			(ref "U1")
-			(value "LT3091xT7")
+			(value "LT3091")
 			(footprint "Package_TO_SOT_THT:TO-220-7_P2.54x3.7mm_StaggerOdd_Lead3.8mm_Vertical")
 			(datasheet "https://www.analog.com/media/en/technical-documentation/data-sheets/3091fa.pdf")
 			(description "–36V, 1.5A Negative Linear Adjustable Regulator with Programmable Current Limit, TO-220-7")
@@ -3345,7 +3381,7 @@
 		(net
 			(code "3")
 			(name "/AC_L")
-			(class "Default")
+			(class "PRIMARY,Default")
 			(node
 				(ref "F1")
 				(pin "1")
@@ -3361,7 +3397,7 @@
 		(net
 			(code "4")
 			(name "/AC_L_Fused")
-			(class "Default")
+			(class "PRIMARY,Default")
 			(node
 				(ref "CX1")
 				(pin "1")
@@ -3386,7 +3422,7 @@
 		(net
 			(code "5")
 			(name "/AC_N")
-			(class "Default")
+			(class "PRIMARY,Default")
 			(node
 				(ref "CX1")
 				(pin "2")
@@ -3411,6 +3447,59 @@
 		)
 		(net
 			(code "6")
+			(name "/Vin+")
+			(class "Default")
+			(node
+				(ref "C3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "6")
+				(pinfunction "IN_6")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "7")
+			(name "/Vin-")
+			(class "Default")
+			(node
+				(ref "C4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "~{SHDN}_3")
+				(pintype "input")
+			)
+			(node
+				(ref "U1")
+				(pin "4")
+				(pinfunction "IN_4")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "8")
 			(name "GND")
 			(class "Default")
 			(node
@@ -3526,7 +3615,7 @@
 			)
 		)
 		(net
-			(code "7")
+			(code "9")
 			(name "Net-(D1-A)")
 			(class "Default")
 			(node
@@ -3548,7 +3637,7 @@
 			)
 		)
 		(net
-			(code "8")
+			(code "10")
 			(name "Net-(D1-K)")
 			(class "Default")
 			(node
@@ -3575,7 +3664,7 @@
 			)
 		)
 		(net
-			(code "9")
+			(code "11")
 			(name "Net-(D3-A)")
 			(class "Default")
 			(node
@@ -3597,7 +3686,7 @@
 			)
 		)
 		(net
-			(code "10")
+			(code "12")
 			(name "Net-(D4-A)")
 			(class "Default")
 			(node
@@ -3624,7 +3713,7 @@
 			)
 		)
 		(net
-			(code "11")
+			(code "13")
 			(name "Net-(D5-A)")
 			(class "Default")
 			(node
@@ -3646,7 +3735,7 @@
 			)
 		)
 		(net
-			(code "12")
+			(code "14")
 			(name "Net-(D7-A)")
 			(class "Default")
 			(node
@@ -3668,7 +3757,7 @@
 			)
 		)
 		(net
-			(code "13")
+			(code "15")
 			(name "Net-(D9-K)")
 			(class "Default")
 			(node
@@ -3684,7 +3773,7 @@
 			)
 		)
 		(net
-			(code "14")
+			(code "16")
 			(name "Net-(D10-A)")
 			(class "Default")
 			(node
@@ -3700,7 +3789,7 @@
 			)
 		)
 		(net
-			(code "15")
+			(code "17")
 			(name "Net-(U1-ILIM)")
 			(class "Default")
 			(node
@@ -3716,7 +3805,7 @@
 			)
 		)
 		(net
-			(code "16")
+			(code "18")
 			(name "Net-(U1-IMONN)")
 			(class "Default")
 			(node
@@ -3738,39 +3827,7 @@
 			)
 		)
 		(net
-			(code "17")
-			(name "Net-(U1-IN)")
-			(class "Default")
-			(node
-				(ref "C4")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R1")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "R3")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "U1")
-				(pin "3")
-				(pinfunction "~{SHDN}_3")
-				(pintype "input")
-			)
-			(node
-				(ref "U1")
-				(pin "4")
-				(pinfunction "IN_4")
-				(pintype "power_in")
-			)
-		)
-		(net
-			(code "18")
+			(code "19")
 			(name "Net-(U1-SET)")
 			(class "Default")
 			(node
@@ -3787,27 +3844,6 @@
 				(ref "U1")
 				(pin "5")
 				(pinfunction "SET_5")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "19")
-			(name "Net-(U2-IN)")
-			(class "Default")
-			(node
-				(ref "C3")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "R2")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "U2")
-				(pin "6")
-				(pinfunction "IN_6")
 				(pintype "input")
 			)
 		)

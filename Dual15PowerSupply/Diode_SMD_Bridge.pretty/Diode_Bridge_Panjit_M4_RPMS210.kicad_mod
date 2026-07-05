@@ -1,0 +1,227 @@
+(footprint "Diode_Bridge_Panjit_M4_RPMS210"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SMD diode bridge DFS, see http://www.vishay.com/docs/88854/padlayouts.pdf")
+	(tags "DFS")
+	(property "Reference" "REF**"
+		(at 0 -5.1 0)
+		(layer "F.SilkS")
+		(uuid "7d7313cc-5e7b-4352-bd71-bc1021ce9bd1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Diode_Bridge_Panjit_M4_RPMS210"
+		(at 0 5.2 0)
+		(layer "F.Fab")
+		(uuid "531fc77b-a5e1-4bf1-a304-94df7599964e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b7b7cc3b-a071-4de9-bf1d-3924024de15c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "356f0c38-3e91-4367-b94b-87f9a91f6e23")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.975 -4.075)
+		(end 3.975 -4.075)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6095cdbe-fed5-4eed-aa0e-88cc5c547630")
+	)
+	(fp_line
+		(start -3.975 4.075)
+		(end 3.975 4.075)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d4b2ed9b-3ac0-4fb6-970c-d5111c96a83a")
+	)
+	(fp_poly
+		(pts
+			(xy -4.72 -3.77) (xy -5 -3.77) (xy -4.72 -4.05) (xy -4.72 -3.77)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "c771f45f-8a5f-4e3d-82cd-35fadd759524")
+	)
+	(fp_line
+		(start -6 -4.5)
+		(end -6 4.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "539650a9-3b03-412d-a75d-69766b83833b")
+	)
+	(fp_line
+		(start -6 -4.5)
+		(end 6 -4.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5cd04291-04ad-41e7-a269-f0f5edec54c2")
+	)
+	(fp_line
+		(start 6 4.5)
+		(end -6 4.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "886c2c5c-76cd-41ce-a8f1-9100e5a8d039")
+	)
+	(fp_line
+		(start 6 4.5)
+		(end 6 -4.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "45506dd6-2987-4241-a562-73d4ef8cdcd5")
+	)
+	(fp_line
+		(start -3.975 4.075)
+		(end -3.975 -3.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "54daa8fd-c4ab-498e-8f36-2de1470ca958")
+	)
+	(fp_line
+		(start -3.2 -3.3)
+		(end -2.3 -4.075)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e4b22fc4-616d-4dcc-ac30-5b3e6aea6e0f")
+	)
+	(fp_line
+		(start -2.3 -4.075)
+		(end 3.2 -4.075)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e0e0aa27-32fb-4fb0-8100-79f08f003564")
+	)
+	(fp_line
+		(start 3.2 4.2)
+		(end -3.2 4.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9d47a922-4575-4e8f-9280-b6b69cd3ba1d")
+	)
+	(fp_line
+		(start 3.975 -4.075)
+		(end 3.975 4.075)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d08356eb-51ad-4672-b537-1140b3ba4196")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.065 0)
+		(layer "F.Fab")
+		(uuid "59b60320-f58d-4d8d-9909-0884953a24fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -4.8 -2.55)
+		(size 1.8 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c79a7ba9-2981-46d1-be23-cb809acd3265")
+	)
+	(pad "2" smd rect
+		(at -4.8 2.55)
+		(size 1.8 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "16287b53-7422-49e6-a492-3eaf3c76ac37")
+	)
+	(pad "3" smd rect
+		(at 4.8 2.55)
+		(size 1.8 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4e9f8a30-83f4-48ee-adb3-c31139bd56c7")
+	)
+	(pad "4" smd rect
+		(at 4.8 -2.55)
+		(size 1.8 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a6d5a13e-6dc5-498c-a918-bf906e9082ee")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/Diode_Bridge_Vishay_DFS.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
