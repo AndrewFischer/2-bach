@@ -5581,7 +5581,7 @@
 				)
 			)
 		)
-		(property "Value" "LT3091xT7"
+		(property "Value" "LT3091"
 			(at 173.99 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
