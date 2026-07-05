@@ -627,12 +627,42 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser",
+          "name": "Mouser",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -677,7 +707,7 @@
         "uuid": "1db951e7-0e9f-473e-a215-630d2f8a0859"
       }
     ],
-    "used_designators": "TR1,F1A1,TP1-3,F1,CX1,U1-2,C1-8,D1-4,D11-12,#PWR1,#FLG1-2,J1-2,#SYM1,R1-12",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

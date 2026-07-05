@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "/Users/Andrew/Documents/ghprojects/2-bach/Dual15PowerSupply/Dual15PowerSupply.kicad_sch")
-		(date "2026-07-05T12:58:02")
+		(date "2026-07-05T17:12:06")
 		(tool "Eeschema 10.0.3")
 		(sheet
 			(number "1")
@@ -650,46 +650,34 @@
 		)
 		(comp
 			(ref "D1")
-			(value "UF4007")
-			(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
-			(datasheet "https://diotec.com/request/datasheet/uf4001.pdf")
-			(description "Diode")
+			(value "RPMS210")
+			(footprint "Diode_SMD_Bridge:Diode_Bridge_Panjit_M4_RPMS210")
+			(datasheet "https://www.mouser.com/datasheet/3/3736/1/RPMS210.pdf")
+			(description "Glass Passivated Fast Recovery Bridge Rectifier(2A/1000V)")
 			(fields
 				(field
-					(name "Sim.Device") "D")
+					(name "MPN") "RPMS210_R2_00601")
 				(field
-					(name "Sim.Pins") "1=K 2=A")
+					(name "Mouser") "241-RPMS210_R2_00601 ")
 				(field
-					(name "MPN") "UF4007")
+					(name "Footprint") "Diode_SMD_Bridge:Diode_Bridge_Panjit_M4_RPMS210")
 				(field
-					(name "Mouser") "637-UF4007")
+					(name "Datasheet") "https://www.mouser.com/datasheet/3/3736/1/RPMS210.pdf")
 				(field
-					(name "Footprint") "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
-				(field
-					(name "Datasheet") "https://diotec.com/request/datasheet/uf4001.pdf")
-				(field
-					(name "Description") "Diode")
+					(name "Description") "Glass Passivated Fast Recovery Bridge Rectifier(2A/1000V)")
 			)
 			(libsource
 				(lib "Device")
-				(part "D")
-				(description "Diode")
-			)
-			(property
-				(name "Sim.Device")
-				(value "D")
-			)
-			(property
-				(name "Sim.Pins")
-				(value "1=K 2=A")
+				(part "D_Bridge_+-AA")
+				(description "Diode bridge, +ve/-ve/AC/AC")
 			)
 			(property
 				(name "MPN")
-				(value "UF4007")
+				(value "RPMS210_R2_00601")
 			)
 			(property
 				(name "Mouser")
-				(value "637-UF4007")
+				(value "241-RPMS210_R2_00601 ")
 			)
 			(property
 				(name "Sheetname")
@@ -701,26 +689,32 @@
 			)
 			(property
 				(name "ki_keywords")
-				(value "diode")
+				(value "rectifier ACDC")
 			)
 			(property
 				(name "ki_fp_filters")
-				(value "TO-???* *_Diode_* *SingleDiode* D_*")
+				(value "D*Bridge* D*Rectifier*")
 			)
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "269996ed-e9c9-498b-8ead-558489a75288")
+			(tstamps "f5aaf9de-3687-4709-ac69-1de0aa63a6f1")
 			(units
 				(unit
 					(name "A")
 					(pins
 						(pin
-							(num "1")
+							(num "2")
 						)
 						(pin
-							(num "2")
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
 						)
 					)
 				)
@@ -728,46 +722,34 @@
 		)
 		(comp
 			(ref "D2")
-			(value "UF4007")
-			(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
-			(datasheet "https://diotec.com/request/datasheet/uf4001.pdf")
-			(description "Diode")
+			(value "RPMS210")
+			(footprint "Diode_SMD_Bridge:Diode_Bridge_Panjit_M4_RPMS210")
+			(datasheet "https://www.mouser.com/datasheet/3/3736/1/RPMS210.pdf")
+			(description "Diode bridge, +ve/-ve/AC/AC")
 			(fields
 				(field
-					(name "Sim.Device") "D")
+					(name "MPN") "RPMS210_R2_00601")
 				(field
-					(name "Sim.Pins") "1=K 2=A")
+					(name "Mouser") "241-RPMS210_R2_00601")
 				(field
-					(name "MPN") "UF4007")
+					(name "Footprint") "Diode_SMD_Bridge:Diode_Bridge_Panjit_M4_RPMS210")
 				(field
-					(name "Mouser") "637-UF4007")
+					(name "Datasheet") "https://www.mouser.com/datasheet/3/3736/1/RPMS210.pdf")
 				(field
-					(name "Footprint") "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
-				(field
-					(name "Datasheet") "https://diotec.com/request/datasheet/uf4001.pdf")
-				(field
-					(name "Description") "Diode")
+					(name "Description") "Diode bridge, +ve/-ve/AC/AC")
 			)
 			(libsource
 				(lib "Device")
-				(part "D")
-				(description "Diode")
-			)
-			(property
-				(name "Sim.Device")
-				(value "D")
-			)
-			(property
-				(name "Sim.Pins")
-				(value "1=K 2=A")
+				(part "D_Bridge_+-AA")
+				(description "Diode bridge, +ve/-ve/AC/AC")
 			)
 			(property
 				(name "MPN")
-				(value "UF4007")
+				(value "RPMS210_R2_00601")
 			)
 			(property
 				(name "Mouser")
-				(value "637-UF4007")
+				(value "241-RPMS210_R2_00601")
 			)
 			(property
 				(name "Sheetname")
@@ -779,26 +761,32 @@
 			)
 			(property
 				(name "ki_keywords")
-				(value "diode")
+				(value "rectifier ACDC")
 			)
 			(property
 				(name "ki_fp_filters")
-				(value "TO-???* *_Diode_* *SingleDiode* D_*")
+				(value "D*Bridge* D*Rectifier*")
 			)
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "42aa0f52-e78e-452f-93b9-aad75dd0f4d0")
+			(tstamps "ea5743df-e329-40f5-9a78-fb618f246520")
 			(units
 				(unit
 					(name "A")
 					(pins
 						(pin
-							(num "1")
+							(num "2")
 						)
 						(pin
-							(num "2")
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
 						)
 					)
 				)
@@ -806,474 +794,6 @@
 		)
 		(comp
 			(ref "D3")
-			(value "UF4007")
-			(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
-			(datasheet "https://diotec.com/request/datasheet/uf4001.pdf")
-			(description "Diode")
-			(fields
-				(field
-					(name "Sim.Device") "D")
-				(field
-					(name "Sim.Pins") "1=K 2=A")
-				(field
-					(name "MPN") "UF4007")
-				(field
-					(name "Mouser") "637-UF4007")
-				(field
-					(name "Footprint") "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
-				(field
-					(name "Datasheet") "https://diotec.com/request/datasheet/uf4001.pdf")
-				(field
-					(name "Description") "Diode")
-			)
-			(libsource
-				(lib "Device")
-				(part "D")
-				(description "Diode")
-			)
-			(property
-				(name "Sim.Device")
-				(value "D")
-			)
-			(property
-				(name "Sim.Pins")
-				(value "1=K 2=A")
-			)
-			(property
-				(name "MPN")
-				(value "UF4007")
-			)
-			(property
-				(name "Mouser")
-				(value "637-UF4007")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Dual15PowerSupply.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "diode")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "TO-???* *_Diode_* *SingleDiode* D_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "d34275b2-b9c2-4335-af54-26dda89df666")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "D4")
-			(value "UF4007")
-			(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
-			(datasheet "https://diotec.com/request/datasheet/uf4001.pdf")
-			(description "Diode")
-			(fields
-				(field
-					(name "Sim.Device") "D")
-				(field
-					(name "Sim.Pins") "1=K 2=A")
-				(field
-					(name "MPN") "UF4007")
-				(field
-					(name "Mouser") "637-UF4007")
-				(field
-					(name "Footprint") "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
-				(field
-					(name "Datasheet") "https://diotec.com/request/datasheet/uf4001.pdf")
-				(field
-					(name "Description") "Diode")
-			)
-			(libsource
-				(lib "Device")
-				(part "D")
-				(description "Diode")
-			)
-			(property
-				(name "Sim.Device")
-				(value "D")
-			)
-			(property
-				(name "Sim.Pins")
-				(value "1=K 2=A")
-			)
-			(property
-				(name "MPN")
-				(value "UF4007")
-			)
-			(property
-				(name "Mouser")
-				(value "637-UF4007")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Dual15PowerSupply.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "diode")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "TO-???* *_Diode_* *SingleDiode* D_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "9642c9d4-29c1-4a98-89a9-dc45331e0910")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "D5")
-			(value "UF4007")
-			(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
-			(datasheet "https://diotec.com/request/datasheet/uf4001.pdf")
-			(description "Diode")
-			(fields
-				(field
-					(name "Sim.Device") "D")
-				(field
-					(name "Sim.Pins") "1=K 2=A")
-				(field
-					(name "MPN") "UF4007")
-				(field
-					(name "Mouser") "637-UF4007")
-				(field
-					(name "Footprint") "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
-				(field
-					(name "Datasheet") "https://diotec.com/request/datasheet/uf4001.pdf")
-				(field
-					(name "Description") "Diode")
-			)
-			(libsource
-				(lib "Device")
-				(part "D")
-				(description "Diode")
-			)
-			(property
-				(name "Sim.Device")
-				(value "D")
-			)
-			(property
-				(name "Sim.Pins")
-				(value "1=K 2=A")
-			)
-			(property
-				(name "MPN")
-				(value "UF4007")
-			)
-			(property
-				(name "Mouser")
-				(value "637-UF4007")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Dual15PowerSupply.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "diode")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "TO-???* *_Diode_* *SingleDiode* D_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "1afaa876-9e6e-4a74-a966-52b31fa0a127")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "D6")
-			(value "UF4007")
-			(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
-			(datasheet "https://diotec.com/request/datasheet/uf4001.pdf")
-			(description "Diode")
-			(fields
-				(field
-					(name "Sim.Device") "D")
-				(field
-					(name "Sim.Pins") "1=K 2=A")
-				(field
-					(name "MPN") "UF4007")
-				(field
-					(name "Mouser") "637-UF4007")
-				(field
-					(name "Footprint") "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
-				(field
-					(name "Datasheet") "https://diotec.com/request/datasheet/uf4001.pdf")
-				(field
-					(name "Description") "Diode")
-			)
-			(libsource
-				(lib "Device")
-				(part "D")
-				(description "Diode")
-			)
-			(property
-				(name "Sim.Device")
-				(value "D")
-			)
-			(property
-				(name "Sim.Pins")
-				(value "1=K 2=A")
-			)
-			(property
-				(name "MPN")
-				(value "UF4007")
-			)
-			(property
-				(name "Mouser")
-				(value "637-UF4007")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Dual15PowerSupply.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "diode")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "TO-???* *_Diode_* *SingleDiode* D_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "8fde8431-a78c-4f4e-9f53-36fab6a448ee")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "D7")
-			(value "UF4007")
-			(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
-			(datasheet "https://diotec.com/request/datasheet/uf4001.pdf")
-			(description "Diode")
-			(fields
-				(field
-					(name "Sim.Device") "D")
-				(field
-					(name "Sim.Pins") "1=K 2=A")
-				(field
-					(name "MPN") "UF4007")
-				(field
-					(name "Mouser") "637-UF4007")
-				(field
-					(name "Footprint") "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
-				(field
-					(name "Datasheet") "https://diotec.com/request/datasheet/uf4001.pdf")
-				(field
-					(name "Description") "Diode")
-			)
-			(libsource
-				(lib "Device")
-				(part "D")
-				(description "Diode")
-			)
-			(property
-				(name "Sim.Device")
-				(value "D")
-			)
-			(property
-				(name "Sim.Pins")
-				(value "1=K 2=A")
-			)
-			(property
-				(name "MPN")
-				(value "UF4007")
-			)
-			(property
-				(name "Mouser")
-				(value "637-UF4007")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Dual15PowerSupply.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "diode")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "TO-???* *_Diode_* *SingleDiode* D_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "a8c64420-003b-4191-a1b8-9f061335b665")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "D8")
-			(value "UF4007")
-			(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
-			(datasheet "https://diotec.com/request/datasheet/uf4001.pdf")
-			(description "Diode")
-			(fields
-				(field
-					(name "Sim.Device") "D")
-				(field
-					(name "Sim.Pins") "1=K 2=A")
-				(field
-					(name "MPN") "UF4007")
-				(field
-					(name "Mouser") "637-UF4007")
-				(field
-					(name "Footprint") "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
-				(field
-					(name "Datasheet") "https://diotec.com/request/datasheet/uf4001.pdf")
-				(field
-					(name "Description") "Diode")
-			)
-			(libsource
-				(lib "Device")
-				(part "D")
-				(description "Diode")
-			)
-			(property
-				(name "Sim.Device")
-				(value "D")
-			)
-			(property
-				(name "Sim.Pins")
-				(value "1=K 2=A")
-			)
-			(property
-				(name "MPN")
-				(value "UF4007")
-			)
-			(property
-				(name "Mouser")
-				(value "637-UF4007")
-			)
-			(property
-				(name "Sheetname")
-				(value "Root")
-			)
-			(property
-				(name "Sheetfile")
-				(value "Dual15PowerSupply.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "diode")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "TO-???* *_Diode_* *SingleDiode* D_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "419d8366-c3cb-4d58-9c58-128b36d1aa22")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "D9")
 			(value "LED")
 			(footprint "LED_THT:LED_D3.0mm")
 			(datasheet "https://www.mouser.com/catalog/specsheets/lite-on_lites12747-1.pdf")
@@ -1345,7 +865,7 @@
 			)
 		)
 		(comp
-			(ref "D10")
+			(ref "D4")
 			(value "LED")
 			(footprint "LED_THT:LED_D3.0mm")
 			(datasheet "https://www.mouser.com/catalog/specsheets/lite-on_lites12747-1.pdf")
@@ -2973,19 +2493,17 @@
 		)
 		(libpart
 			(lib "Device")
-			(part "D")
-			(description "Diode")
+			(part "D_Bridge_+-AA")
+			(description "Diode bridge, +ve/-ve/AC/AC")
 			(footprints
-				(fp "TO-???*")
-				(fp "*_Diode_*")
-				(fp "*SingleDiode*")
-				(fp "D_*")
+				(fp "D*Bridge*")
+				(fp "D*Rectifier*")
 			)
 			(fields
 				(field
 					(name "Reference") "D")
 				(field
-					(name "Value") "D")
+					(name "Value") "D_Bridge_+-AA")
 				(field
 					(name "Footprint")
 				)
@@ -2993,21 +2511,27 @@
 					(name "Datasheet")
 				)
 				(field
-					(name "Description") "Diode")
-				(field
-					(name "Sim.Device") "D")
-				(field
-					(name "Sim.Pins") "1=K 2=A")
+					(name "Description") "Diode bridge, +ve/-ve/AC/AC")
 			)
 			(pins
 				(pin
 					(num "1")
-					(name "K")
+					(name "+")
 					(type "passive")
 				)
 				(pin
 					(num "2")
-					(name "A")
+					(name "-")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "")
 					(type "passive")
 				)
 			)
@@ -3327,7 +2851,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "D9")
+				(ref "D3")
 				(pin "2")
 				(pinfunction "A_2")
 				(pintype "passive")
@@ -3360,7 +2884,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "D10")
+				(ref "D4")
 				(pin "1")
 				(pinfunction "K_1")
 				(pintype "passive")
@@ -3543,27 +3067,15 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "D1")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "passive")
+			)
+			(node
 				(ref "D2")
-				(pin "2")
-				(pinfunction "A_2")
-				(pintype "passive")
-			)
-			(node
-				(ref "D3")
 				(pin "1")
-				(pinfunction "K_1")
-				(pintype "passive")
-			)
-			(node
-				(ref "D6")
-				(pin "2")
-				(pinfunction "A_2")
-				(pintype "passive")
-			)
-			(node
-				(ref "D7")
-				(pin "1")
-				(pinfunction "K_1")
+				(pinfunction "+_1")
 				(pintype "passive")
 			)
 			(node
@@ -3616,29 +3128,7 @@
 		)
 		(net
 			(code "9")
-			(name "Net-(D1-A)")
-			(class "Default")
-			(node
-				(ref "D1")
-				(pin "2")
-				(pinfunction "A_2")
-				(pintype "passive")
-			)
-			(node
-				(ref "D2")
-				(pin "1")
-				(pinfunction "K_1")
-				(pintype "passive")
-			)
-			(node
-				(ref "TR1")
-				(pin "7")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "10")
-			(name "Net-(D1-K)")
+			(name "Net-(D1-+)")
 			(class "Default")
 			(node
 				(ref "C1")
@@ -3648,13 +3138,7 @@
 			(node
 				(ref "D1")
 				(pin "1")
-				(pinfunction "K_1")
-				(pintype "passive")
-			)
-			(node
-				(ref "D5")
-				(pin "1")
-				(pinfunction "K_1")
+				(pinfunction "+_1")
 				(pintype "passive")
 			)
 			(node
@@ -3664,30 +3148,38 @@
 			)
 		)
 		(net
-			(code "11")
-			(name "Net-(D3-A)")
+			(code "10")
+			(name "Net-(D1-Pad3)")
 			(class "Default")
 			(node
-				(ref "D3")
-				(pin "2")
-				(pinfunction "A_2")
-				(pintype "passive")
-			)
-			(node
-				(ref "D4")
-				(pin "1")
-				(pinfunction "K_1")
+				(ref "D1")
+				(pin "3")
 				(pintype "passive")
 			)
 			(node
 				(ref "TR1")
-				(pin "5")
+				(pin "7")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "11")
+			(name "Net-(D1-Pad4)")
+			(class "Default")
+			(node
+				(ref "D1")
+				(pin "4")
+				(pintype "passive")
+			)
+			(node
+				(ref "TR1")
+				(pin "8")
 				(pintype "passive")
 			)
 		)
 		(net
 			(code "12")
-			(name "Net-(D4-A)")
+			(name "Net-(D2--)")
 			(class "Default")
 			(node
 				(ref "C2")
@@ -3695,15 +3187,9 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "D4")
+				(ref "D2")
 				(pin "2")
-				(pinfunction "A_2")
-				(pintype "passive")
-			)
-			(node
-				(ref "D8")
-				(pin "2")
-				(pinfunction "A_2")
+				(pinfunction "-_2")
 				(pintype "passive")
 			)
 			(node
@@ -3714,40 +3200,26 @@
 		)
 		(net
 			(code "13")
-			(name "Net-(D5-A)")
+			(name "Net-(D2-Pad3)")
 			(class "Default")
 			(node
-				(ref "D5")
-				(pin "2")
-				(pinfunction "A_2")
-				(pintype "passive")
-			)
-			(node
-				(ref "D6")
-				(pin "1")
-				(pinfunction "K_1")
+				(ref "D2")
+				(pin "3")
 				(pintype "passive")
 			)
 			(node
 				(ref "TR1")
-				(pin "8")
+				(pin "5")
 				(pintype "passive")
 			)
 		)
 		(net
 			(code "14")
-			(name "Net-(D7-A)")
+			(name "Net-(D2-Pad4)")
 			(class "Default")
 			(node
-				(ref "D7")
-				(pin "2")
-				(pinfunction "A_2")
-				(pintype "passive")
-			)
-			(node
-				(ref "D8")
-				(pin "1")
-				(pinfunction "K_1")
+				(ref "D2")
+				(pin "4")
 				(pintype "passive")
 			)
 			(node
@@ -3758,10 +3230,10 @@
 		)
 		(net
 			(code "15")
-			(name "Net-(D9-K)")
+			(name "Net-(D3-K)")
 			(class "Default")
 			(node
-				(ref "D9")
+				(ref "D3")
 				(pin "1")
 				(pinfunction "K_1")
 				(pintype "passive")
@@ -3774,10 +3246,10 @@
 		)
 		(net
 			(code "16")
-			(name "Net-(D10-A)")
+			(name "Net-(D4-A)")
 			(class "Default")
 			(node
-				(ref "D10")
+				(ref "D4")
 				(pin "2")
 				(pinfunction "A_2")
 				(pintype "passive")
