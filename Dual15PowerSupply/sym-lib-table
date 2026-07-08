@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "Transformer_Hammond") (type "KiCad") (uri "${KIPRJMOD}/Transformer_Hammond.kicad_sym") (options "") (descr ""))
 	(lib (name "Regulator_Linear_LT") (type "KiCad") (uri "${KIPRJMOD}/Regulator_Linear_LT.kicad_sym") (options "") (descr ""))
+	(lib (name "Fuseholder_Wurth_FSH") (type "KiCad") (uri "${KIPRJMOD}/KiCad_WR-FSH (rev26a)/symbols") (options "") (descr ""))
 )

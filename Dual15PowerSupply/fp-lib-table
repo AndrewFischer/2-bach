@@ -4,4 +4,6 @@
 	(lib (name "Fuseholder_Wurth") (type "KiCad") (uri "${KIPRJMOD}/Fuseholder_Wurth_WR-FSH.pretty") (options "") (descr ""))
 	(lib (name "TerminalBlock_762") (type "KiCad") (uri "/Users/Andrew/Documents/ghprojects/2-bach/RectifierBoard/TerminalBlock_762.pretty") (options "") (descr ""))
 	(lib (name "Diode_SMD_Bridge") (type "KiCad") (uri "${KIPRJMOD}/Diode_SMD_Bridge.pretty") (options "") (descr ""))
+	(lib (name "Fuseholder_Wurth_WR-FSH") (type "KiCad") (uri "${KIPRJMOD}/KiCad_WR-FSH (rev26a)/footprints/Connector_THT_Wurth.pretty") (options "") (descr ""))
+	(lib (name "TerminalBlock_Phoenix") (type "KiCad") (uri "${KIPRJMOD}/Terminal_Phoenix1731721") (options "") (descr ""))
 )

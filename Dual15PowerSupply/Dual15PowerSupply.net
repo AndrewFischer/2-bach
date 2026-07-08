@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "/Users/Andrew/Documents/ghprojects/2-bach/Dual15PowerSupply/Dual15PowerSupply.kicad_sch")
-		(date "2026-07-05T17:12:06")
+		(date "2026-07-06T11:38:59")
 		(tool "Eeschema 10.0.3")
 		(sheet
 			(number "1")
@@ -11,8 +11,8 @@
 			(title_block
 				(title)
 				(company)
-				(rev)
-				(date)
+				(rev "0.1.3")
+				(date "2026-07-06")
 				(source "Dual15PowerSupply.kicad_sch")
 				(comment
 					(number "1")
@@ -56,21 +56,21 @@
 	(components
 		(comp
 			(ref "C1")
-			(value "2200µF")
-			(footprint "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm")
-			(description "Polarized capacitor, US symbol")
+			(value "1000µF")
+			(footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
+			(datasheet "https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf")
+			(description "Panasonic FR-A")
 			(fields
 				(field
-					(name "MPN") "UPW1V222MHD")
+					(name "MPN") "EEU-FR1V102")
 				(field
-					(name "Mouser") "647-UPW1V222MHD")
+					(name "Mouser") "667-EEU-FR1V102 ")
 				(field
-					(name "Footprint") "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm")
+					(name "Footprint") "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
 				(field
-					(name "Datasheet")
-				)
+					(name "Datasheet") "https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf")
 				(field
-					(name "Description") "Polarized capacitor, US symbol")
+					(name "Description") "Panasonic FR-A")
 			)
 			(libsource
 				(lib "Device")
@@ -79,11 +79,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "UPW1V222MHD")
+				(value "EEU-FR1V102")
 			)
 			(property
 				(name "Mouser")
-				(value "647-UPW1V222MHD")
+				(value "667-EEU-FR1V102 ")
 			)
 			(property
 				(name "Sheetname")
@@ -122,19 +122,19 @@
 		)
 		(comp
 			(ref "C2")
-			(value "2200µF")
-			(footprint "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm")
+			(value "1000µF")
+			(footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
+			(datasheet "https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf")
 			(description "Polarized capacitor, US symbol")
 			(fields
 				(field
-					(name "MPN") "UPW1V222MHD")
+					(name "MPN") "EEU-FR1V102 ")
 				(field
-					(name "Mouser") "647-UPW1V222MHD")
+					(name "Mouser") "667-EEU-FR1V102 ")
 				(field
-					(name "Footprint") "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm")
+					(name "Footprint") "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
 				(field
-					(name "Datasheet")
-				)
+					(name "Datasheet") "https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf")
 				(field
 					(name "Description") "Polarized capacitor, US symbol")
 			)
@@ -145,11 +145,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "UPW1V222MHD")
+				(value "EEU-FR1V102 ")
 			)
 			(property
 				(name "Mouser")
-				(value "647-UPW1V222MHD")
+				(value "667-EEU-FR1V102 ")
 			)
 			(property
 				(name "Sheetname")
@@ -189,20 +189,20 @@
 		(comp
 			(ref "C3")
 			(value "2200µF")
-			(footprint "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm")
-			(description "Polarized capacitor, US symbol")
+			(footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
+			(datasheet "https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf")
+			(description "Panasonic FR-A Polarized capacitor")
 			(fields
 				(field
-					(name "MPN") "UPW1V222MHD")
+					(name "MPN") "EEU-FR1V222L ")
 				(field
-					(name "Mouser") "647-UPW1V222MHD")
+					(name "Mouser") "667-EEU-FR1V222L ")
 				(field
-					(name "Footprint") "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm")
+					(name "Footprint") "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
 				(field
-					(name "Datasheet")
-				)
+					(name "Datasheet") "https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf")
 				(field
-					(name "Description") "Polarized capacitor, US symbol")
+					(name "Description") "Panasonic FR-A Polarized capacitor")
 			)
 			(libsource
 				(lib "Device")
@@ -211,11 +211,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "UPW1V222MHD")
+				(value "EEU-FR1V222L ")
 			)
 			(property
 				(name "Mouser")
-				(value "647-UPW1V222MHD")
+				(value "667-EEU-FR1V222L ")
 			)
 			(property
 				(name "Sheetname")
@@ -255,20 +255,20 @@
 		(comp
 			(ref "C4")
 			(value "2200µF")
-			(footprint "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm")
-			(description "Polarized capacitor, US symbol")
+			(footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
+			(datasheet "https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf")
+			(description "Panasonic FR-A Polarized capacitor")
 			(fields
 				(field
-					(name "MPN") "UPW1V222MHD")
+					(name "MPN") "EEU-FR1V222L ")
 				(field
-					(name "Mouser") "647-UPW1V222MHD")
+					(name "Mouser") "667-EEU-FR1V222L ")
 				(field
-					(name "Footprint") "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm")
+					(name "Footprint") "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
 				(field
-					(name "Datasheet")
-				)
+					(name "Datasheet") "https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf")
 				(field
-					(name "Description") "Polarized capacitor, US symbol")
+					(name "Description") "Panasonic FR-A Polarized capacitor")
 			)
 			(libsource
 				(lib "Device")
@@ -277,11 +277,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "UPW1V222MHD")
+				(value "EEU-FR1V222L ")
 			)
 			(property
 				(name "Mouser")
-				(value "647-UPW1V222MHD")
+				(value "667-EEU-FR1V222L ")
 			)
 			(property
 				(name "Sheetname")
@@ -303,7 +303,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "3fbc1da1-57d8-45a7-b2a4-bc942f44beb3")
+			(tstamps "73978271-cb9c-4aca-b0f5-6d57edf30e25")
 			(units
 				(unit
 					(name "A")
@@ -939,7 +939,7 @@
 		(comp
 			(ref "F1")
 			(value "FuseHolder")
-			(footprint "Fuseholder_Wurth:Wurth_WR-FSH_696105003002")
+			(footprint "Fuseholder_Wurth_WR-FSH:J_Wurth_WR-FSH_696105003002")
 			(datasheet "https://www.we-online.com/components/products/datasheet/696105003002.pdf")
 			(description "Fuseholder, Würth WR-FSH, 5 mm x 20 mm")
 			(fields
@@ -948,7 +948,7 @@
 				(field
 					(name "Mouser") "710-696105003002 ")
 				(field
-					(name "Footprint") "Fuseholder_Wurth:Wurth_WR-FSH_696105003002")
+					(name "Footprint") "Fuseholder_Wurth_WR-FSH:J_Wurth_WR-FSH_696105003002")
 				(field
 					(name "Datasheet") "https://www.we-online.com/components/products/datasheet/696105003002.pdf")
 				(field
@@ -1005,20 +1005,20 @@
 		(comp
 			(ref "J1")
 			(value "120VAC")
-			(footprint "TerminalBlock_762:MKDS 5_2-7,62")
-			(description "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+			(footprint "TerminalBlock_Phoenix:PHOENIX_1731721")
+			(description "Terminal Block, GMKDS 3/ 2-7,62")
 			(fields
 				(field
-					(name "MPN") "1717729")
+					(name "MPN") "1731721")
 				(field
-					(name "Mouser") "651-1717729 ")
+					(name "Mouser") "651-1731721 ")
 				(field
-					(name "Footprint") "TerminalBlock_762:MKDS 5_2-7,62")
+					(name "Footprint") "TerminalBlock_Phoenix:PHOENIX_1731721")
 				(field
 					(name "Datasheet")
 				)
 				(field
-					(name "Description") "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+					(name "Description") "Terminal Block, GMKDS 3/ 2-7,62")
 			)
 			(libsource
 				(lib "Connector")
@@ -1027,11 +1027,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "1717729")
+				(value "1731721")
 			)
 			(property
 				(name "Mouser")
-				(value "651-1717729 ")
+				(value "651-1731721 ")
 			)
 			(property
 				(name "Sheetname")
@@ -2138,7 +2138,7 @@
 				(field
 					(name "MPN") "LT3091ET7")
 				(field
-					(name "Mouser") "584-LT3091ET7#PBF ")
+					(name "Mouser") "584-LT3091ET7#PBF")
 				(field
 					(name "Footprint") "Package_TO_SOT_THT:TO-220-7_P2.54x3.7mm_StaggerOdd_Lead3.8mm_Vertical")
 				(field
@@ -2157,7 +2157,7 @@
 			)
 			(property
 				(name "Mouser")
-				(value "584-LT3091ET7#PBF ")
+				(value "584-LT3091ET7#PBF")
 			)
 			(property
 				(name "Sheetname")
@@ -2212,20 +2212,20 @@
 		(comp
 			(ref "U2")
 			(value "LT3081")
-			(footprint "Package_TO_SOT_THT:TO-220-7_P2.54x5.08mm_StaggerOdd_Lead3.08mm_Vertical")
+			(footprint "Package_TO_SOT_THT:TO-220-7_P2.54x3.7mm_StaggerOdd_Lead3.8mm_Vertical")
+			(datasheet "https://www.analog.com/media/en/technical-documentation/data-sheets/3081fc.pdf")
+			(description "1.5A low dropout linear regulator")
 			(fields
 				(field
 					(name "MPN") "LT3081ET7")
 				(field
 					(name "Mouser") "584-LT3081ET7#PBF ")
 				(field
-					(name "Footprint") "Package_TO_SOT_THT:TO-220-7_P2.54x5.08mm_StaggerOdd_Lead3.08mm_Vertical")
+					(name "Footprint") "Package_TO_SOT_THT:TO-220-7_P2.54x3.7mm_StaggerOdd_Lead3.8mm_Vertical")
 				(field
-					(name "Datasheet")
-				)
+					(name "Datasheet") "https://www.analog.com/media/en/technical-documentation/data-sheets/3081fc.pdf")
 				(field
-					(name "Description")
-				)
+					(name "Description") "1.5A low dropout linear regulator")
 			)
 			(libsource
 				(lib "Regulator_Linear_LT")
@@ -2858,8 +2858,8 @@
 			)
 			(node
 				(ref "J2")
-				(pin "1")
-				(pinfunction "Pin_1_1")
+				(pin "3")
+				(pinfunction "Pin_3_3")
 				(pintype "passive")
 			)
 			(node
@@ -2891,8 +2891,8 @@
 			)
 			(node
 				(ref "J2")
-				(pin "3")
-				(pinfunction "Pin_3_3")
+				(pin "1")
+				(pinfunction "Pin_1_1")
 				(pintype "passive")
 			)
 			(node
@@ -2913,8 +2913,8 @@
 			)
 			(node
 				(ref "J1")
-				(pin "2")
-				(pinfunction "Pin_2_2")
+				(pin "1")
+				(pinfunction "Pin_1_1")
 				(pintype "passive")
 			)
 		)
@@ -2954,8 +2954,8 @@
 			)
 			(node
 				(ref "J1")
-				(pin "1")
-				(pinfunction "Pin_1_1")
+				(pin "2")
+				(pinfunction "Pin_2_2")
 				(pintype "passive")
 			)
 			(node
