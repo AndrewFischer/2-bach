@@ -4555,14 +4555,14 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "4e9d6e0b-d050-49e6-817b-dde9f787ca96")
 		(at 176 120 -90)
-		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R5"
-			(at 3.5 0 90)
+			(at 0 -1.65 270)
 			(layer "F.SilkS")
 			(uuid "f4cc5637-878d-46cc-a7ee-923f54aedcea")
 			(effects
@@ -4573,7 +4573,7 @@
 			)
 		)
 		(property "Value" "4.99K"
-			(at 7 0 90)
+			(at 0 1.65 270)
 			(layer "F.Fab")
 			(uuid "0225101f-83e7-4f66-aaf2-4b574c081311")
 			(effects
@@ -4583,8 +4583,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 90)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/72/1/PYU_RT_1_TO_0_01_ROHS_L.pdf"
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7a2cc532-a657-41eb-95f9-f681d00c33b8")
@@ -4594,8 +4594,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 0 0 90)
+		(property "Description" "Resistor, 0805 4.99k.  1% 25ppm  (over spec'd but inexpensive part)"
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "27ba1bc0-b7b3-4879-9ace-95d74bc152cd")
@@ -4606,7 +4606,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "a0a15ba7-0a5d-441c-9a32-bd1e4653909e")
@@ -4617,12 +4617,12 @@
 				)
 			)
 		)
-		(property "MPN" "RC1206FR-074K99L "
+		(property "MPN" "RT0805FRD074K99L"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c014c523-0d6e-49de-8ad0-3a1d2c39803a")
+			(uuid "afc4c3de-f715-4d7e-a5e3-f5689defdee6")
 			(effects
 				(font
 					(size 1 1)
@@ -4630,12 +4630,12 @@
 				)
 			)
 		)
-		(property "Mouser" "603-RC1206FR-074K99L "
+		(property "Mouser" "603-RT0805FRD074K99L "
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2c61eeeb-505b-485c-a1bf-5549643a3f55")
+			(uuid "8a2a8f3f-1da7-42ce-8722-bff62a6e8588")
 			(effects
 				(font
 					(size 1 1)
@@ -4656,18 +4656,8 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.727064 0.91)
-			(end 0.727064 0.91)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "390b6f76-5fd1-45e3-8962-658ddf350024")
-		)
-		(fp_line
-			(start -0.727064 -0.91)
-			(end 0.727064 -0.91)
+			(start -0.227064 0.735)
+			(end 0.227064 0.735)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -4675,9 +4665,19 @@
 			(layer "F.SilkS")
 			(uuid "f36e755b-b6e7-4e9f-90c4-2276ee69c3f2")
 		)
+		(fp_line
+			(start -0.227064 -0.735)
+			(end 0.227064 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "390b6f76-5fd1-45e3-8962-658ddf350024")
+		)
 		(fp_rect
-			(start -2.45 -1.13)
-			(end 2.45 1.13)
+			(start -1.85 -0.95)
+			(end 1.85 0.95)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -4687,8 +4687,8 @@
 			(uuid "3831f7e6-8686-446a-aac9-1f3e55613e38")
 		)
 		(fp_rect
-			(start -1.6 -0.8)
-			(end 1.6 0.8)
+			(start -1 -0.625)
+			(end 1 0.625)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -4698,36 +4698,36 @@
 			(uuid "538cac5a-da78-40d3-898c-3d3f0ec3f42e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(uuid "d1bab73f-e1ec-4729-be0d-cd0755a77989")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.55 0 270)
-			(size 1.3 1.75)
+			(at -1 0 270)
+			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.192308)
+			(roundrect_rratio 0.208333)
 			(net "Net-(U2-Imon)")
 			(pintype "passive")
 			(uuid "14889fcf-e7a9-46ef-ae44-a60150a06832")
 		)
 		(pad "2" smd roundrect
-			(at 1.55 0 270)
-			(size 1.3 1.75)
+			(at 1 0 270)
+			(size 1.2 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.192308)
+			(roundrect_rratio 0.208333)
 			(net "GND")
 			(pintype "passive")
 			(uuid "9a744e65-109d-4f6f-8c1f-35f4dfd78e71")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6455,13 +6455,13 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "787f5b6d-fb1d-451a-a11d-db93c8ad38ab")
-		(at 173.5 120 90)
+		(at 168 116.15)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R8"
-			(at -3.5 0 90)
+			(at -3.5 0 0)
 			(layer "F.SilkS")
-			(uuid "4586dcd2-2558-4f6b-86b5-002cb2b0d9e7")
+			(uuid "94020a2e-3a2c-4200-8e32-b07d101f227e")
 			(effects
 				(font
 					(size 1 1)
@@ -6470,9 +6470,9 @@
 			)
 		)
 		(property "Value" "1.2k"
-			(at 0 -2 90)
+			(at 0.2 2.05 0)
 			(layer "F.Fab")
-			(uuid "a21b4ecf-c6e4-4c95-a507-a200a2451039")
+			(uuid "1f01f5ee-fb0c-431f-8ae7-57bcad5100c5")
 			(effects
 				(font
 					(size 1 1)
@@ -6481,10 +6481,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d675c0d3-9af1-4187-bcd5-7aabf8dd070d")
+			(uuid "4e0705b5-ab43-4632-992c-0de78bc19778")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6492,10 +6492,10 @@
 			)
 		)
 		(property "Description" "Thin Film Resistor - 1206 1/4W 1.2K ohm 1% 50p pm"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "14c97a92-0ded-4b8e-8cd2-294d092e7d05")
+			(uuid "2e767bda-5f94-4c79-9322-62f63455a486")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6503,7 +6503,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "5d56d4a4-b88d-400a-ab4d-b47dfdc763e3")
@@ -6515,7 +6515,7 @@
 			)
 		)
 		(property "MPN" "RT1206FRE071K2L"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6528,7 +6528,7 @@
 			)
 		)
 		(property "Mouser" "603-RT1206FRE071K2L "
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6595,7 +6595,7 @@
 			(uuid "d004c300-81de-4275-86cb-e7ffdbebc5f2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "9532e1c5-3c59-4509-afef-35a1cfd85ba0")
 			(effects
@@ -6606,7 +6606,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.55 0 90)
+			(at -1.55 0)
 			(size 1.3 1.75)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
@@ -6615,7 +6615,7 @@
 			(uuid "87a554f8-6983-462e-9a16-6fe85d800d81")
 		)
 		(pad "2" smd roundrect
-			(at 1.55 0 90)
+			(at 1.55 0)
 			(size 1.3 1.75)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
@@ -20384,13 +20384,13 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "eb182840-fb2d-4dc2-aa99-bb3de10dec86")
-		(at 168.45 111.5 180)
+		(at 168 111.5 180)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R6"
 			(at 0 -1.83 0)
 			(layer "F.SilkS")
-			(uuid "5eb0b82a-00c7-4714-829b-e4cdf545a854")
+			(uuid "f73f3a73-26ab-4dbf-b0ef-6804b397b810")
 			(effects
 				(font
 					(size 1 1)
@@ -20401,7 +20401,7 @@
 		(property "Value" "300k"
 			(at 0 1.83 0)
 			(layer "F.Fab")
-			(uuid "6fbba09b-ba7d-4c08-b858-85151fa9f560")
+			(uuid "086d51fe-750c-4c5e-ac76-7ecb4d98ed63")
 			(effects
 				(font
 					(size 1 1)
@@ -20413,7 +20413,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "415c9659-4df3-457c-8da5-1273f1e9e347")
+			(uuid "98d876e5-4e56-4418-8f10-6b99871338d7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20424,7 +20424,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b008aacf-0697-41db-b589-7105d1694657")
+			(uuid "b2af08c4-a161-4ff8-a039-a8466f031f46")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20987,6 +20987,22 @@
 		(layer "B.Cu")
 		(net "/Vin-")
 		(uuid "a905a19e-422f-4f44-962d-cdb0dbcce2e4")
+	)
+	(segment
+		(start 176.04 118.96)
+		(end 176 119)
+		(width 1)
+		(layer "F.Cu")
+		(net "Net-(U2-Imon)")
+		(uuid "0c1bc980-b6d2-4c7f-a5b1-60b4186be645")
+	)
+	(segment
+		(start 176.04 115)
+		(end 176.04 118.96)
+		(width 1)
+		(layer "F.Cu")
+		(net "Net-(U2-Imon)")
+		(uuid "63cbadc2-221d-4135-97c6-6f6ba78c4785")
 	)
 	(segment
 		(start 131.19 37.3)

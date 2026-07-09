@@ -7931,7 +7931,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 172.466 51.054 90)
 			(hide yes)
 			(show_name no)
@@ -7942,7 +7942,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/72/1/PYU_RT_1_TO_0_01_ROHS_L.pdf"
 			(at 171.45 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -7953,7 +7953,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "Resistor, 0805 4.99k.  1% 25ppm  (over spec'd but inexpensive part)"
 			(at 171.45 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -7964,7 +7964,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC1206FR-074K99L "
+		(property "MPN" "RT0805FRD074K99L"
 			(at 171.45 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -7975,7 +7975,7 @@
 				)
 			)
 		)
-		(property "Mouser" "603-RC1206FR-074K99L "
+		(property "Mouser" "603-RT0805FRD074K99L "
 			(at 171.45 50.8 0)
 			(hide yes)
 			(show_name no)
