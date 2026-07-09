@@ -6366,7 +6366,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 155.194 77.724 90)
 			(hide yes)
 			(show_name no)
@@ -6377,7 +6377,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/pyu-re_105_rohs_l.pdf"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
 			(at 154.94 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -6388,7 +6388,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor,75k 1% 100ppm, 0805 or 1206. Selected part is 50ppm 1206 - revisit if layout needs smaller part."
+		(property "Description" "Resistor,75k 1% 100ppm, 0805"
 			(at 154.94 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -6399,7 +6399,7 @@
 				)
 			)
 		)
-		(property "MPN" "RE1206FRE0775KL"
+		(property "MPN" "RC0805FR-0775KL "
 			(at 154.94 78.74 90)
 			(hide yes)
 			(show_name no)
@@ -6410,7 +6410,7 @@
 				)
 			)
 		)
-		(property "Mouser" "603-RE1206FRE0775KL "
+		(property "Mouser" "603-RC0805FR-0775KL "
 			(at 154.94 78.74 90)
 			(hide yes)
 			(show_name no)
