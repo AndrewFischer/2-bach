@@ -3,27 +3,29 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "SMD diode bridge DFS, see http://www.vishay.com/docs/88854/padlayouts.pdf")
-	(tags "DFS")
+	(descr "SMD diode bridge M4, see https://www.panjit.com.tw/en/Product/Bridge/Bridge_Rectifiers/RPMS210")
+	(tags "M4")
 	(property "Reference" "REF**"
-		(at 0 -5.1 0)
+		(at 0.1 -5.2 0)
 		(layer "F.SilkS")
-		(uuid "7d7313cc-5e7b-4352-bd71-bc1021ce9bd1")
+		(uuid "03ae53ed-26a8-4b45-b937-06c39a4f5dc5")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 1.1 1.1)
+				(thickness 0.18)
+				(bold yes)
 			)
 		)
 	)
 	(property "Value" "Diode_Bridge_Panjit_M4_RPMS210"
 		(at 0 5.2 0)
 		(layer "F.Fab")
-		(uuid "531fc77b-a5e1-4bf1-a304-94df7599964e")
+		(uuid "48c5c3e9-d24e-4b1a-84d9-098c895a6282")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
+				(thickness 0.17)
+				(bold yes)
 			)
 		)
 	)
@@ -32,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b7b7cc3b-a071-4de9-bf1d-3924024de15c")
+		(uuid "d21e6e2a-b9c0-4993-8eb7-4ab865385cd5")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "356f0c38-3e91-4367-b94b-87f9a91f6e23")
+		(uuid "829a6cd8-8e01-4781-b91f-5941c7fc8b9b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -63,7 +65,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "6095cdbe-fed5-4eed-aa0e-88cc5c547630")
+		(uuid "09c7f4c2-88c5-4d11-baf9-7f06d007bf7d")
 	)
 	(fp_line
 		(start -3.975 4.075)
@@ -73,7 +75,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d4b2ed9b-3ac0-4fb6-970c-d5111c96a83a")
+		(uuid "ab829e2b-963d-4ee9-8b83-73240d6a18f9")
 	)
 	(fp_poly
 		(pts
@@ -85,7 +87,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "c771f45f-8a5f-4e3d-82cd-35fadd759524")
+		(uuid "499fb6e4-ee93-41fd-bd35-4e92d6fc1708")
 	)
 	(fp_line
 		(start -6 -4.5)
@@ -95,7 +97,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "539650a9-3b03-412d-a75d-69766b83833b")
+		(uuid "c2404336-9bec-44b4-8ffe-a76b1a6004e2")
 	)
 	(fp_line
 		(start -6 -4.5)
@@ -105,7 +107,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "5cd04291-04ad-41e7-a269-f0f5edec54c2")
+		(uuid "dc6debaf-8653-4827-97b7-b5f143079eac")
 	)
 	(fp_line
 		(start 6 4.5)
@@ -115,7 +117,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "886c2c5c-76cd-41ce-a8f1-9100e5a8d039")
+		(uuid "1a057ba9-6907-49af-8ad1-be28c7463101")
 	)
 	(fp_line
 		(start 6 4.5)
@@ -125,7 +127,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "45506dd6-2987-4241-a562-73d4ef8cdcd5")
+		(uuid "2a11c2c1-a133-4cdb-b24f-9ec955fe641d")
 	)
 	(fp_line
 		(start -3.975 4.075)
@@ -135,7 +137,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "54daa8fd-c4ab-498e-8f36-2de1470ca958")
+		(uuid "893785ca-a0d9-496e-b923-50411ae69723")
 	)
 	(fp_line
 		(start -3.2 -3.3)
@@ -145,7 +147,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "e4b22fc4-616d-4dcc-ac30-5b3e6aea6e0f")
+		(uuid "617480e7-a8ef-4c3d-8a97-2db13ef70748")
 	)
 	(fp_line
 		(start -2.3 -4.075)
@@ -155,7 +157,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "e0e0aa27-32fb-4fb0-8100-79f08f003564")
+		(uuid "11f7a79e-59f9-4c2d-979a-efd50076dcc3")
 	)
 	(fp_line
 		(start 3.2 4.2)
@@ -165,7 +167,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "9d47a922-4575-4e8f-9280-b6b69cd3ba1d")
+		(uuid "2fd7bc4a-2eda-438a-bafe-f66ab6387375")
 	)
 	(fp_line
 		(start 3.975 -4.075)
@@ -175,12 +177,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "d08356eb-51ad-4672-b537-1140b3ba4196")
+		(uuid "215bf8b0-f7a5-4283-9241-887b773aae7a")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -0.065 0)
 		(layer "F.Fab")
-		(uuid "59b60320-f58d-4d8d-9909-0884953a24fd")
+		(uuid "f3ad990b-4a5a-496f-9600-85a256958468")
 		(effects
 			(font
 				(size 1 1)
@@ -192,28 +194,28 @@
 		(at -4.8 -2.55)
 		(size 1.8 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "c79a7ba9-2981-46d1-be23-cb809acd3265")
+		(uuid "32ea2c8f-c838-4994-a6a8-f4fa0d3d8aa3")
 	)
 	(pad "2" smd rect
 		(at -4.8 2.55)
 		(size 1.8 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "16287b53-7422-49e6-a492-3eaf3c76ac37")
+		(uuid "c1f355e6-815f-4fd4-8b90-5fea2c255568")
 	)
 	(pad "3" smd rect
 		(at 4.8 2.55)
 		(size 1.8 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "4e9f8a30-83f4-48ee-adb3-c31139bd56c7")
+		(uuid "7c232834-b054-469a-8ce6-aac7ef974cdc")
 	)
 	(pad "4" smd rect
 		(at 4.8 -2.55)
 		(size 1.8 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "a6d5a13e-6dc5-498c-a918-bf906e9082ee")
+		(uuid "69f18efd-41d1-4d65-88de-d18d4915ca45")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/Diode_Bridge_Vishay_DFS.step"
+	(model "${KIPRJMOD}/Diode_SMD_Bridge.pretty/RPMS210_R2_00601.stp"
 		(offset
 			(xyz 0 0 0)
 		)
