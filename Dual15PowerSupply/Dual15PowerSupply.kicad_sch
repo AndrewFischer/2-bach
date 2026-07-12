@@ -8604,10 +8604,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f5aaf9de-3687-4709-ac69-1de0aa63a6f1")
+		(uuid "f877b9b4-1c76-49a1-b3de-a4caab7b028c")
 		(property "Reference" "D1"
-			(at 100.33 40.7668 90)
+			(at 102.87 40.7668 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8617,7 +8616,7 @@
 			)
 		)
 		(property "Value" "RPMS210"
-			(at 100.33 43.3068 90)
+			(at 102.87 43.307 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8670,7 +8669,7 @@
 				)
 			)
 		)
-		(property "Mouser" "241-RPMS210_R2_00601 "
+		(property "Mouser" "241-RPMS210_R2_00601"
 			(at 88.9 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -8681,17 +8680,17 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "9a8109c6-e8f7-4ad1-b16f-b5f29b13ed2c")
-		)
-		(pin "1"
-			(uuid "0bd2ed9e-c27f-489e-8c23-fee9e8f371a2")
+		(pin "4"
+			(uuid "dc9478b7-750a-4728-b189-7e091e44a927")
 		)
 		(pin "3"
-			(uuid "42dadb1d-89e2-4cf1-a897-14a5e34c6022")
+			(uuid "bdea6ebc-7cf8-4a97-87d5-5e0bc89dc502")
 		)
-		(pin "4"
-			(uuid "3b28c466-e97c-4ef0-99d7-35e52f9fd995")
+		(pin "2"
+			(uuid "a26301c8-0a32-4dd1-b4f4-aaf02c6a0528")
+		)
+		(pin "1"
+			(uuid "563cfd61-e06a-4bcc-8b68-f9a777e49202")
 		)
 		(instances
 			(project "Dual15PowerSupply"
