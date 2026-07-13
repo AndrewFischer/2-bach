@@ -81,9 +81,6 @@
 (rule "JLCPCB 2L 1oz - minimum text stroke"
     (constraint text_thickness (min 0.15mm)))
 
-(rule "JLCPCB 2L 1oz - silkscreen clearance"
-    (constraint silk_clearance (min 0.18mm)))
-
 # ---- Board Setup values (enter manually) ----
 # Board Setup > Design Rules > Constraints:
 #   Minimum clearance:                 0.20 mm
@@ -96,7 +93,7 @@
 #   Minimum through-hole:              0.30 mm
 #   Hole to hole clearance:            0.25 mm
 #   Minimum text height:               1.00 mm
-#   Minimum text thickness:            0.18 mm
+#   Minimum text thickness:            0.15 mm
 #
 # Board Setup > Solder Mask/Paste:
 #   Solder mask expansion:             0.00 mm
