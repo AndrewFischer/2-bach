@@ -7514,7 +7514,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
+		(property "Footprint" "TestPoint_JLC:TestPoint_Keystone_5005-5009_Compact_JLC"
 			(at 157.48 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -7612,7 +7612,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
+		(property "Footprint" "TestPoint_JLC:TestPoint_Keystone_5005-5009_Compact_JLC"
 			(at 186.69 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -8033,7 +8033,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5005-5009_Compact"
+		(property "Footprint" "TestPoint_JLC:TestPoint_Keystone_5005-5009_Compact_JLC"
 			(at 167.64 40.64 0)
 			(hide yes)
 			(show_name no)
