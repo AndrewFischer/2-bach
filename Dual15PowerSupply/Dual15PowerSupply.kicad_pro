@@ -265,7 +265,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "0.1.3"
+      "sch_revision": "0.1.4"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -704,7 +704,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,

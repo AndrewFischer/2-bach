@@ -5,7 +5,7 @@
 	(lib (name "TerminalBlock_762") (type "KiCad") (uri "/Users/Andrew/Documents/ghprojects/2-bach/RectifierBoard/TerminalBlock_762.pretty") (options "") (descr ""))
 	(lib (name "Diode_SMD_Bridge") (type "KiCad") (uri "${KIPRJMOD}/Diode_SMD_Bridge.pretty") (options "") (descr ""))
 	(lib (name "Fuseholder_Wurth_WR-FSH") (type "KiCad") (uri "${KIPRJMOD}/KiCad_WR-FSH (rev26a)/footprints/Connector_THT_Wurth.pretty") (options "") (descr ""))
-	(lib (name "TerminalBlock_Phoenix") (type "KiCad") (uri "${KIPRJMOD}/Terminal_Phoenix1731721") (options "") (descr ""))
+	(lib (name "TerminalBlock_Phoenix_JLC") (type "KiCad") (uri "${KIPRJMOD}/Terminal_Phoenix1731721") (options "") (descr ""))
 	(lib (name "Resistor_SMD_JLC") (type "KiCad") (uri "${KIPRJMOD}/Resistor_SMD_JLC.pretty") (options "") (descr ""))
 	(lib (name "TestPoint_JLC") (type "KiCad") (uri "${KIPRJMOD}/TestPoint_JLC.pretty") (options "") (descr ""))
 )

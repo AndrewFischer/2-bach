@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "/Users/Andrew/Documents/ghprojects/2-bach/Dual15PowerSupply/Dual15PowerSupply.kicad_sch")
-		(date "2026-07-06T11:38:59")
+		(date "2026-07-16T07:27:51")
 		(tool "Eeschema 10.0.3")
 		(sheet
 			(number "1")
@@ -59,7 +59,7 @@
 			(value "1000µF")
 			(footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
 			(datasheet "https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf")
-			(description "Panasonic FR-A")
+			(description "Polarized capacitor, US symbol")
 			(fields
 				(field
 					(name "MPN") "EEU-FR1V102")
@@ -70,7 +70,7 @@
 				(field
 					(name "Datasheet") "https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf")
 				(field
-					(name "Description") "Panasonic FR-A")
+					(name "Description") "Polarized capacitor, US symbol")
 			)
 			(libsource
 				(lib "Device")
@@ -191,7 +191,7 @@
 			(value "2200µF")
 			(footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
 			(datasheet "https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf")
-			(description "Panasonic FR-A Polarized capacitor")
+			(description "Polarized capacitor, US symbol")
 			(fields
 				(field
 					(name "MPN") "EEU-FR1V222L ")
@@ -202,7 +202,7 @@
 				(field
 					(name "Datasheet") "https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf")
 				(field
-					(name "Description") "Panasonic FR-A Polarized capacitor")
+					(name "Description") "Polarized capacitor, US symbol")
 			)
 			(libsource
 				(lib "Device")
@@ -257,7 +257,7 @@
 			(value "2200µF")
 			(footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm")
 			(datasheet "https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf")
-			(description "Panasonic FR-A Polarized capacitor")
+			(description "Polarized capacitor, US symbol")
 			(fields
 				(field
 					(name "MPN") "EEU-FR1V222L ")
@@ -268,7 +268,7 @@
 				(field
 					(name "Datasheet") "https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf")
 				(field
-					(name "Description") "Panasonic FR-A Polarized capacitor")
+					(name "Description") "Polarized capacitor, US symbol")
 			)
 			(libsource
 				(lib "Device")
@@ -323,7 +323,7 @@
 			(value "100nF")
 			(footprint "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm")
 			(datasheet "https://content.kemet.com/datasheets/KEM_F3101_R82.pdf")
-			(description "Film Capacitor")
+			(description "capacitor, US symbol")
 			(fields
 				(field
 					(name "MPN") "R82DC3100SH50J")
@@ -334,7 +334,7 @@
 				(field
 					(name "Datasheet") "https://content.kemet.com/datasheets/KEM_F3101_R82.pdf")
 				(field
-					(name "Description") "Film Capacitor")
+					(name "Description") "capacitor, US symbol")
 			)
 			(libsource
 				(lib "Device")
@@ -389,7 +389,7 @@
 			(value "100nF")
 			(footprint "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm")
 			(datasheet "https://content.kemet.com/datasheets/KEM_F3101_R82.pdf")
-			(description "Film Capacitor")
+			(description "capacitor, US symbol")
 			(fields
 				(field
 					(name "MPN") "R82DC3100SH50J")
@@ -400,7 +400,7 @@
 				(field
 					(name "Datasheet") "https://content.kemet.com/datasheets/KEM_F3101_R82.pdf")
 				(field
-					(name "Description") "Film Capacitor")
+					(name "Description") "capacitor, US symbol")
 			)
 			(libsource
 				(lib "Device")
@@ -587,7 +587,7 @@
 			(value "10nF")
 			(footprint "Capacitor_THT:C_Rect_L13.0mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4")
 			(datasheet "https://www.tdk-electronics.tdk.com/inf/20/20/db/fc_2009/X2_B32921_928.pdf")
-			(description "Safety Capacitor, X2")
+			(description "Unpolarized capacitor")
 			(fields
 				(field
 					(name "MPN") "B32921C3103M")
@@ -598,7 +598,7 @@
 				(field
 					(name "Datasheet") "https://www.tdk-electronics.tdk.com/inf/20/20/db/fc_2009/X2_B32921_928.pdf")
 				(field
-					(name "Description") "Safety Capacitor, X2")
+					(name "Description") "Unpolarized capacitor")
 			)
 			(libsource
 				(lib "Device")
@@ -653,18 +653,18 @@
 			(value "RPMS210")
 			(footprint "Diode_SMD_Bridge:Diode_Bridge_Panjit_M4_RPMS210")
 			(datasheet "https://www.mouser.com/datasheet/3/3736/1/RPMS210.pdf")
-			(description "Glass Passivated Fast Recovery Bridge Rectifier(2A/1000V)")
+			(description "Diode bridge, +ve/-ve/AC/AC")
 			(fields
 				(field
 					(name "MPN") "RPMS210_R2_00601")
 				(field
-					(name "Mouser") "241-RPMS210_R2_00601 ")
+					(name "Mouser") "241-RPMS210_R2_00601")
 				(field
 					(name "Footprint") "Diode_SMD_Bridge:Diode_Bridge_Panjit_M4_RPMS210")
 				(field
 					(name "Datasheet") "https://www.mouser.com/datasheet/3/3736/1/RPMS210.pdf")
 				(field
-					(name "Description") "Glass Passivated Fast Recovery Bridge Rectifier(2A/1000V)")
+					(name "Description") "Diode bridge, +ve/-ve/AC/AC")
 			)
 			(libsource
 				(lib "Device")
@@ -677,7 +677,7 @@
 			)
 			(property
 				(name "Mouser")
-				(value "241-RPMS210_R2_00601 ")
+				(value "241-RPMS210_R2_00601")
 			)
 			(property
 				(name "Sheetname")
@@ -699,7 +699,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "f5aaf9de-3687-4709-ac69-1de0aa63a6f1")
+			(tstamps "f877b9b4-1c76-49a1-b3de-a4caab7b028c")
 			(units
 				(unit
 					(name "A")
@@ -941,7 +941,7 @@
 			(value "FuseHolder")
 			(footprint "Fuseholder_Wurth_WR-FSH:J_Wurth_WR-FSH_696105003002")
 			(datasheet "https://www.we-online.com/components/products/datasheet/696105003002.pdf")
-			(description "Fuseholder, Würth WR-FSH, 5 mm x 20 mm")
+			(description "Fuse")
 			(fields
 				(field
 					(name "MPN") "696105003002")
@@ -952,7 +952,7 @@
 				(field
 					(name "Datasheet") "https://www.we-online.com/components/products/datasheet/696105003002.pdf")
 				(field
-					(name "Description") "Fuseholder, Würth WR-FSH, 5 mm x 20 mm")
+					(name "Description") "Fuse")
 			)
 			(libsource
 				(lib "Device")
@@ -1005,20 +1005,20 @@
 		(comp
 			(ref "J1")
 			(value "120VAC")
-			(footprint "TerminalBlock_Phoenix:PHOENIX_1731721")
-			(description "Terminal Block, GMKDS 3/ 2-7,62")
+			(footprint "TerminalBlock_Phoenix_JLC:PHOENIX_1731721")
+			(description "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
 			(fields
 				(field
 					(name "MPN") "1731721")
 				(field
 					(name "Mouser") "651-1731721 ")
 				(field
-					(name "Footprint") "TerminalBlock_Phoenix:PHOENIX_1731721")
+					(name "Footprint") "TerminalBlock_Phoenix_JLC:PHOENIX_1731721")
 				(field
 					(name "Datasheet")
 				)
 				(field
-					(name "Description") "Terminal Block, GMKDS 3/ 2-7,62")
+					(name "Description") "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
 			)
 			(libsource
 				(lib "Connector")
@@ -1073,7 +1073,7 @@
 			(value "+/-15VDC")
 			(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-3-5.08_1x03_P5.08mm_Horizontal")
 			(datasheet "https://www.mouser.com/datasheet/3/507/5/phoenix_contact_1711738_en.pdf")
-			(description "MKDS_3/_3-5,08 MKDS33508")
+			(description "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")
 			(fields
 				(field
 					(name "MPN") "1711738")
@@ -1084,7 +1084,7 @@
 				(field
 					(name "Datasheet") "https://www.mouser.com/datasheet/3/507/5/phoenix_contact_1711738_en.pdf")
 				(field
-					(name "Description") "MKDS_3/_3-5,08 MKDS33508")
+					(name "Description") "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")
 			)
 			(libsource
 				(lib "Connector")
@@ -1142,7 +1142,7 @@
 			(value "10")
 			(footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal")
 			(datasheet "https://www.koaspeer.com/pdfs/MOS.pdf")
-			(description "Resistor, metal oxide 2W 1%")
+			(description "Resistor, US symbol")
 			(fields
 				(field
 					(name "MPN") "MOS2CT52R10R0F")
@@ -1153,7 +1153,7 @@
 				(field
 					(name "Datasheet") "https://www.koaspeer.com/pdfs/MOS.pdf")
 				(field
-					(name "Description") "Resistor, metal oxide 2W 1%")
+					(name "Description") "Resistor, US symbol")
 			)
 			(libsource
 				(lib "Device")
@@ -1272,20 +1272,20 @@
 		(comp
 			(ref "R3")
 			(value "75k")
-			(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
-			(datasheet "https://www.mouser.com/datasheet/3/508/1/pyu-re_105_rohs_l.pdf")
-			(description "Resistor,75k 1% 100ppm, 0805 or 1206. Selected part is 50ppm 1206 - revisit if layout needs smaller part.")
+			(footprint "Resistor_SMD_JLC:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(datasheet "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf")
+			(description "Resistor, US symbol")
 			(fields
 				(field
-					(name "MPN") "RE1206FRE0775KL")
+					(name "MPN") "RC0805FR-0775KL ")
 				(field
-					(name "Mouser") "603-RE1206FRE0775KL ")
+					(name "Mouser") "603-RC0805FR-0775KL ")
 				(field
-					(name "Footprint") "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+					(name "Footprint") "Resistor_SMD_JLC:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
 				(field
-					(name "Datasheet") "https://www.mouser.com/datasheet/3/508/1/pyu-re_105_rohs_l.pdf")
+					(name "Datasheet") "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf")
 				(field
-					(name "Description") "Resistor,75k 1% 100ppm, 0805 or 1206. Selected part is 50ppm 1206 - revisit if layout needs smaller part.")
+					(name "Description") "Resistor, US symbol")
 			)
 			(libsource
 				(lib "Device")
@@ -1294,11 +1294,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RE1206FRE0775KL")
+				(value "RC0805FR-0775KL ")
 			)
 			(property
 				(name "Mouser")
-				(value "603-RE1206FRE0775KL ")
+				(value "603-RC0805FR-0775KL ")
 			)
 			(property
 				(name "Sheetname")
@@ -1338,20 +1338,20 @@
 		(comp
 			(ref "R4")
 			(value "1K")
-			(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
-			(description "Resistor 1% 100ppm")
+			(footprint "Resistor_SMD_JLC:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(description "Resistor, US symbol")
 			(fields
 				(field
-					(name "MPN") "RC1206FR-101KL ")
+					(name "MPN") "RT0805FRE071KL")
 				(field
-					(name "Mouser") "603-RC1206FR-101KL ")
+					(name "Mouser") "603-RT0805FRE071KL ")
 				(field
-					(name "Footprint") "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+					(name "Footprint") "Resistor_SMD_JLC:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
 				(field
-					(name "Description") "Resistor 1% 100ppm")
+					(name "Description") "Resistor, US symbol")
 			)
 			(libsource
 				(lib "Device")
@@ -1360,11 +1360,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RC1206FR-101KL ")
+				(value "RT0805FRE071KL")
 			)
 			(property
 				(name "Mouser")
-				(value "603-RC1206FR-101KL ")
+				(value "603-RT0805FRE071KL ")
 			)
 			(property
 				(name "Sheetname")
@@ -1404,18 +1404,18 @@
 		(comp
 			(ref "R5")
 			(value "4.99K")
-			(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+			(footprint "Resistor_SMD_JLC:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+			(datasheet "https://www.mouser.com/datasheet/3/72/1/PYU_RT_1_TO_0_01_ROHS_L.pdf")
 			(description "Resistor, US symbol")
 			(fields
 				(field
-					(name "MPN") "RC1206FR-074K99L ")
+					(name "MPN") "RT0805FRD074K99L")
 				(field
-					(name "Mouser") "603-RC1206FR-074K99L ")
+					(name "Mouser") "603-RT0805FRD074K99L ")
 				(field
-					(name "Footprint") "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+					(name "Footprint") "Resistor_SMD_JLC:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
 				(field
-					(name "Datasheet")
-				)
+					(name "Datasheet") "https://www.mouser.com/datasheet/3/72/1/PYU_RT_1_TO_0_01_ROHS_L.pdf")
 				(field
 					(name "Description") "Resistor, US symbol")
 			)
@@ -1426,11 +1426,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RC1206FR-074K99L ")
+				(value "RT0805FRD074K99L")
 			)
 			(property
 				(name "Mouser")
-				(value "603-RC1206FR-074K99L ")
+				(value "603-RT0805FRD074K99L ")
 			)
 			(property
 				(name "Sheetname")
@@ -1470,20 +1470,20 @@
 		(comp
 			(ref "R6")
 			(value "300k")
-			(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+			(footprint "Resistor_SMD_JLC:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
 			(datasheet "https://www.mouser.com/datasheet/3/72/1/PYU_RT_1_TO_0_01_ROHS_L.pdf")
-			(description "Thin Film Resistors - SMD 1/4W 300K ohm .1% 25ppm")
+			(description "Resistor, US symbol")
 			(fields
 				(field
 					(name "MPN") "RT1206BRD07300KL")
 				(field
 					(name "Mouser") "603-RT1206BRD07300KL ")
 				(field
-					(name "Footprint") "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+					(name "Footprint") "Resistor_SMD_JLC:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
 				(field
 					(name "Datasheet") "https://www.mouser.com/datasheet/3/72/1/PYU_RT_1_TO_0_01_ROHS_L.pdf")
 				(field
-					(name "Description") "Thin Film Resistors - SMD 1/4W 300K ohm .1% 25ppm")
+					(name "Description") "Resistor, US symbol")
 			)
 			(libsource
 				(lib "Device")
@@ -1536,20 +1536,20 @@
 		(comp
 			(ref "R7")
 			(value "2k")
-			(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
-			(description "Resistor 1% 100ppm.  Selected part is 50ppm")
+			(footprint "Resistor_SMD_JLC:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+			(description "Resistor, US symbol")
 			(fields
 				(field
 					(name "MPN") "RT1206FRE072KL")
 				(field
 					(name "Mouser") "603-RT1206FRE072KL ")
 				(field
-					(name "Footprint") "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+					(name "Footprint") "Resistor_SMD_JLC:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
 				(field
-					(name "Description") "Resistor 1% 100ppm.  Selected part is 50ppm")
+					(name "Description") "Resistor, US symbol")
 			)
 			(libsource
 				(lib "Device")
@@ -1602,20 +1602,20 @@
 		(comp
 			(ref "R8")
 			(value "1.2k")
-			(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
-			(description "Thin Film Resistor - 1206 1/4W 1.2K ohm 1% 50p pm")
+			(footprint "Resistor_SMD_JLC:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+			(description "Resistor, US symbol")
 			(fields
 				(field
 					(name "MPN") "RT1206FRE071K2L")
 				(field
 					(name "Mouser") "603-RT1206FRE071K2L ")
 				(field
-					(name "Footprint") "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+					(name "Footprint") "Resistor_SMD_JLC:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
 				(field
 					(name "Datasheet")
 				)
 				(field
-					(name "Description") "Thin Film Resistor - 1206 1/4W 1.2K ohm 1% 50p pm")
+					(name "Description") "Resistor, US symbol")
 			)
 			(libsource
 				(lib "Device")
@@ -1668,20 +1668,20 @@
 		(comp
 			(ref "R9")
 			(value "300k")
-			(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+			(footprint "Resistor_SMD_JLC:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
 			(datasheet "https://www.mouser.com/datasheet/3/72/1/PYU_RT_1_TO_0_01_ROHS_L.pdf")
-			(description "Thin Film Resistors - SMD 1/4W 300K ohm .1% 25ppm")
+			(description "Resistor, US symbol")
 			(fields
 				(field
 					(name "MPN") "RT1206BRD07300KL")
 				(field
 					(name "Mouser") "603-RT1206BRD07300KL ")
 				(field
-					(name "Footprint") "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+					(name "Footprint") "Resistor_SMD_JLC:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
 				(field
 					(name "Datasheet") "https://www.mouser.com/datasheet/3/72/1/PYU_RT_1_TO_0_01_ROHS_L.pdf")
 				(field
-					(name "Description") "Thin Film Resistors - SMD 1/4W 300K ohm .1% 25ppm")
+					(name "Description") "Resistor, US symbol")
 			)
 			(libsource
 				(lib "Device")
@@ -1734,20 +1734,20 @@
 		(comp
 			(ref "R10")
 			(value "1.8k")
-			(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+			(footprint "Resistor_SMD_JLC:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
 			(datasheet "https://www.mouser.com/datasheet/3/72/1/PYU_RT_1_TO_0_01_ROHS_L.pdf")
-			(description "Resistor, 1/4W 1.8K ohm 1% 50ppm")
+			(description "Resistor, US symbol")
 			(fields
 				(field
 					(name "MPN") "RT1206FRE071K8L")
 				(field
 					(name "Mouser") "603-RT1206FRE071K8L ")
 				(field
-					(name "Footprint") "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+					(name "Footprint") "Resistor_SMD_JLC:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
 				(field
 					(name "Datasheet") "https://www.mouser.com/datasheet/3/72/1/PYU_RT_1_TO_0_01_ROHS_L.pdf")
 				(field
-					(name "Description") "Resistor, 1/4W 1.8K ohm 1% 50ppm")
+					(name "Description") "Resistor, US symbol")
 			)
 			(libsource
 				(lib "Device")
@@ -1800,20 +1800,20 @@
 		(comp
 			(ref "R11")
 			(value "1.8k")
-			(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+			(footprint "Resistor_SMD_JLC:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
 			(datasheet "https://www.mouser.com/datasheet/3/72/1/PYU_RT_1_TO_0_01_ROHS_L.pdf")
-			(description "Resistor, 1/4W 1.8K ohm 1% 50ppm")
+			(description "Resistor, US symbol")
 			(fields
 				(field
 					(name "MPN") "RT1206FRE071K8L")
 				(field
 					(name "Mouser") "603-RT1206FRE071K8L ")
 				(field
-					(name "Footprint") "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+					(name "Footprint") "Resistor_SMD_JLC:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
 				(field
 					(name "Datasheet") "https://www.mouser.com/datasheet/3/72/1/PYU_RT_1_TO_0_01_ROHS_L.pdf")
 				(field
-					(name "Description") "Resistor, 1/4W 1.8K ohm 1% 50ppm")
+					(name "Description") "Resistor, US symbol")
 			)
 			(libsource
 				(lib "Device")
@@ -1866,7 +1866,7 @@
 		(comp
 			(ref "TP1")
 			(value "1mV/C")
-			(footprint "TestPoint:TestPoint_Keystone_5005-5009_Compact")
+			(footprint "TestPoint_JLC:TestPoint_Keystone_5005-5009_Compact_JLC")
 			(datasheet "https://www.mouser.com/datasheet/3/201/1/5005_5009.pdf")
 			(description "test point")
 			(fields
@@ -1875,7 +1875,7 @@
 				(field
 					(name "Mouser") "534-5005 ")
 				(field
-					(name "Footprint") "TestPoint:TestPoint_Keystone_5005-5009_Compact")
+					(name "Footprint") "TestPoint_JLC:TestPoint_Keystone_5005-5009_Compact_JLC")
 				(field
 					(name "Datasheet") "https://www.mouser.com/datasheet/3/201/1/5005_5009.pdf")
 				(field
@@ -1929,7 +1929,7 @@
 		(comp
 			(ref "TP2")
 			(value "1mV/mA")
-			(footprint "TestPoint:TestPoint_Keystone_5005-5009_Compact")
+			(footprint "TestPoint_JLC:TestPoint_Keystone_5005-5009_Compact_JLC")
 			(datasheet "https://www.mouser.com/datasheet/3/201/1/5005_5009.pdf")
 			(description "test point")
 			(fields
@@ -1938,7 +1938,7 @@
 				(field
 					(name "Mouser") "534-5005 ")
 				(field
-					(name "Footprint") "TestPoint:TestPoint_Keystone_5005-5009_Compact")
+					(name "Footprint") "TestPoint_JLC:TestPoint_Keystone_5005-5009_Compact_JLC")
 				(field
 					(name "Datasheet") "https://www.mouser.com/datasheet/3/201/1/5005_5009.pdf")
 				(field
@@ -1992,7 +1992,7 @@
 		(comp
 			(ref "TP3")
 			(value "-1mV/mA")
-			(footprint "TestPoint:TestPoint_Keystone_5005-5009_Compact")
+			(footprint "TestPoint_JLC:TestPoint_Keystone_5005-5009_Compact_JLC")
 			(datasheet "https://www.mouser.com/datasheet/3/201/1/5005_5009.pdf")
 			(description "test point")
 			(fields
@@ -2001,7 +2001,7 @@
 				(field
 					(name "Mouser") "534-5005 ")
 				(field
-					(name "Footprint") "TestPoint:TestPoint_Keystone_5005-5009_Compact")
+					(name "Footprint") "TestPoint_JLC:TestPoint_Keystone_5005-5009_Compact_JLC")
 				(field
 					(name "Datasheet") "https://www.mouser.com/datasheet/3/201/1/5005_5009.pdf")
 				(field
@@ -2971,6 +2971,108 @@
 		)
 		(net
 			(code "6")
+			(name "/RawDC+")
+			(class "DC,Default")
+			(node
+				(ref "C1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D1")
+				(pin "1")
+				(pinfunction "+_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "/RawDC-")
+			(class "DC,Default")
+			(node
+				(ref "C2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D2")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "/S1")
+			(class "SecondaryPower,Default")
+			(node
+				(ref "D1")
+				(pin "3")
+				(pintype "passive")
+			)
+			(node
+				(ref "TR1")
+				(pin "7")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "/S2")
+			(class "SecondaryPower,Default")
+			(node
+				(ref "D1")
+				(pin "4")
+				(pintype "passive")
+			)
+			(node
+				(ref "TR1")
+				(pin "8")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "10")
+			(name "/S3")
+			(class "SecondaryPower,Default")
+			(node
+				(ref "D2")
+				(pin "4")
+				(pintype "passive")
+			)
+			(node
+				(ref "TR1")
+				(pin "6")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "11")
+			(name "/S4")
+			(class "SecondaryPower,Default")
+			(node
+				(ref "D2")
+				(pin "3")
+				(pintype "passive")
+			)
+			(node
+				(ref "TR1")
+				(pin "5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "12")
 			(name "/Vin+")
 			(class "Default")
 			(node
@@ -2991,7 +3093,7 @@
 			)
 		)
 		(net
-			(code "7")
+			(code "13")
 			(name "/Vin-")
 			(class "Default")
 			(node
@@ -3023,7 +3125,7 @@
 			)
 		)
 		(net
-			(code "8")
+			(code "14")
 			(name "GND")
 			(class "Default")
 			(node
@@ -3124,108 +3226,6 @@
 				(pin "6")
 				(pinfunction "GND_6")
 				(pintype "power_in")
-			)
-		)
-		(net
-			(code "9")
-			(name "Net-(D1-+)")
-			(class "Default")
-			(node
-				(ref "C1")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "D1")
-				(pin "1")
-				(pinfunction "+_1")
-				(pintype "passive")
-			)
-			(node
-				(ref "R2")
-				(pin "1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "10")
-			(name "Net-(D1-Pad3)")
-			(class "Default")
-			(node
-				(ref "D1")
-				(pin "3")
-				(pintype "passive")
-			)
-			(node
-				(ref "TR1")
-				(pin "7")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "11")
-			(name "Net-(D1-Pad4)")
-			(class "Default")
-			(node
-				(ref "D1")
-				(pin "4")
-				(pintype "passive")
-			)
-			(node
-				(ref "TR1")
-				(pin "8")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "12")
-			(name "Net-(D2--)")
-			(class "Default")
-			(node
-				(ref "C2")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "D2")
-				(pin "2")
-				(pinfunction "-_2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R1")
-				(pin "2")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "13")
-			(name "Net-(D2-Pad3)")
-			(class "Default")
-			(node
-				(ref "D2")
-				(pin "3")
-				(pintype "passive")
-			)
-			(node
-				(ref "TR1")
-				(pin "5")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "14")
-			(name "Net-(D2-Pad4)")
-			(class "Default")
-			(node
-				(ref "D2")
-				(pin "4")
-				(pintype "passive")
-			)
-			(node
-				(ref "TR1")
-				(pin "6")
-				(pintype "passive")
 			)
 		)
 		(net
