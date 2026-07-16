@@ -20965,7 +20965,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Dual15 Supply\nAndrew Fischer\n05072026\n"
+	(gr_text "Dual15 Supply\nAndrew Fischer\nRev 0.1.4 20260716\n"
 		(at 150 81.71562 0)
 		(layer "B.SilkS")
 		(uuid "7aa40307-25a6-49cb-9c7d-3e2f225efff4")
