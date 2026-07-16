@@ -5772,7 +5772,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD_JLC:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 230.886 66.294 90)
 			(hide yes)
 			(show_name no)
@@ -5876,7 +5876,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD_JLC:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 180.086 52.324 90)
 			(hide yes)
 			(show_name no)
@@ -5980,7 +5980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD_JLC:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 194.056 38.354 90)
 			(hide yes)
 			(show_name no)
@@ -6084,7 +6084,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD_JLC:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 190.246 65.024 90)
 			(hide yes)
 			(show_name no)
@@ -6572,7 +6572,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD_JLC:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 230.886 51.054 90)
 			(hide yes)
 			(show_name no)
@@ -7412,7 +7412,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD_JLC:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 197.866 68.834 90)
 			(hide yes)
 			(show_name no)
@@ -7713,7 +7713,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD_JLC:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 158.496 47.244 90)
 			(hide yes)
 			(show_name no)

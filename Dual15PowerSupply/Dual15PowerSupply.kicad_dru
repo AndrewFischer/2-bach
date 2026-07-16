@@ -65,7 +65,7 @@
 
 (rule "JLCPCB 2L 1oz - copper clearance from NPTH"
     (condition "A.Pad_Type == 'NPTH, mechanical'")
-    (constraint physical_hole_clearance (min 0.25mm)))
+    (constraint hole_clearance (min 0.25mm)))
 
 # JLCPCB specifies 0.45 mm minimum pad-hole to pad-hole spacing. This rule uses
 # 0.50 mm whenever at least one of the drilled objects is a footprint pad.
