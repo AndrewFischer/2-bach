@@ -1,0 +1,110 @@
+(version 1)
+
+# JLCPCB rigid FR-4, 2 layers, 1 oz finished outer copper.
+# Slightly conservative general-purpose fabrication rules for KiCad 8/9.
+# Source checked 2026-07-10:
+# https://jlcpcb.com/capabilities/pcb-capabilities
+#
+# IMPORTANT:
+# KiCad evaluates custom rules from the bottom upward. Put any application-
+# specific rules that require larger clearances (mains, reinforced insulation,
+# high voltage, etc.) AFTER these fabrication rules.
+#
+# Recommended Board Setup > Constraints values that cannot all be carried by
+# this custom-rules file are listed at the end.
+
+# ---- General copper geometry ----
+
+(rule "JLCPCB 2L 1oz - general copper clearance"
+    (constraint clearance (min 0.20mm)))
+
+(rule "JLCPCB 2L 1oz - minimum track width"
+    (constraint track_width (min 0.15mm)))
+
+(rule "JLCPCB 2L 1oz - minimum copper connection width"
+    (constraint connection_width (min 0.15mm)))
+
+(rule "JLCPCB 2L 1oz - copper to routed edge or slot"
+    (constraint edge_clearance (min 0.30mm)))
+
+# ---- Drilled holes and vias ----
+
+(rule "JLCPCB 2L 1oz - minimum drilled-hole spacing"
+    (constraint hole_to_hole (min 0.25mm)))
+
+(rule "JLCPCB 2L 1oz - through vias only"
+    (constraint disallow micro_via buried_via))
+
+(rule "JLCPCB 2L 1oz - standard through via"
+    (condition "A.Type == 'Via'")
+    (constraint via_diameter (min 0.60mm))
+    (constraint hole_size (min 0.30mm))
+    (constraint annular_width (min 0.15mm)))
+
+(rule "JLCPCB 2L 1oz - round plated through-hole"
+    (condition "A.Pad_Type == 'Through-hole' && A.Hole_Size_X == A.Hole_Size_Y")
+    (constraint hole_size (min 0.50mm))
+    (constraint annular_width (min 0.25mm)))
+
+(rule "JLCPCB 2L 1oz - plated slot width"
+    (condition "A.isPlated() && A.Hole_Size_X != A.Hole_Size_Y")
+    (constraint hole_size (min 0.60mm))
+    (constraint annular_width (min 0.25mm)))
+
+(rule "JLCPCB 2L 1oz - plated slot aspect ratio"
+    (condition "A.isPlated() && A.Hole_Size_X != A.Hole_Size_Y")
+    (constraint assertion "A.Hole_Size_X >= 2 * A.Hole_Size_Y || A.Hole_Size_Y >= 2 * A.Hole_Size_X"))
+
+(rule "JLCPCB 2L 1oz - round non-plated hole"
+    (condition "A.Pad_Type == 'NPTH, mechanical' && A.Hole_Size_X == A.Hole_Size_Y")
+    (constraint hole_size (min 0.60mm)))
+
+(rule "JLCPCB 2L 1oz - non-plated slot width"
+    (condition "A.Pad_Type == 'NPTH, mechanical' && A.Hole_Size_X != A.Hole_Size_Y")
+    (constraint hole_size (min 1.10mm)))
+
+(rule "JLCPCB 2L 1oz - copper clearance from NPTH"
+    (condition "A.Pad_Type == 'NPTH, mechanical'")
+    (constraint hole_clearance (min 0.25mm)))
+
+# JLCPCB specifies 0.45 mm minimum pad-hole to pad-hole spacing. This rule uses
+# 0.50 mm whenever at least one of the drilled objects is a footprint pad.
+(rule "JLCPCB 2L 1oz - pad hole to other drilled hole"
+    (condition "A.Type == 'Pad' || B.Type == 'Pad'")
+    (constraint hole_to_hole (min 0.50mm)))
+
+# ---- Legend / silkscreen ----
+
+(rule "JLCPCB 2L 1oz - minimum text height"
+    (constraint text_height (min 1.00mm)))
+
+(rule "JLCPCB 2L 1oz - minimum text stroke"
+    (constraint text_thickness (min 0.15mm)))
+
+# ---- Board Setup values (enter manually) ----
+# Board Setup > Design Rules > Constraints:
+#   Minimum clearance:                 0.20 mm
+#   Minimum track width:               0.15 mm
+#   Minimum connection width:          0.15 mm
+#   Minimum annular width:             0.15 mm
+#   Minimum via diameter:              0.60 mm
+#   Copper to hole clearance:          0.20 mm
+#   Copper to edge clearance:          0.30 mm
+#   Minimum through-hole:              0.30 mm
+#   Hole to hole clearance:            0.25 mm
+#   Minimum text height:               1.00 mm
+#   Minimum text thickness:            0.15 mm
+#
+# Board Setup > Solder Mask/Paste:
+#   Solder mask expansion:             0.00 mm
+#   Minimum solder mask web/sliver:    0.15 mm
+#
+# Net Classes (routing defaults, not absolute minima):
+#   Clearance:                         0.20 mm
+#   Track width:                       choose for current/voltage; >= 0.20 mm
+#   Via size / hole:                   0.60 / 0.30 mm
+#
+# JLCPCB supports 0.10/0.10 mm track/space at 1 oz, 0.15/0.25 mm minimum
+# via hole/diameter, 0.18 mm absolute-minimum PTH annular ring, and 0.20 mm
+# copper clearance from a routed edge. Those production limits are deliberately
+# not used as the routine design values above.
