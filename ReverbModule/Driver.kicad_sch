@@ -6,6 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Reverb Driver")
+		(date "2026-07-16")
+		(rev "0.1")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:NE5532"
@@ -4824,6 +4826,46 @@
 				(uuid "af759289-e972-485f-a840-127b37ef841e")
 			)
 		)
+	)
+	(label "Q2B"
+		(at 200.66 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d43395d-0dfc-40b8-8960-12aeeea23998")
+	)
+	(label "Q1B"
+		(at 200.406 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d595f01-46be-49af-b8b3-f68ebde00563")
+	)
+	(label "TankIn+"
+		(at 226.06 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ad72e79-855c-4629-a667-5f0982efa4c8")
+	)
+	(label "TankIn-"
+		(at 238.76 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ecf25eb9-270a-4326-ade2-e3e53bf2cb25")
 	)
 	(global_label "Dry"
 		(shape input)
